@@ -1,0 +1,21 @@
+[project]
+name = "vgate"
+version = "0.1.0"
+description = "Benefit-aware retrieval gating for vision-language models (WSDM 2027 demo)"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "pyarrow", "scikit-learn", "scipy", "rank_bm25", "pyyaml"]
+
+[project.optional-dependencies]
+model = ["torch", "torchvision", "transformers>=4.57", "accelerate", "pillow"]
+demo = ["gradio", "matplotlib", "faiss-cpu"]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

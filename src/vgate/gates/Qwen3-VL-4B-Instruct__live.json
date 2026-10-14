@@ -1,0 +1,24 @@
+{
+ "model": "Qwen3-VL-4B-Instruct",
+ "layer": 27,
+ "n_train": 800,
+ "base": [
+  "ent_mean",
+  "ent_max",
+  "ent_first",
+  "lp_min",
+  "lp_mean",
+  "seq_lp",
+  "n_gen_ne",
+  "qpp_top1_z",
+  "qpp_margin_z",
+  "qpp_nqc",
+  "qpp_entropy"
+ ],
+ "fitted_on": "all J9 live logs (PREREG v2g); out-of-fold accuracy of this procedure is in experiments/results/live_check.json",
+ "retriever": "BAAI/bge-base-en-v1.5 over the M2KR OK-VQA passages, query = VLM caption + question",
+ "max_abs_diff_vs_sklearn": {
+  "pre": 9.731602877705026e-07,
+  "full": 1.9113471058096465e-06
+ }
+}

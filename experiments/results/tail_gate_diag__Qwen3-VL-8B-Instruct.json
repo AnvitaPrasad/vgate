@@ -1,0 +1,265 @@
+{
+ "evqa": {
+  "n": 2750,
+  "help": 33.6,
+  "harm": 5.3,
+  "question_strings": 2139,
+  "auroc_floor": 0.595,
+  "auroc_needed": 0.867,
+  "share_in_strings_of_10_or_more": 6.7,
+  "rows": {
+   "logistic, image folds": {
+    "lead": 0.0,
+    "lo": -0.5,
+    "hi": 0.48,
+    "read_rate": 89.6,
+    "auroc": 0.721,
+    "estimate": 0.05,
+    "ceiling": 2.33
+   },
+   "logistic, string folds": {
+    "lead": 0.11,
+    "lo": -0.35,
+    "hi": 0.57,
+    "read_rate": 90.0,
+    "auroc": 0.724,
+    "estimate": 0.05,
+    "ceiling": 2.36
+   },
+   "logistic, image folds, 1,000 labels": {
+    "lead": -0.98,
+    "lo": -1.66,
+    "hi": -0.32,
+    "read_rate": 86.8,
+    "auroc": 0.687,
+    "estimate": 0.01,
+    "ceiling": 1.97
+   },
+   "boosted, image folds": {
+    "lead": 0.04,
+    "lo": -0.37,
+    "hi": 0.46,
+    "read_rate": 94.1,
+    "auroc": 0.729,
+    "estimate": 0.06,
+    "ceiling": 2.42
+   },
+   "boosted, string folds": {
+    "lead": -0.18,
+    "lo": -0.61,
+    "hi": 0.2,
+    "read_rate": 93.8,
+    "auroc": 0.724,
+    "estimate": 0.05,
+    "ceiling": 2.36
+   },
+   "boosted, image folds, 1,000 labels": {
+    "lead": -0.33,
+    "lo": -0.85,
+    "hi": 0.16,
+    "read_rate": 93.2,
+    "auroc": 0.702,
+    "estimate": 0.02,
+    "ceiling": 2.13
+   },
+   "told the string (image folds)": {
+    "lead": -0.95,
+    "lo": -1.46,
+    "hi": -0.45,
+    "read_rate": 91.6
+   }
+  },
+  "logistic_minus_told_string": {
+   "diff": 0.95,
+   "lo": 0.32,
+   "hi": 1.6
+  },
+  "boosted_minus_told_string": {
+   "diff": 0.98,
+   "lo": 0.39,
+   "hi": 1.58
+  }
+ },
+ "infoseek": {
+  "n": 3637,
+  "help": 16.1,
+  "harm": 3.8,
+  "question_strings": 390,
+  "auroc_floor": 0.632,
+  "auroc_needed": 0.868,
+  "share_in_strings_of_10_or_more": 69.2,
+  "rows": {
+   "logistic, image folds": {
+    "lead": -0.08,
+    "lo": -0.46,
+    "hi": 0.32,
+    "read_rate": 87.8,
+    "auroc": 0.715,
+    "estimate": 0.08,
+    "ceiling": 1.63
+   },
+   "logistic, string folds": {
+    "lead": -1.21,
+    "lo": -1.7,
+    "hi": -0.74,
+    "read_rate": 85.4,
+    "auroc": 0.584,
+    "estimate": 0.0,
+    "ceiling": 0.64
+   },
+   "logistic, image folds, 1,000 labels": {
+    "lead": -1.02,
+    "lo": -1.53,
+    "hi": -0.49,
+    "read_rate": 84.8,
+    "auroc": 0.662,
+    "estimate": 0.01,
+    "ceiling": 1.23
+   },
+   "boosted, image folds": {
+    "lead": 0.47,
+    "lo": 0.08,
+    "hi": 0.89,
+    "read_rate": 90.9,
+    "auroc": 0.81,
+    "estimate": 0.51,
+    "ceiling": 2.35
+   },
+   "boosted, string folds": {
+    "lead": -0.77,
+    "lo": -1.2,
+    "hi": -0.36,
+    "read_rate": 90.5,
+    "auroc": 0.649,
+    "estimate": 0.0,
+    "ceiling": 1.13
+   },
+   "boosted, image folds, 1,000 labels": {
+    "lead": -0.08,
+    "lo": -0.48,
+    "hi": 0.3,
+    "read_rate": 91.0,
+    "auroc": 0.759,
+    "estimate": 0.23,
+    "ceiling": 1.97
+   },
+   "told the string (image folds)": {
+    "lead": -0.55,
+    "lo": -1.19,
+    "hi": 0.08,
+    "read_rate": 65.9
+   }
+  },
+  "logistic_minus_told_string": {
+   "diff": 0.47,
+   "lo": -0.14,
+   "hi": 1.1
+  },
+  "boosted_minus_told_string": {
+   "diff": 1.02,
+   "lo": 0.46,
+   "hi": 1.62
+  },
+  "string_folds_repeated": {
+   "logistic": {
+    "repeats": 10,
+    "lead_mean": -1.19,
+    "lead_min": -1.68,
+    "lead_max": -0.63,
+    "auroc_mean": 0.61,
+    "auroc_min": 0.566,
+    "auroc_max": 0.639
+   },
+   "boosted": {
+    "repeats": 10,
+    "lead_mean": -0.69,
+    "lead_min": -1.15,
+    "lead_max": -0.36,
+    "auroc_mean": 0.659,
+    "auroc_min": 0.621,
+    "auroc_max": 0.691
+   }
+  }
+ },
+ "okvqa": {
+  "n": 4046,
+  "help": 4.0,
+  "harm": 21.7,
+  "question_strings": 3744,
+  "auroc_floor": 0.626,
+  "auroc_needed": 0.88,
+  "share_in_strings_of_10_or_more": 0.3,
+  "rows": {
+   "logistic, image folds": {
+    "lead": -0.35,
+    "lo": -0.64,
+    "hi": -0.02,
+    "read_rate": 4.5,
+    "auroc": 0.595,
+    "estimate": 0.0,
+    "ceiling": 0.75
+   },
+   "logistic, string folds": {
+    "lead": -0.4,
+    "lo": -0.69,
+    "hi": -0.1,
+    "read_rate": 4.5,
+    "auroc": 0.615,
+    "estimate": 0.0,
+    "ceiling": 0.92
+   },
+   "logistic, image folds, 1,000 labels": {
+    "lead": -0.67,
+    "lo": -1.09,
+    "hi": -0.27,
+    "read_rate": 8.0,
+    "auroc": 0.579,
+    "estimate": 0.0,
+    "ceiling": 0.63
+   },
+   "boosted, image folds": {
+    "lead": -0.44,
+    "lo": -0.74,
+    "hi": -0.15,
+    "read_rate": 3.1,
+    "auroc": 0.617,
+    "estimate": 0.0,
+    "ceiling": 0.93
+   },
+   "boosted, string folds": {
+    "lead": -0.27,
+    "lo": -0.52,
+    "hi": -0.02,
+    "read_rate": 2.6,
+    "auroc": 0.605,
+    "estimate": 0.0,
+    "ceiling": 0.84
+   },
+   "boosted, image folds, 1,000 labels": {
+    "lead": -0.3,
+    "lo": -0.54,
+    "hi": -0.05,
+    "read_rate": 2.5,
+    "auroc": 0.531,
+    "estimate": 0.0,
+    "ceiling": 0.24
+   },
+   "told the string (image folds)": {
+    "lead": -0.02,
+    "lo": -0.07,
+    "hi": 0.0,
+    "read_rate": 0.1
+   }
+  },
+  "logistic_minus_told_string": {
+   "diff": -0.32,
+   "lo": -0.64,
+   "hi": 0.0
+  },
+  "boosted_minus_told_string": {
+   "diff": -0.42,
+   "lo": -0.72,
+   "hi": -0.12
+  }
+ }
+}

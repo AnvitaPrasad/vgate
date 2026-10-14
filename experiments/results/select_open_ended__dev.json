@@ -1,0 +1,154 @@
+{
+ "Qwen3-VL-4B-Instruct": {
+  "evqa": {
+   "n": 1000,
+   "never": 26.7,
+   "always": 52.9,
+   "rule": 51.0,
+   "uses_evidence_answer": 76.9,
+   "rule_minus_better_fixed": [
+    -1.9,
+    -2.8,
+    -1.0
+   ]
+  },
+  "infoseek": {
+   "n": 1000,
+   "never": 17.3,
+   "always": 25.7,
+   "rule": 26.0,
+   "uses_evidence_answer": 71.3,
+   "rule_minus_better_fixed": [
+    0.3,
+    -0.5,
+    1.1
+   ]
+  },
+  "okvqa": {
+   "n": 1000,
+   "never": 59.4,
+   "always": 38.6,
+   "rule": 48.8,
+   "uses_evidence_answer": 54.4,
+   "rule_minus_better_fixed": [
+    -10.6,
+    -12.2,
+    -9.0
+   ]
+  }
+ },
+ "Qwen2.5-VL-3B-Instruct": {
+  "evqa": {
+   "n": 1000,
+   "never": 24.6,
+   "always": 48.5,
+   "rule": 46.5,
+   "uses_evidence_answer": 71.8,
+   "rule_minus_better_fixed": [
+    -2.0,
+    -3.2,
+    -0.9
+   ]
+  },
+  "infoseek": {
+   "n": 1000,
+   "never": 15.7,
+   "always": 25.6,
+   "rule": 24.6,
+   "uses_evidence_answer": 69.9,
+   "rule_minus_better_fixed": [
+    -1.0,
+    -1.8,
+    -0.1
+   ]
+  },
+  "okvqa": {
+   "n": 1000,
+   "never": 61.5,
+   "always": 46.4,
+   "rule": 57.3,
+   "uses_evidence_answer": 31.9,
+   "rule_minus_better_fixed": [
+    -4.2,
+    -5.6,
+    -2.8
+   ]
+  }
+ },
+ "InternVL3_5-4B-HF": {
+  "evqa": {
+   "n": 1000,
+   "never": 22.4,
+   "always": 52.7,
+   "rule": 47.6,
+   "uses_evidence_answer": 71.9,
+   "rule_minus_better_fixed": [
+    -5.1,
+    -6.3,
+    -3.9
+   ]
+  },
+  "infoseek": {
+   "n": 1000,
+   "never": 9.8,
+   "always": 18.5,
+   "rule": 17.7,
+   "uses_evidence_answer": 73.3,
+   "rule_minus_better_fixed": [
+    -0.8,
+    -1.6,
+    0.0
+   ]
+  },
+  "okvqa": {
+   "n": 1000,
+   "never": 45.4,
+   "always": 26.4,
+   "rule": 40.5,
+   "uses_evidence_answer": 41.0,
+   "rule_minus_better_fixed": [
+    -4.9,
+    -6.2,
+    -3.5
+   ]
+  }
+ },
+ "Qwen3-VL-8B-Instruct": {
+  "evqa": {
+   "n": 1000,
+   "never": 29.0,
+   "always": 56.3,
+   "rule": 52.6,
+   "uses_evidence_answer": 76.5,
+   "rule_minus_better_fixed": [
+    -3.7,
+    -4.6,
+    -2.8
+   ]
+  },
+  "infoseek": {
+   "n": 1000,
+   "never": 17.4,
+   "always": 30.2,
+   "rule": 28.8,
+   "uses_evidence_answer": 76.2,
+   "rule_minus_better_fixed": [
+    -1.4,
+    -2.1,
+    -0.6
+   ]
+  },
+  "okvqa": {
+   "n": 1000,
+   "never": 61.9,
+   "always": 43.0,
+   "rule": 55.5,
+   "uses_evidence_answer": 43.7,
+   "rule_minus_better_fixed": [
+    -6.4,
+    -7.8,
+    -4.9
+   ]
+  }
+ }
+}

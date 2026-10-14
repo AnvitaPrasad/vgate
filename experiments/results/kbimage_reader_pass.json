@@ -1,0 +1,160 @@
+{
+ "n": 1000,
+ "gold_passage_among_five": {
+  "retriever": 57.7,
+  "reranked": 68.0
+ },
+ "Qwen3-VL-4B-Instruct": {
+  "never": 26.7,
+  "always_retriever": 52.9,
+  "always_reranked": 59.3,
+  "diff": [
+   6.4,
+   4.99,
+   7.76
+  ],
+  "help": {
+   "retriever": 31.7,
+   "reranked": 36.9
+  },
+  "harm": {
+   "retriever": 5.5,
+   "reranked": 4.3
+  },
+  "harm_diff": [
+   -1.2,
+   -1.85,
+   -0.58
+  ],
+  "by_source": {
+   "inaturalist": {
+    "n": 587,
+    "diff": [
+     5.45,
+     3.69,
+     7.22
+    ]
+   },
+   "landmarks": {
+    "n": 413,
+    "diff": [
+     7.75,
+     5.36,
+     10.02
+    ]
+   }
+  },
+  "where": {
+   "gold_gained": {
+    "n": 118,
+    "right_before": 24.6,
+    "right_after": 56.8
+   },
+   "gold_lost": {
+    "n": 15,
+    "right_before": 60.0,
+    "right_after": 40.0
+   },
+   "gold_in_both": {
+    "n": 562,
+    "right_before": 74.4,
+    "right_after": 78.8
+   },
+   "gold_in_neither": {
+    "n": 305,
+    "right_before": 23.9,
+    "right_after": 25.2
+   }
+  },
+  "planner": {
+   "retriever": {
+    "floor": 0.591,
+    "needed": 0.857
+   },
+   "reranked": {
+    "floor": 0.616,
+    "needed": 0.9
+   }
+  }
+ },
+ "Qwen2.5-VL-3B-Instruct": {
+  "never": 24.6,
+  "always_retriever": 48.5,
+  "always_reranked": 54.3,
+  "diff": [
+   5.8,
+   4.29,
+   7.28
+  ],
+  "help": {
+   "retriever": 30.6,
+   "reranked": 36.0
+  },
+  "harm": {
+   "retriever": 6.7,
+   "reranked": 6.3
+  },
+  "harm_diff": [
+   -0.4,
+   -1.02,
+   0.2
+  ],
+  "by_source": {
+   "inaturalist": {
+    "n": 587,
+    "diff": [
+     5.45,
+     3.8,
+     7.11
+    ]
+   },
+   "landmarks": {
+    "n": 413,
+    "diff": [
+     6.3,
+     3.7,
+     8.88
+    ]
+   }
+  },
+  "where": {
+   "gold_gained": {
+    "n": 118,
+    "right_before": 26.3,
+    "right_after": 44.9
+   },
+   "gold_lost": {
+    "n": 15,
+    "right_before": 60.0,
+    "right_after": 33.3
+   },
+   "gold_in_both": {
+    "n": 562,
+    "right_before": 68.5,
+    "right_after": 72.8
+   },
+   "gold_in_neither": {
+    "n": 305,
+    "right_before": 19.7,
+    "right_after": 24.9
+   }
+  },
+  "planner": {
+   "retriever": {
+    "floor": 0.575,
+    "needed": 0.824
+   },
+   "reranked": {
+    "floor": 0.579,
+    "needed": 0.846
+   }
+  }
+ },
+ "gold_page_among_five": {
+  "retriever": 60.5,
+  "reranked": 70.9
+ },
+ "E1": true,
+ "E3": true,
+ "E2": true
+}

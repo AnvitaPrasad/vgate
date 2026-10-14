@@ -1,0 +1,892 @@
+{
+ "model": "Qwen2.5-VL-3B-Instruct",
+ "labels": "official",
+ "runs": {
+  "evqa": [
+   "J2",
+   "J2"
+  ],
+  "infoseek": [
+   "J2",
+   "J2"
+  ],
+  "okvqa": [
+   "J6",
+   "J6"
+  ]
+ },
+ "n_test": {
+  "evqa": 2750,
+  "infoseek": 3637,
+  "okvqa": 4046
+ },
+ "per_dataset_gates": {
+  "evqa": {
+   "never": {
+    "acc": 0.22290909090909092,
+    "read_rate": 0.0,
+    "search_rate": 0.0
+   },
+   "always": {
+    "acc": 0.48618181818181816,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "fixed_by_dataset": {
+    "acc": 0.48618181818181816,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "router": {
+    "acc": 0.48618181818181816,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "error_rule": {
+    "acc": 0.4698181818181818,
+    "read_rate": 0.8803636363636363,
+    "search_rate": 1.0
+   },
+   "error_rule_post_only": {
+    "acc": 0.4698181818181818,
+    "read_rate": 0.8803636363636363,
+    "search_rate": 1.0
+   },
+   "error_rule_full": {
+    "acc": 0.4730909090909091,
+    "read_rate": 0.8472727272727273,
+    "search_rate": 1.0
+   },
+   "benefit_rule_post": {
+    "acc": 0.48763636363636365,
+    "read_rate": 0.9487272727272728,
+    "search_rate": 1.0
+   },
+   "benefit_rule_full": {
+    "acc": 0.4829090909090909,
+    "read_rate": 0.8665454545454545,
+    "search_rate": 1.0
+   },
+   "benefit_rule_pre": {
+    "acc": 0.48654545454545456,
+    "read_rate": 0.916,
+    "search_rate": 0.916
+   },
+   "cascade": {
+    "acc": 0.4818181818181818,
+    "read_rate": 0.8501818181818181,
+    "search_rate": 0.916
+   },
+   "error_tuned": {
+    "acc": 0.48618181818181816,
+    "read_rate": 0.9941818181818182,
+    "search_rate": 1.0
+   },
+   "error_full_tuned": {
+    "acc": 0.4869090909090909,
+    "read_rate": 0.9505454545454546,
+    "search_rate": 1.0
+   },
+   "benefit_full_tuned": {
+    "acc": 0.48654545454545456,
+    "read_rate": 0.9952727272727273,
+    "search_rate": 1.0
+   },
+   "oracle": {
+    "acc": 0.5327272727272727,
+    "read_rate": 0.3098181818181818,
+    "search_rate": 1.0
+   }
+  },
+  "infoseek": {
+   "never": {
+    "acc": 0.16992026395380808,
+    "read_rate": 0.0,
+    "search_rate": 0.0
+   },
+   "always": {
+    "acc": 0.26560351938410776,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "fixed_by_dataset": {
+    "acc": 0.26560351938410776,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "router": {
+    "acc": 0.26560351938410776,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "error_rule": {
+    "acc": 0.2639538080835854,
+    "read_rate": 0.962331591971405,
+    "search_rate": 1.0
+   },
+   "error_rule_post_only": {
+    "acc": 0.2639538080835854,
+    "read_rate": 0.962331591971405,
+    "search_rate": 1.0
+   },
+   "error_rule_full": {
+    "acc": 0.2612042892493814,
+    "read_rate": 0.8990926587847127,
+    "search_rate": 1.0
+   },
+   "benefit_rule_post": {
+    "acc": 0.266428375034369,
+    "read_rate": 0.9832279351113555,
+    "search_rate": 1.0
+   },
+   "benefit_rule_full": {
+    "acc": 0.2634039043167446,
+    "read_rate": 0.8100082485565027,
+    "search_rate": 1.0
+   },
+   "benefit_rule_pre": {
+    "acc": 0.262304096783063,
+    "read_rate": 0.8328292548803959,
+    "search_rate": 0.8328292548803959
+   },
+   "cascade": {
+    "acc": 0.26037943359912014,
+    "read_rate": 0.7866373384657684,
+    "search_rate": 0.8328292548803959
+   },
+   "error_tuned": {
+    "acc": 0.2653285675006874,
+    "read_rate": 0.9975254330492164,
+    "search_rate": 1.0
+   },
+   "error_full_tuned": {
+    "acc": 0.26560351938410776,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "benefit_full_tuned": {
+    "acc": 0.266428375034369,
+    "read_rate": 0.9898267803134452,
+    "search_rate": 1.0
+   },
+   "oracle": {
+    "acc": 0.3098707726147924,
+    "read_rate": 0.13995050866098432,
+    "search_rate": 1.0
+   }
+  },
+  "okvqa": {
+   "never": {
+    "acc": 0.5951557093425606,
+    "read_rate": 0.0,
+    "search_rate": 0.0
+   },
+   "always": {
+    "acc": 0.4587246663371231,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "fixed_by_dataset": {
+    "acc": 0.5951557093425606,
+    "read_rate": 0.0,
+    "search_rate": 0.0
+   },
+   "router": {
+    "acc": 0.5951557093425606,
+    "read_rate": 0.0,
+    "search_rate": 0.0
+   },
+   "error_rule": {
+    "acc": 0.574147305981216,
+    "read_rate": 0.259268413247652,
+    "search_rate": 1.0
+   },
+   "error_rule_post_only": {
+    "acc": 0.574147305981216,
+    "read_rate": 0.259268413247652,
+    "search_rate": 1.0
+   },
+   "error_rule_full": {
+    "acc": 0.5729115175481958,
+    "read_rate": 0.2953534354918438,
+    "search_rate": 1.0
+   },
+   "benefit_rule_post": {
+    "acc": 0.5961443400889768,
+    "read_rate": 0.05734058329214039,
+    "search_rate": 1.0
+   },
+   "benefit_rule_full": {
+    "acc": 0.5827978250123579,
+    "read_rate": 0.1458230350963915,
+    "search_rate": 1.0
+   },
+   "benefit_rule_pre": {
+    "acc": 0.5847750865051903,
+    "read_rate": 0.09911023232822541,
+    "search_rate": 0.09911023232822541
+   },
+   "cascade": {
+    "acc": 0.5884824518042511,
+    "read_rate": 0.06920415224913495,
+    "search_rate": 0.09911023232822541
+   },
+   "error_tuned": {
+    "acc": 0.5961443400889768,
+    "read_rate": 0.050914483440435,
+    "search_rate": 1.0
+   },
+   "error_full_tuned": {
+    "acc": 0.5963914977755809,
+    "read_rate": 0.07093425605536333,
+    "search_rate": 1.0
+   },
+   "benefit_full_tuned": {
+    "acc": 0.5934256055363322,
+    "read_rate": 0.01680672268907563,
+    "search_rate": 1.0
+   },
+   "oracle": {
+    "acc": 0.6515076618882847,
+    "read_rate": 0.05635195254572417,
+    "search_rate": 1.0
+   }
+  },
+  "macro": {
+   "never": {
+    "acc": 0.32932835473515315,
+    "read_rate": 0.0,
+    "search_rate": 0.0
+   },
+   "always": {
+    "acc": 0.4035033346343497,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "fixed_by_dataset": {
+    "acc": 0.4489803489694955,
+    "read_rate": 0.6666666666666666,
+    "search_rate": 0.6666666666666666
+   },
+   "router": {
+    "acc": 0.4489803489694955,
+    "read_rate": 0.6666666666666666,
+    "search_rate": 0.6666666666666666
+   },
+   "error_rule": {
+    "acc": 0.43597309862766104,
+    "read_rate": 0.7006545471942313,
+    "search_rate": 1.0
+   },
+   "error_rule_post_only": {
+    "acc": 0.43597309862766104,
+    "read_rate": 0.7006545471942313,
+    "search_rate": 1.0
+   },
+   "error_rule_full": {
+    "acc": 0.4357355719628288,
+    "read_rate": 0.6805729405164279,
+    "search_rate": 1.0
+   },
+   "benefit_rule_post": {
+    "acc": 0.4500696929199031,
+    "read_rate": 0.6630985970435895,
+    "search_rate": 1.0
+   },
+   "benefit_rule_full": {
+    "acc": 0.4430369400793978,
+    "read_rate": 0.607458912732783,
+    "search_rate": 1.0
+   },
+   "benefit_rule_pre": {
+    "acc": 0.44454154594456935,
+    "read_rate": 0.6159798290695405,
+    "search_rate": 0.6159798290695405
+   },
+   "cascade": {
+    "acc": 0.44356002240718434,
+    "read_rate": 0.5686744362989071,
+    "search_rate": 0.6159798290695405
+   },
+   "error_tuned": {
+    "acc": 0.4492182419238275,
+    "read_rate": 0.6808739115571565,
+    "search_rate": 1.0
+   },
+   "error_full_tuned": {
+    "acc": 0.4496347026895932,
+    "read_rate": 0.6738265702002727,
+    "search_rate": 1.0
+   },
+   "benefit_full_tuned": {
+    "acc": 0.4487998117053853,
+    "read_rate": 0.667302076758416,
+    "search_rate": 1.0
+   },
+   "oracle": {
+    "acc": 0.49803523574344993,
+    "read_rate": 0.16870688100829678,
+    "search_rate": 1.0
+   }
+  },
+  "macro_diff_95ci": {
+   "benefit_rule_post - error_rule": [
+    0.014096594292242061,
+    0.01051472762335452,
+    0.01755564045596295
+   ],
+   "benefit_rule_post - always": [
+    0.046566358285553444,
+    0.04153676182957032,
+    0.05138856609969277
+   ],
+   "benefit_rule_post - never": [
+    0.12074133818474993,
+    0.11053734484216668,
+    0.13094823988451046
+   ],
+   "benefit_rule_full - error_rule": [
+    0.007063841451736719,
+    0.0026384943757792093,
+    0.011282323696164758
+   ],
+   "benefit_rule_full - always": [
+    0.0395336054450481,
+    0.034431742393760865,
+    0.04484090450247697
+   ],
+   "benefit_rule_full - never": [
+    0.1137085853442446,
+    0.10359038857873076,
+    0.12362432941627906
+   ],
+   "benefit_rule_pre - error_rule": [
+    0.008568447316908204,
+    0.0040636368945503095,
+    0.013027131390309135
+   ],
+   "benefit_rule_pre - always": [
+    0.04103821131021959,
+    0.035927828751990146,
+    0.04607623450471269
+   ],
+   "benefit_rule_pre - never": [
+    0.11521319120941609,
+    0.10496369875863908,
+    0.12485322107548381
+   ],
+   "benefit_full_tuned - error_tuned": [
+    -0.0004184302184422059,
+    -0.001780656100208413,
+    0.0010202573109590366
+   ],
+   "benefit_rule_full - error_tuned": [
+    -0.006181301844429655,
+    -0.00949674311878713,
+    -0.002918309770872415
+   ],
+   "benefit_rule_full - error_rule_full": [
+    0.0073013681165690555,
+    0.0031236093384531234,
+    0.011121119558197213
+   ],
+   "benefit_rule_full - router": [
+    -0.005943408890097718,
+    -0.009383652575177771,
+    -0.0026883080833820633
+   ],
+   "benefit_rule_full - fixed_by_dataset": [
+    -0.005943408890097718,
+    -0.009383652575177771,
+    -0.0026883080833820633
+   ],
+   "benefit_rule_pre - router": [
+    -0.004438803024926232,
+    -0.007331834000541149,
+    -0.0014905771876529712
+   ],
+   "benefit_rule_pre - fixed_by_dataset": [
+    -0.004438803024926232,
+    -0.007331834000541149,
+    -0.0014905771876529712
+   ],
+   "cascade - router": [
+    -0.005420326562311144,
+    -0.008757973587053117,
+    -0.002270212762383577
+   ],
+   "cascade - fixed_by_dataset": [
+    -0.005420326562311144,
+    -0.008757973587053117,
+    -0.002270212762383577
+   ],
+   "cascade - always": [
+    0.04005668777283467,
+    0.034529882267424754,
+    0.04548105520299393
+   ],
+   "cascade - error_rule_full": [
+    0.007824450444355629,
+    0.0032620365106024764,
+    0.01177725248059599
+   ],
+   "benefit_full_tuned - error_full_tuned": [
+    -0.0008348909842079334,
+    -0.002463179811015581,
+    0.0007676187828038365
+   ]
+  },
+  "dataset_diff_95ci": {
+   "evqa": [
+    0.009818181818181818,
+    0.003058045570188042,
+    0.016362646258655925
+   ],
+   "infoseek": [
+    0.0021996150673632116,
+    -0.0038171857074494873,
+    0.008251679559008091
+   ],
+   "okvqa": [
+    0.009886307464162136,
+    0.0022222222222222222,
+    0.017566411569214332
+   ]
+  }
+ },
+ "mixed_traffic_gate": {
+  "evqa": {
+   "never": {
+    "acc": 0.22290909090909092,
+    "read_rate": 0.0,
+    "search_rate": 0.0
+   },
+   "always": {
+    "acc": 0.48618181818181816,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "fixed_by_dataset": {
+    "acc": 0.48618181818181816,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "router": {
+    "acc": 0.4818181818181818,
+    "read_rate": 0.9752727272727273,
+    "search_rate": 0.9752727272727273
+   },
+   "error_rule": {
+    "acc": 0.4763636363636364,
+    "read_rate": 0.8658181818181818,
+    "search_rate": 1.0
+   },
+   "error_rule_post_only": {
+    "acc": 0.4763636363636364,
+    "read_rate": 0.8658181818181818,
+    "search_rate": 1.0
+   },
+   "error_rule_full": {
+    "acc": 0.48145454545454547,
+    "read_rate": 0.8785454545454545,
+    "search_rate": 1.0
+   },
+   "benefit_rule_post": {
+    "acc": 0.4669090909090909,
+    "read_rate": 0.7541818181818182,
+    "search_rate": 1.0
+   },
+   "benefit_rule_full": {
+    "acc": 0.4792727272727273,
+    "read_rate": 0.8454545454545455,
+    "search_rate": 1.0
+   },
+   "benefit_rule_pre": {
+    "acc": 0.4829090909090909,
+    "read_rate": 0.8974545454545455,
+    "search_rate": 0.8974545454545455
+   },
+   "cascade": {
+    "acc": 0.4778181818181818,
+    "read_rate": 0.8356363636363636,
+    "search_rate": 0.8974545454545455
+   },
+   "error_tuned": {
+    "acc": 0.46545454545454545,
+    "read_rate": 0.7996363636363636,
+    "search_rate": 1.0
+   },
+   "error_full_tuned": {
+    "acc": 0.4727272727272727,
+    "read_rate": 0.8309090909090909,
+    "search_rate": 1.0
+   },
+   "benefit_full_tuned": {
+    "acc": 0.47963636363636364,
+    "read_rate": 0.8498181818181818,
+    "search_rate": 1.0
+   },
+   "oracle": {
+    "acc": 0.5327272727272727,
+    "read_rate": 0.3098181818181818,
+    "search_rate": 1.0
+   }
+  },
+  "infoseek": {
+   "never": {
+    "acc": 0.16992026395380808,
+    "read_rate": 0.0,
+    "search_rate": 0.0
+   },
+   "always": {
+    "acc": 0.26560351938410776,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "fixed_by_dataset": {
+    "acc": 0.26560351938410776,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "router": {
+    "acc": 0.2639538080835854,
+    "read_rate": 0.9826780313445147,
+    "search_rate": 0.9826780313445147
+   },
+   "error_rule": {
+    "acc": 0.26147924113280174,
+    "read_rate": 0.8498762716524608,
+    "search_rate": 1.0
+   },
+   "error_rule_post_only": {
+    "acc": 0.26147924113280174,
+    "read_rate": 0.8498762716524608,
+    "search_rate": 1.0
+   },
+   "error_rule_full": {
+    "acc": 0.26147924113280174,
+    "read_rate": 0.8933186692328843,
+    "search_rate": 1.0
+   },
+   "benefit_rule_post": {
+    "acc": 0.26065438548254055,
+    "read_rate": 0.8669232884245257,
+    "search_rate": 1.0
+   },
+   "benefit_rule_full": {
+    "acc": 0.25872972229859775,
+    "read_rate": 0.877371459994501,
+    "search_rate": 1.0
+   },
+   "benefit_rule_pre": {
+    "acc": 0.2601044817156998,
+    "read_rate": 0.9032169370360187,
+    "search_rate": 0.9032169370360187
+   },
+   "cascade": {
+    "acc": 0.2559802034643937,
+    "read_rate": 0.8468518009348364,
+    "search_rate": 0.9032169370360187
+   },
+   "error_tuned": {
+    "acc": 0.25845477041517734,
+    "read_rate": 0.7849876271652461,
+    "search_rate": 1.0
+   },
+   "error_full_tuned": {
+    "acc": 0.25680505911465495,
+    "read_rate": 0.8583997800384933,
+    "search_rate": 1.0
+   },
+   "benefit_full_tuned": {
+    "acc": 0.25900467418201817,
+    "read_rate": 0.882870497662909,
+    "search_rate": 1.0
+   },
+   "oracle": {
+    "acc": 0.3098707726147924,
+    "read_rate": 0.13995050866098432,
+    "search_rate": 1.0
+   }
+  },
+  "okvqa": {
+   "never": {
+    "acc": 0.5951557093425606,
+    "read_rate": 0.0,
+    "search_rate": 0.0
+   },
+   "always": {
+    "acc": 0.4587246663371231,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "fixed_by_dataset": {
+    "acc": 0.5951557093425606,
+    "read_rate": 0.0,
+    "search_rate": 0.0
+   },
+   "router": {
+    "acc": 0.5892239248640633,
+    "read_rate": 0.03509639149777558,
+    "search_rate": 0.03509639149777558
+   },
+   "error_rule": {
+    "acc": 0.5410281759762728,
+    "read_rate": 0.4473554127533366,
+    "search_rate": 1.0
+   },
+   "error_rule_post_only": {
+    "acc": 0.5410281759762728,
+    "read_rate": 0.4473554127533366,
+    "search_rate": 1.0
+   },
+   "error_rule_full": {
+    "acc": 0.5531389026198715,
+    "read_rate": 0.34799802273850716,
+    "search_rate": 1.0
+   },
+   "benefit_rule_post": {
+    "acc": 0.5536332179930796,
+    "read_rate": 0.35615422639644095,
+    "search_rate": 1.0
+   },
+   "benefit_rule_full": {
+    "acc": 0.5835392980721701,
+    "read_rate": 0.1606524962926347,
+    "search_rate": 1.0
+   },
+   "benefit_rule_pre": {
+    "acc": 0.5778546712802768,
+    "read_rate": 0.1579337617399901,
+    "search_rate": 0.1579337617399901
+   },
+   "cascade": {
+    "acc": 0.5845279288185863,
+    "read_rate": 0.12333168561542264,
+    "search_rate": 0.1579337617399901
+   },
+   "error_tuned": {
+    "acc": 0.5533860603064755,
+    "read_rate": 0.35121107266435986,
+    "search_rate": 1.0
+   },
+   "error_full_tuned": {
+    "acc": 0.5635195254572417,
+    "read_rate": 0.2560553633217993,
+    "search_rate": 1.0
+   },
+   "benefit_full_tuned": {
+    "acc": 0.5837864557587741,
+    "read_rate": 0.16287691547207117,
+    "search_rate": 1.0
+   },
+   "oracle": {
+    "acc": 0.6515076618882847,
+    "read_rate": 0.05635195254572417,
+    "search_rate": 1.0
+   }
+  },
+  "macro": {
+   "never": {
+    "acc": 0.32932835473515315,
+    "read_rate": 0.0,
+    "search_rate": 0.0
+   },
+   "always": {
+    "acc": 0.4035033346343497,
+    "read_rate": 1.0,
+    "search_rate": 1.0
+   },
+   "fixed_by_dataset": {
+    "acc": 0.4489803489694955,
+    "read_rate": 0.6666666666666666,
+    "search_rate": 0.6666666666666666
+   },
+   "router": {
+    "acc": 0.4449986382552768,
+    "read_rate": 0.6643490500383392,
+    "search_rate": 0.6643490500383392
+   },
+   "error_rule": {
+    "acc": 0.42629035115757025,
+    "read_rate": 0.7210166220746598,
+    "search_rate": 1.0
+   },
+   "error_rule_post_only": {
+    "acc": 0.42629035115757025,
+    "read_rate": 0.7210166220746598,
+    "search_rate": 1.0
+   },
+   "error_rule_full": {
+    "acc": 0.43202422973573956,
+    "read_rate": 0.7066207155056153,
+    "search_rate": 1.0
+   },
+   "benefit_rule_post": {
+    "acc": 0.4270655647949037,
+    "read_rate": 0.6590864443342616,
+    "search_rate": 1.0
+   },
+   "benefit_rule_full": {
+    "acc": 0.44051391588116506,
+    "read_rate": 0.6278261672472271,
+    "search_rate": 1.0
+   },
+   "benefit_rule_pre": {
+    "acc": 0.44028941463502247,
+    "read_rate": 0.6528684147435181,
+    "search_rate": 0.6528684147435181
+   },
+   "cascade": {
+    "acc": 0.4394421047003873,
+    "read_rate": 0.6019399500622076,
+    "search_rate": 0.6528684147435181
+   },
+   "error_tuned": {
+    "acc": 0.42576512539206607,
+    "read_rate": 0.6452783544886566,
+    "search_rate": 1.0
+   },
+   "error_full_tuned": {
+    "acc": 0.4310172857663898,
+    "read_rate": 0.6484547447564611,
+    "search_rate": 1.0
+   },
+   "benefit_full_tuned": {
+    "acc": 0.4408091645257186,
+    "read_rate": 0.6318551983177207,
+    "search_rate": 1.0
+   },
+   "oracle": {
+    "acc": 0.49803523574344993,
+    "read_rate": 0.16870688100829678,
+    "search_rate": 1.0
+   }
+  },
+  "macro_diff_95ci": {
+   "benefit_rule_post - error_rule": [
+    0.0007752136373333548,
+    -0.003130903579898033,
+    0.004568868224502633
+   ],
+   "benefit_rule_post - always": [
+    0.023562230160554004,
+    0.018629545940901063,
+    0.02865611430957485
+   ],
+   "benefit_rule_post - never": [
+    0.09773721005975052,
+    0.08768489570270019,
+    0.10725388680381523
+   ],
+   "benefit_rule_full - error_rule": [
+    0.014223564723594692,
+    0.009464203768153753,
+    0.019212564777556573
+   ],
+   "benefit_rule_full - always": [
+    0.03701058124681534,
+    0.031956853671677124,
+    0.04242586496968913
+   ],
+   "benefit_rule_full - never": [
+    0.11118556114601182,
+    0.10080193774203965,
+    0.12125260147448282
+   ],
+   "benefit_rule_pre - error_rule": [
+    0.013999063477452165,
+    0.009270376301743972,
+    0.01875828582705372
+   ],
+   "benefit_rule_pre - always": [
+    0.036786080000672815,
+    0.03165841223437444,
+    0.041994760860289485
+   ],
+   "benefit_rule_pre - never": [
+    0.11096105989986932,
+    0.10094238077063569,
+    0.12104830176847622
+   ],
+   "benefit_full_tuned - error_tuned": [
+    0.015044039133652517,
+    0.010125496705662214,
+    0.01997987702997062
+   ],
+   "benefit_rule_full - error_tuned": [
+    0.014748790489098912,
+    0.009874942718060276,
+    0.01962030481465222
+   ],
+   "benefit_rule_full - error_rule_full": [
+    0.008489686145425458,
+    0.004303339794920678,
+    0.012856178759514152
+   ],
+   "benefit_rule_full - router": [
+    -0.0044847223741118,
+    -0.007750321032026905,
+    -0.0011587780804771315
+   ],
+   "benefit_rule_full - fixed_by_dataset": [
+    -0.008466433088330484,
+    -0.011809625375709416,
+    -0.005122267301207486
+   ],
+   "benefit_rule_pre - router": [
+    -0.004709223620254328,
+    -0.007599153529385198,
+    -0.0018009170327650172
+   ],
+   "benefit_rule_pre - fixed_by_dataset": [
+    -0.008690934334473014,
+    -0.011748528279524042,
+    -0.005689054626986409
+   ],
+   "cascade - router": [
+    -0.0055565335548895525,
+    -0.00889318415904016,
+    -0.002186662252071601
+   ],
+   "cascade - fixed_by_dataset": [
+    -0.009538244269108237,
+    -0.013054897797426527,
+    -0.006199116758339188
+   ],
+   "cascade - always": [
+    0.03593877006603759,
+    0.03054280207292755,
+    0.04162983210790961
+   ],
+   "cascade - error_rule_full": [
+    0.007417874964647706,
+    0.0031529841484883485,
+    0.01185260274247826
+   ],
+   "benefit_full_tuned - error_full_tuned": [
+    0.009791878759328833,
+    0.005537820146783488,
+    0.013956496065862047
+   ]
+  },
+  "dataset_diff_95ci": {
+   "evqa": [
+    -0.002181818181818182,
+    -0.010101863226863227,
+    0.005181697492514725
+   ],
+   "infoseek": [
+    -0.0027495188342040143,
+    -0.007250161122965645,
+    0.0018929919953217659
+   ],
+   "okvqa": [
+    0.030400395452298567,
+    0.02097732790180211,
+    0.03981206726013848
+   ]
+  },
+  "router_dataset_accuracy": 0.9264832742260136
+ }
+}

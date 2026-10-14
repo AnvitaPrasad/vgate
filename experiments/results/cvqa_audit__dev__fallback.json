@@ -1,0 +1,114 @@
+{
+ "split": "dev",
+ "n": 2001,
+ "n_fit": 2001,
+ "interval": "80%",
+ "fallback": true,
+ "no_letter": 7.55,
+ "no_letter_among_harm": null,
+ "help": 8.55,
+ "harm": 10.64,
+ "rules": {
+  "never": {
+   "acc": 66.27,
+   "read": 0.0
+  },
+  "always": {
+   "acc": 64.17,
+   "read": 100.0
+  },
+  "best_fixed": {
+   "acc": 66.27,
+   "read": 0.0
+  },
+  "told_category": {
+   "acc": 67.57,
+   "read": 35.5
+  },
+  "category_classifier": {
+   "acc": 67.52,
+   "read": 36.9
+  },
+  "told_subset": {
+   "acc": 66.47,
+   "read": 35.0
+  },
+  "subset_classifier": {
+   "acc": 66.82,
+   "read": 36.7
+  },
+  "error_post": {
+   "acc": 67.47,
+   "read": 22.6
+  },
+  "error_full": {
+   "acc": 67.32,
+   "read": 30.9
+  },
+  "benefit_post": {
+   "acc": 67.02,
+   "read": 22.5
+  },
+  "benefit_pre": {
+   "acc": 68.12,
+   "read": 27.5
+  },
+  "benefit_full": {
+   "acc": 68.22,
+   "read": 24.8
+  },
+  "oracle": {
+   "acc": 74.81,
+   "read": 8.5
+  }
+ },
+ "oracle_headroom": 8.55,
+ "full_minus_best_fixed": [
+  1.95,
+  0.9,
+  3.08
+ ],
+ "full_minus_never": [
+  1.95,
+  0.9,
+  3.08
+ ],
+ "full_minus_always": [
+  4.05,
+  2.96,
+  5.16
+ ],
+ "full_minus_error_full": [
+  0.9,
+  0.2,
+  1.63
+ ],
+ "post_minus_error_post": [
+  -0.45,
+  -1.1,
+  0.15
+ ],
+ "nauc_full_minus_error_full": [
+  0.78,
+  0.36,
+  1.21
+ ],
+ "full_minus_told_category": [
+  0.65,
+  -0.15,
+  1.46
+ ],
+ "full_minus_told_subset": [
+  1.75,
+  0.97,
+  2.59
+ ],
+ "full_minus_category_classifier": [
+  0.7,
+  -0.1,
+  1.54
+ ],
+ "expectations": {
+  "R1": true
+ }
+}

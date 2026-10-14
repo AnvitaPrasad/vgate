@@ -1,0 +1,699 @@
+{
+ "Qwen3-VL-4B-Instruct": {
+  "evqa": {
+   "n_dev": 1000,
+   "n": 2750,
+   "help": 32.9,
+   "harm": 4.7,
+   "better_fixed": "always",
+   "auroc_needed": 0.881,
+   "share_seen_strings": 21.8,
+   "models": {
+    "logistic": {
+     "n": 2750,
+     "lead": -0.4,
+     "lo": -0.86,
+     "hi": 0.04,
+     "auroc": 0.73,
+     "estimate": 0.04,
+     "read_rate": 90.2,
+     "seen": {
+      "n": 600,
+      "lead": 0.17,
+      "lo": -0.99,
+      "hi": 1.35
+     },
+     "unseen": {
+      "n": 2150,
+      "lead": -0.56,
+      "lo": -1.08,
+      "hi": -0.05
+     }
+    },
+    "boosted": {
+     "n": 2750,
+     "lead": -0.36,
+     "lo": -0.69,
+     "hi": -0.08,
+     "auroc": 0.718,
+     "estimate": 0.03,
+     "read_rate": 94.2,
+     "seen": {
+      "n": 600,
+      "lead": -0.5,
+      "lo": -1.5,
+      "hi": 0.5
+     },
+     "unseen": {
+      "n": 2150,
+      "lead": -0.33,
+      "lo": -0.62,
+      "hi": -0.09
+     }
+    }
+   }
+  },
+  "infoseek": {
+   "n_dev": 1000,
+   "n": 3637,
+   "help": 14.2,
+   "harm": 4.6,
+   "better_fixed": "always",
+   "auroc_needed": 0.823,
+   "share_seen_strings": 88.6,
+   "models": {
+    "logistic": {
+     "n": 3637,
+     "lead": 0.41,
+     "lo": -0.21,
+     "hi": 1.01,
+     "auroc": 0.728,
+     "estimate": 0.29,
+     "read_rate": 76.9,
+     "seen": {
+      "n": 3222,
+      "lead": 0.43,
+      "lo": -0.25,
+      "hi": 1.13
+     },
+     "unseen": {
+      "n": 415,
+      "lead": 0.24,
+      "lo": -1.41,
+      "hi": 1.91
+     }
+    },
+    "boosted": {
+     "n": 3637,
+     "lead": 1.04,
+     "lo": 0.61,
+     "hi": 1.5,
+     "auroc": 0.769,
+     "estimate": 0.54,
+     "read_rate": 88.4,
+     "seen": {
+      "n": 3222,
+      "lead": 1.21,
+      "lo": 0.71,
+      "hi": 1.73
+     },
+     "unseen": {
+      "n": 415,
+      "lead": -0.24,
+      "lo": -0.77,
+      "hi": 0.0
+     }
+    }
+   }
+  },
+  "okvqa": {
+   "n_dev": 1000,
+   "n": 4046,
+   "help": 4.9,
+   "harm": 24.5,
+   "better_fixed": "never",
+   "auroc_needed": 0.857,
+   "share_seen_strings": 5.5,
+   "models": {
+    "logistic": {
+     "n": 4046,
+     "lead": -0.35,
+     "lo": -0.72,
+     "hi": 0.02,
+     "auroc": 0.624,
+     "estimate": 0.0,
+     "read_rate": 8.7,
+     "seen": {
+      "n": 224,
+      "lead": -0.45,
+      "lo": -2.23,
+      "hi": 0.89
+     },
+     "unseen": {
+      "n": 3822,
+      "lead": -0.34,
+      "lo": -0.76,
+      "hi": 0.05
+     }
+    },
+    "boosted": {
+     "n": 4046,
+     "lead": -0.25,
+     "lo": -0.52,
+     "hi": 0.0,
+     "auroc": 0.6,
+     "estimate": 0.0,
+     "read_rate": 2.8,
+     "seen": {
+      "n": 224,
+      "lead": 0.0,
+      "lo": -1.34,
+      "hi": 1.34
+     },
+     "unseen": {
+      "n": 3822,
+      "lead": -0.26,
+      "lo": -0.52,
+      "hi": 0.0
+     }
+    }
+   }
+  },
+  "cvqa": {
+   "n_dev": 2001,
+   "n": 8373,
+   "help": 8.3,
+   "harm": 14.0,
+   "better_fixed": "never",
+   "auroc_needed": 0.692,
+   "share_seen_strings": 9.8,
+   "models": {
+    "logistic": {
+     "n": 8373,
+     "lead": 0.38,
+     "lo": -0.2,
+     "hi": 0.96,
+     "auroc": 0.626,
+     "estimate": 0.3,
+     "read_rate": 19.8,
+     "seen": {
+      "n": 821,
+      "lead": 0.61,
+      "lo": -0.85,
+      "hi": 1.93
+     },
+     "unseen": {
+      "n": 7552,
+      "lead": 0.36,
+      "lo": -0.25,
+      "hi": 0.98
+     }
+    },
+    "boosted": {
+     "n": 8373,
+     "lead": 0.02,
+     "lo": -0.52,
+     "hi": 0.58,
+     "auroc": 0.599,
+     "estimate": 0.12,
+     "read_rate": 17.6,
+     "seen": {
+      "n": 821,
+      "lead": -0.61,
+      "lo": -2.02,
+      "hi": 0.73
+     },
+     "unseen": {
+      "n": 7552,
+      "lead": 0.09,
+      "lo": -0.48,
+      "hi": 0.67
+     }
+    }
+   }
+  }
+ },
+ "Qwen2.5-VL-3B-Instruct": {
+  "evqa": {
+   "n_dev": 1000,
+   "n": 2750,
+   "help": 31.0,
+   "harm": 4.7,
+   "better_fixed": "always",
+   "auroc_needed": 0.879,
+   "share_seen_strings": 21.8,
+   "models": {
+    "logistic": {
+     "n": 2750,
+     "lead": -0.33,
+     "lo": -0.87,
+     "hi": 0.25,
+     "auroc": 0.72,
+     "estimate": 0.03,
+     "read_rate": 86.7,
+     "seen": {
+      "n": 600,
+      "lead": 0.17,
+      "lo": -1.18,
+      "hi": 1.64
+     },
+     "unseen": {
+      "n": 2150,
+      "lead": -0.47,
+      "lo": -1.09,
+      "hi": 0.19
+     }
+    },
+    "boosted": {
+     "n": 2750,
+     "lead": -0.15,
+     "lo": -0.64,
+     "hi": 0.34,
+     "auroc": 0.712,
+     "estimate": 0.02,
+     "read_rate": 90.2,
+     "seen": {
+      "n": 600,
+      "lead": -0.17,
+      "lo": -1.64,
+      "hi": 1.32
+     },
+     "unseen": {
+      "n": 2150,
+      "lead": -0.14,
+      "lo": -0.63,
+      "hi": 0.35
+     }
+    }
+   }
+  },
+  "infoseek": {
+   "n_dev": 1000,
+   "n": 3637,
+   "help": 14.0,
+   "harm": 4.4,
+   "better_fixed": "always",
+   "auroc_needed": 0.829,
+   "share_seen_strings": 88.6,
+   "models": {
+    "logistic": {
+     "n": 3637,
+     "lead": -0.22,
+     "lo": -0.83,
+     "hi": 0.36,
+     "auroc": 0.691,
+     "estimate": 0.12,
+     "read_rate": 81.0,
+     "seen": {
+      "n": 3222,
+      "lead": 0.0,
+      "lo": -0.56,
+      "hi": 0.57
+     },
+     "unseen": {
+      "n": 415,
+      "lead": -1.93,
+      "lo": -4.09,
+      "hi": 0.23
+     }
+    },
+    "boosted": {
+     "n": 3637,
+     "lead": 0.49,
+     "lo": 0.05,
+     "hi": 0.97,
+     "auroc": 0.732,
+     "estimate": 0.28,
+     "read_rate": 89.5,
+     "seen": {
+      "n": 3222,
+      "lead": 0.68,
+      "lo": 0.21,
+      "hi": 1.17
+     },
+     "unseen": {
+      "n": 415,
+      "lead": -0.96,
+      "lo": -2.58,
+      "hi": 0.69
+     }
+    }
+   }
+  },
+  "okvqa": {
+   "n_dev": 1000,
+   "n": 4046,
+   "help": 5.6,
+   "harm": 19.3,
+   "better_fixed": "never",
+   "auroc_needed": 0.813,
+   "share_seen_strings": 5.5,
+   "models": {
+    "logistic": {
+     "n": 4046,
+     "lead": -1.24,
+     "lo": -1.85,
+     "hi": -0.67,
+     "auroc": 0.578,
+     "estimate": 0.0,
+     "read_rate": 14.6,
+     "seen": {
+      "n": 224,
+      "lead": -1.79,
+      "lo": -5.36,
+      "hi": 1.34
+     },
+     "unseen": {
+      "n": 3822,
+      "lead": -1.2,
+      "lo": -1.8,
+      "hi": -0.6
+     }
+    },
+    "boosted": {
+     "n": 4046,
+     "lead": -0.32,
+     "lo": -0.77,
+     "hi": 0.12,
+     "auroc": 0.579,
+     "estimate": 0.0,
+     "read_rate": 7.3,
+     "seen": {
+      "n": 224,
+      "lead": -1.34,
+      "lo": -4.46,
+      "hi": 1.79
+     },
+     "unseen": {
+      "n": 3822,
+      "lead": -0.26,
+      "lo": -0.68,
+      "hi": 0.24
+     }
+    }
+   }
+  }
+ },
+ "InternVL3_5-4B-HF": {
+  "evqa": {
+   "n_dev": 1000,
+   "n": 2750,
+   "help": 37.8,
+   "harm": 4.1,
+   "better_fixed": "always",
+   "auroc_needed": 0.908,
+   "share_seen_strings": 21.8,
+   "models": {
+    "logistic": {
+     "n": 2750,
+     "lead": -0.65,
+     "lo": -1.13,
+     "hi": -0.18,
+     "auroc": 0.689,
+     "estimate": 0.0,
+     "read_rate": 93.2,
+     "seen": {
+      "n": 600,
+      "lead": -1.67,
+      "lo": -2.98,
+      "hi": -0.34
+     },
+     "unseen": {
+      "n": 2150,
+      "lead": -0.37,
+      "lo": -0.81,
+      "hi": 0.08
+     }
+    },
+    "boosted": {
+     "n": 2750,
+     "lead": -0.15,
+     "lo": -0.41,
+     "hi": 0.08,
+     "auroc": 0.698,
+     "estimate": 0.0,
+     "read_rate": 97.1,
+     "seen": {
+      "n": 600,
+      "lead": -0.17,
+      "lo": -0.84,
+      "hi": 0.51
+     },
+     "unseen": {
+      "n": 2150,
+      "lead": -0.14,
+      "lo": -0.39,
+      "hi": 0.09
+     }
+    }
+   }
+  },
+  "infoseek": {
+   "n_dev": 1000,
+   "n": 3637,
+   "help": 13.7,
+   "harm": 3.5,
+   "better_fixed": "always",
+   "auroc_needed": 0.868,
+   "share_seen_strings": 88.6,
+   "models": {
+    "logistic": {
+     "n": 3637,
+     "lead": -0.11,
+     "lo": -0.68,
+     "hi": 0.46,
+     "auroc": 0.666,
+     "estimate": 0.02,
+     "read_rate": 85.0,
+     "seen": {
+      "n": 3222,
+      "lead": -0.22,
+      "lo": -0.82,
+      "hi": 0.4
+     },
+     "unseen": {
+      "n": 415,
+      "lead": 0.72,
+      "lo": 0.0,
+      "hi": 1.72
+     }
+    },
+    "boosted": {
+     "n": 3637,
+     "lead": 0.33,
+     "lo": -0.11,
+     "hi": 0.83,
+     "auroc": 0.716,
+     "estimate": 0.1,
+     "read_rate": 88.4,
+     "seen": {
+      "n": 3222,
+      "lead": 0.4,
+      "lo": -0.09,
+      "hi": 0.93
+     },
+     "unseen": {
+      "n": 415,
+      "lead": -0.24,
+      "lo": -1.53,
+      "hi": 0.98
+     }
+    }
+   }
+  },
+  "okvqa": {
+   "n_dev": 1000,
+   "n": 4046,
+   "help": 6.1,
+   "harm": 23.8,
+   "better_fixed": "never",
+   "auroc_needed": 0.818,
+   "share_seen_strings": 5.5,
+   "models": {
+    "logistic": {
+     "n": 4046,
+     "lead": 0.49,
+     "lo": 0.02,
+     "hi": 0.99,
+     "auroc": 0.733,
+     "estimate": 0.26,
+     "read_rate": 16.6,
+     "seen": {
+      "n": 224,
+      "lead": -0.89,
+      "lo": -2.68,
+      "hi": 0.89
+     },
+     "unseen": {
+      "n": 3822,
+      "lead": 0.58,
+      "lo": 0.08,
+      "hi": 1.07
+     }
+    },
+    "boosted": {
+     "n": 4046,
+     "lead": 0.17,
+     "lo": -0.2,
+     "hi": 0.57,
+     "auroc": 0.701,
+     "estimate": 0.11,
+     "read_rate": 10.2,
+     "seen": {
+      "n": 224,
+      "lead": 0.0,
+      "lo": -1.34,
+      "hi": 1.34
+     },
+     "unseen": {
+      "n": 3822,
+      "lead": 0.18,
+      "lo": -0.21,
+      "hi": 0.6
+     }
+    }
+   }
+  }
+ },
+ "Qwen3-VL-8B-Instruct": {
+  "evqa": {
+   "n_dev": 1000,
+   "n": 2750,
+   "help": 33.6,
+   "harm": 5.3,
+   "better_fixed": "always",
+   "auroc_needed": 0.867,
+   "share_seen_strings": 21.8,
+   "models": {
+    "logistic": {
+     "n": 2750,
+     "lead": 0.22,
+     "lo": -0.23,
+     "hi": 0.68,
+     "auroc": 0.705,
+     "estimate": 0.02,
+     "read_rate": 91.5,
+     "seen": {
+      "n": 600,
+      "lead": -0.17,
+      "lo": -1.34,
+      "hi": 1.01
+     },
+     "unseen": {
+      "n": 2150,
+      "lead": 0.33,
+      "lo": -0.14,
+      "hi": 0.81
+     }
+    },
+    "boosted": {
+     "n": 2750,
+     "lead": 0.25,
+     "lo": -0.07,
+     "hi": 0.57,
+     "auroc": 0.737,
+     "estimate": 0.08,
+     "read_rate": 97.1,
+     "seen": {
+      "n": 600,
+      "lead": 0.0,
+      "lo": -0.84,
+      "hi": 0.99
+     },
+     "unseen": {
+      "n": 2150,
+      "lead": 0.33,
+      "lo": 0.04,
+      "hi": 0.66
+     }
+    }
+   }
+  },
+  "infoseek": {
+   "n_dev": 1000,
+   "n": 3637,
+   "help": 16.1,
+   "harm": 3.8,
+   "better_fixed": "always",
+   "auroc_needed": 0.868,
+   "share_seen_strings": 88.6,
+   "models": {
+    "logistic": {
+     "n": 3637,
+     "lead": -0.74,
+     "lo": -1.18,
+     "hi": -0.33,
+     "auroc": 0.621,
+     "estimate": 0.0,
+     "read_rate": 84.6,
+     "seen": {
+      "n": 3222,
+      "lead": -0.71,
+      "lo": -1.19,
+      "hi": -0.28
+     },
+     "unseen": {
+      "n": 415,
+      "lead": -0.96,
+      "lo": -2.18,
+      "hi": 0.0
+     }
+    },
+    "boosted": {
+     "n": 3637,
+     "lead": -0.16,
+     "lo": -0.56,
+     "hi": 0.19,
+     "auroc": 0.694,
+     "estimate": 0.04,
+     "read_rate": 94.4,
+     "seen": {
+      "n": 3222,
+      "lead": -0.25,
+      "lo": -0.66,
+      "hi": 0.16
+     },
+     "unseen": {
+      "n": 415,
+      "lead": 0.48,
+      "lo": -0.48,
+      "hi": 1.5
+     }
+    }
+   }
+  },
+  "okvqa": {
+   "n_dev": 1000,
+   "n": 4046,
+   "help": 4.0,
+   "harm": 21.7,
+   "better_fixed": "never",
+   "auroc_needed": 0.88,
+   "share_seen_strings": 5.5,
+   "models": {
+    "logistic": {
+     "n": 4046,
+     "lead": -0.69,
+     "lo": -1.11,
+     "hi": -0.27,
+     "auroc": 0.603,
+     "estimate": 0.0,
+     "read_rate": 7.9,
+     "seen": {
+      "n": 224,
+      "lead": -1.34,
+      "lo": -3.12,
+      "hi": 0.0
+     },
+     "unseen": {
+      "n": 3822,
+      "lead": -0.65,
+      "lo": -1.1,
+      "hi": -0.24
+     }
+    },
+    "boosted": {
+     "n": 4046,
+     "lead": -0.25,
+     "lo": -0.52,
+     "hi": 0.02,
+     "auroc": 0.587,
+     "estimate": 0.0,
+     "read_rate": 3.5,
+     "seen": {
+      "n": 224,
+      "lead": -0.45,
+      "lo": -1.34,
+      "hi": 0.0
+     },
+     "unseen": {
+      "n": 3822,
+      "lead": -0.24,
+      "lo": -0.52,
+      "hi": 0.05
+     }
+    }
+   }
+  }
+ }
+}

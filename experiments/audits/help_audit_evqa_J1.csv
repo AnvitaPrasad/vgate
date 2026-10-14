@@ -1,0 +1,51 @@
+qid,verdict,note
+EVQA_1031,not_real,BEM false negative on NE ('2' = 'two generations')
+EVQA_1093,real,
+EVQA_1132,real,
+EVQA_1260,real,
+EVQA_1271,real,
+EVQA_1276,real,
+EVQA_1343,real,
+EVQA_1367,real,
+EVQA_1407,real,
+EVQA_1477,real,
+EVQA_1596,real,
+EVQA_1744,not_real,BEM false positive on EV (3.5 vs 5-6 mm)
+EVQA_1824,real,
+EVQA_1999,ambiguous,100 feet ~ 30 m (unit)
+EVQA_2035,real,
+EVQA_2052,real,
+EVQA_2067,real,
+EVQA_2135,not_real,NE 'indians' semantically = Native Americans
+EVQA_2219,real,
+EVQA_2282,real,
+EVQA_2333,real,
+EVQA_2439,ambiguous,chrysalis vs pupating
+EVQA_2460,ambiguous,oval vs ovate
+EVQA_2483,real,
+EVQA_2563,real,
+EVQA_2593,real,
+EVQA_2615,ambiguous,EV hedges 'Neoclassical or Beaux Arts'
+EVQA_2621,real,
+EVQA_2638,real,
+EVQA_2758,real,
+EVQA_2820,real,
+EVQA_2927,real,
+EVQA_2933,not_real,NE 'prague 1' is the city-centre district
+EVQA_2981,real,
+EVQA_2996,real,
+EVQA_3121,real,
+EVQA_3343,real,
+EVQA_3348,real,
+EVQA_3353,real,
+EVQA_3395,real,
+EVQA_3399,real,
+EVQA_3422,real,
+EVQA_3439,real,
+EVQA_3477,real,
+EVQA_3733,real,
+EVQA_424,real,
+EVQA_450,ambiguous,"EV describes diet type, not foods"
+EVQA_549,real,
+EVQA_774,real,
+EVQA_861,not_real,BEM false positive on EV (1.40 vs 1.50 km2)

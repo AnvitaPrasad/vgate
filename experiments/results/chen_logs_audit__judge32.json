@@ -1,0 +1,901 @@
+{
+ "n": 600,
+ "sources": [
+  "life",
+  "in-house 2",
+  "dyn-vqa zh",
+  "dyn-vqa en",
+  "nocaps",
+  "visual7w"
+ ],
+ "readers": {
+  "gpt4-o": {
+   "policies": {
+    "never": {
+     "accuracy": 41.18,
+     "search_rate": 0.0
+    },
+    "always": {
+     "accuracy": 44.82,
+     "search_rate": 100.0,
+     "vs_told": [
+      -0.92,
+      -2.43,
+      0.51
+     ]
+    },
+    "hard": {
+     "accuracy": 44.93,
+     "search_rate": 76.8,
+     "vs_told": [
+      -0.81,
+      -2.3,
+      0.63
+     ]
+    },
+    "soft": {
+     "accuracy": 44.57,
+     "search_rate": 49.3,
+     "vs_told": [
+      -1.18,
+      -2.86,
+      0.47
+     ]
+    },
+    "prompt": {
+     "accuracy": 40.79,
+     "search_rate": 12.5,
+     "vs_told": [
+      -4.95,
+      -7.23,
+      -2.67
+     ]
+    },
+    "human": {
+     "accuracy": 45.93,
+     "search_rate": 38.3,
+     "vs_told": [
+      0.19,
+      -1.57,
+      1.94
+     ]
+    },
+    "told the source": {
+     "accuracy": 45.74,
+     "search_rate": 52.2
+    },
+    "hard: majority per source": {
+     "accuracy": 45.63,
+     "search_rate": 66.7,
+     "vs_told": [
+      -0.11,
+      -1.28,
+      1.03
+     ]
+    },
+    "soft: majority per source": {
+     "accuracy": 45.63,
+     "search_rate": 66.7,
+     "vs_told": [
+      -0.11,
+      -1.28,
+      1.03
+     ]
+    },
+    "oracle": {
+     "accuracy": 53.02,
+     "search_rate": 31.0
+    }
+   },
+   "told_in_sample": 46.16,
+   "told_other_seeds": [
+    45.38,
+    45.34,
+    45.43,
+    45.47,
+    45.65
+   ],
+   "told_200_assignments": {
+    "mean": 45.35,
+    "hard_minus_told_mean": -0.42,
+    "soft_minus_told_mean": -0.79,
+    "hard_ahead_share": 8.0,
+    "soft_ahead_share": 0.5
+   },
+   "hard_agrees_with_its_majority": 82.8,
+   "by_source": {
+    "life": {
+     "never": 31.4,
+     "always": 42.0,
+     "hard_rate": 96.0,
+     "soft_rate": 59.0,
+     "told_rate": 100.0
+    },
+    "in-house 2": {
+     "never": 27.7,
+     "always": 24.6,
+     "hard_rate": 100.0,
+     "soft_rate": 81.0,
+     "told_rate": 0.0
+    },
+    "dyn-vqa zh": {
+     "never": 28.5,
+     "always": 47.6,
+     "hard_rate": 94.0,
+     "soft_rate": 77.0,
+     "told_rate": 100.0
+    },
+    "dyn-vqa en": {
+     "never": 54.5,
+     "always": 54.7,
+     "hard_rate": 89.0,
+     "soft_rate": 71.0,
+     "told_rate": 80.0
+    },
+    "nocaps": {
+     "never": 67.7,
+     "always": 67.7,
+     "hard_rate": 42.0,
+     "soft_rate": 0.0,
+     "told_rate": 33.0
+    },
+    "visual7w": {
+     "never": 37.3,
+     "always": 32.4,
+     "hard_rate": 40.0,
+     "soft_rate": 8.0,
+     "told_rate": 0.0
+    }
+   },
+   "planner": {
+    "help": 15.3,
+    "harm": 10.0,
+    "auroc_floor": 0.55,
+    "auroc_needed": 0.663,
+    "by_source": {
+     "life": {
+      "help": 21.0,
+      "harm": 8.0
+     },
+     "in-house 2": {
+      "help": 8.0,
+      "harm": 12.0
+     },
+     "dyn-vqa zh": {
+      "help": 37.0,
+      "harm": 8.0
+     },
+     "dyn-vqa en": {
+      "help": 14.0,
+      "harm": 16.0
+     },
+     "nocaps": {
+      "help": 4.0,
+      "harm": 9.0
+     },
+     "visual7w": {
+      "help": 8.0,
+      "harm": 7.0
+     }
+    }
+   },
+   "reproduction_max_abs_diff": 10.26,
+   "never_always_abs_diff": [
+    10.26,
+    8.08
+   ]
+  },
+  "qwen-vl-max": {
+   "policies": {
+    "never": {
+     "accuracy": 39.3,
+     "search_rate": 0.0
+    },
+    "always": {
+     "accuracy": 43.83,
+     "search_rate": 100.0,
+     "vs_told": [
+      -2.07,
+      -3.4,
+      -0.82
+     ]
+    },
+    "hard": {
+     "accuracy": 44.94,
+     "search_rate": 76.8,
+     "vs_told": [
+      -0.96,
+      -1.9,
+      -0.02
+     ]
+    },
+    "soft": {
+     "accuracy": 43.38,
+     "search_rate": 49.3,
+     "vs_told": [
+      -2.52,
+      -4.11,
+      -0.9
+     ]
+    },
+    "prompt": {
+     "accuracy": 40.6,
+     "search_rate": 12.5,
+     "vs_told": [
+      -5.3,
+      -7.72,
+      -2.92
+     ]
+    },
+    "human": {
+     "accuracy": 44.34,
+     "search_rate": 38.3,
+     "vs_told": [
+      -1.56,
+      -3.19,
+      0.03
+     ]
+    },
+    "told the source": {
+     "accuracy": 45.9,
+     "search_rate": 66.7
+    },
+    "hard: majority per source": {
+     "accuracy": 45.9,
+     "search_rate": 66.7,
+     "vs_told": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "soft: majority per source": {
+     "accuracy": 45.9,
+     "search_rate": 66.7,
+     "vs_told": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "oracle": {
+     "accuracy": 53.1,
+     "search_rate": 33.5
+    }
+   },
+   "told_in_sample": 45.9,
+   "told_other_seeds": [
+    45.36,
+    45.9,
+    45.9,
+    45.9,
+    45.9
+   ],
+   "told_200_assignments": {
+    "mean": 45.62,
+    "hard_minus_told_mean": -0.68,
+    "soft_minus_told_mean": -2.24,
+    "hard_ahead_share": 7.0,
+    "soft_ahead_share": 0.0
+   },
+   "hard_agrees_with_its_majority": 82.8,
+   "by_source": {
+    "life": {
+     "never": 33.2,
+     "always": 53.0,
+     "hard_rate": 96.0,
+     "soft_rate": 59.0,
+     "told_rate": 100.0
+    },
+    "in-house 2": {
+     "never": 24.9,
+     "always": 28.7,
+     "hard_rate": 100.0,
+     "soft_rate": 81.0,
+     "told_rate": 100.0
+    },
+    "dyn-vqa zh": {
+     "never": 24.9,
+     "always": 35.8,
+     "hard_rate": 94.0,
+     "soft_rate": 77.0,
+     "told_rate": 100.0
+    },
+    "dyn-vqa en": {
+     "never": 39.8,
+     "always": 44.8,
+     "hard_rate": 89.0,
+     "soft_rate": 71.0,
+     "told_rate": 100.0
+    },
+    "nocaps": {
+     "never": 67.8,
+     "always": 57.6,
+     "hard_rate": 42.0,
+     "soft_rate": 0.0,
+     "told_rate": 0.0
+    },
+    "visual7w": {
+     "never": 45.2,
+     "always": 43.0,
+     "hard_rate": 40.0,
+     "soft_rate": 8.0,
+     "told_rate": 0.0
+    }
+   },
+   "planner": {
+    "help": 15.5,
+    "harm": 12.5,
+    "auroc_floor": 0.54,
+    "auroc_needed": 0.61,
+    "by_source": {
+     "life": {
+      "help": 27.0,
+      "harm": 9.0
+     },
+     "in-house 2": {
+      "help": 11.0,
+      "harm": 13.0
+     },
+     "dyn-vqa zh": {
+      "help": 19.0,
+      "harm": 5.0
+     },
+     "dyn-vqa en": {
+      "help": 20.0,
+      "harm": 14.0
+     },
+     "nocaps": {
+      "help": 4.0,
+      "harm": 21.0
+     },
+     "visual7w": {
+      "help": 12.0,
+      "harm": 13.0
+     }
+    }
+   },
+   "reproduction_max_abs_diff": 7.71,
+   "never_always_abs_diff": [
+    7.24,
+    5.43
+   ]
+  },
+  "qwen-vl-2": {
+   "policies": {
+    "never": {
+     "accuracy": 39.45,
+     "search_rate": 0.0
+    },
+    "always": {
+     "accuracy": 43.54,
+     "search_rate": 100.0,
+     "vs_told": [
+      -1.77,
+      -3.17,
+      -0.4
+     ]
+    },
+    "hard": {
+     "accuracy": 44.46,
+     "search_rate": 76.8,
+     "vs_told": [
+      -0.86,
+      -1.85,
+      0.13
+     ]
+    },
+    "soft": {
+     "accuracy": 43.31,
+     "search_rate": 49.3,
+     "vs_told": [
+      -2.0,
+      -3.52,
+      -0.47
+     ]
+    },
+    "prompt": {
+     "accuracy": 40.86,
+     "search_rate": 12.5,
+     "vs_told": [
+      -4.45,
+      -6.83,
+      -1.95
+     ]
+    },
+    "human": {
+     "accuracy": 44.35,
+     "search_rate": 38.3,
+     "vs_told": [
+      -0.96,
+      -2.62,
+      0.67
+     ]
+    },
+    "told the source": {
+     "accuracy": 45.31,
+     "search_rate": 64.3
+    },
+    "hard: majority per source": {
+     "accuracy": 45.61,
+     "search_rate": 66.7,
+     "vs_told": [
+      0.3,
+      0.0,
+      0.68
+     ]
+    },
+    "soft: majority per source": {
+     "accuracy": 45.61,
+     "search_rate": 66.7,
+     "vs_told": [
+      0.3,
+      0.0,
+      0.68
+     ]
+    },
+    "oracle": {
+     "accuracy": 52.87,
+     "search_rate": 29.5
+    }
+   },
+   "told_in_sample": 45.61,
+   "told_other_seeds": [
+    44.76,
+    44.9,
+    44.85,
+    45.41,
+    45.26
+   ],
+   "told_200_assignments": {
+    "mean": 45.04,
+    "hard_minus_told_mean": -0.59,
+    "soft_minus_told_mean": -1.73,
+    "hard_ahead_share": 3.5,
+    "soft_ahead_share": 0.0
+   },
+   "hard_agrees_with_its_majority": 82.8,
+   "by_source": {
+    "life": {
+     "never": 31.8,
+     "always": 49.9,
+     "hard_rate": 96.0,
+     "soft_rate": 59.0,
+     "told_rate": 100.0
+    },
+    "in-house 2": {
+     "never": 26.9,
+     "always": 28.1,
+     "hard_rate": 100.0,
+     "soft_rate": 81.0,
+     "told_rate": 86.0
+    },
+    "dyn-vqa zh": {
+     "never": 25.3,
+     "always": 37.2,
+     "hard_rate": 94.0,
+     "soft_rate": 77.0,
+     "told_rate": 100.0
+    },
+    "dyn-vqa en": {
+     "never": 39.3,
+     "always": 45.0,
+     "hard_rate": 89.0,
+     "soft_rate": 71.0,
+     "told_rate": 100.0
+    },
+    "nocaps": {
+     "never": 68.2,
+     "always": 58.0,
+     "hard_rate": 42.0,
+     "soft_rate": 0.0,
+     "told_rate": 0.0
+    },
+    "visual7w": {
+     "never": 45.2,
+     "always": 43.0,
+     "hard_rate": 40.0,
+     "soft_rate": 8.0,
+     "told_rate": 0.0
+    }
+   },
+   "planner": {
+    "help": 14.8,
+    "harm": 11.3,
+    "auroc_floor": 0.544,
+    "auroc_needed": 0.626,
+    "by_source": {
+     "life": {
+      "help": 23.0,
+      "harm": 8.0
+     },
+     "in-house 2": {
+      "help": 13.0,
+      "harm": 12.0
+     },
+     "dyn-vqa zh": {
+      "help": 21.0,
+      "harm": 5.0
+     },
+     "dyn-vqa en": {
+      "help": 20.0,
+      "harm": 9.0
+     },
+     "nocaps": {
+      "help": 2.0,
+      "harm": 20.0
+     },
+     "visual7w": {
+      "help": 10.0,
+      "harm": 14.0
+     }
+    }
+   },
+   "reproduction_max_abs_diff": 7.06,
+   "never_always_abs_diff": [
+    6.91,
+    4.35
+   ]
+  },
+  "qwen-vl-chat": {
+   "policies": {
+    "never": {
+     "accuracy": 28.55,
+     "search_rate": 0.0
+    },
+    "always": {
+     "accuracy": 31.79,
+     "search_rate": 100.0,
+     "vs_told": [
+      -3.28,
+      -4.74,
+      -1.78
+     ]
+    },
+    "hard": {
+     "accuracy": 32.83,
+     "search_rate": 76.8,
+     "vs_told": [
+      -2.24,
+      -3.5,
+      -0.98
+     ]
+    },
+    "soft": {
+     "accuracy": 33.2,
+     "search_rate": 49.3,
+     "vs_told": [
+      -1.87,
+      -3.22,
+      -0.64
+     ]
+    },
+    "prompt": {
+     "accuracy": 29.03,
+     "search_rate": 12.5,
+     "vs_told": [
+      -6.04,
+      -8.25,
+      -3.76
+     ]
+    },
+    "human": {
+     "accuracy": 31.95,
+     "search_rate": 38.3,
+     "vs_told": [
+      -3.12,
+      -4.85,
+      -1.22
+     ]
+    },
+    "told the source": {
+     "accuracy": 35.07,
+     "search_rate": 60.0
+    },
+    "hard: majority per source": {
+     "accuracy": 34.69,
+     "search_rate": 66.7,
+     "vs_told": [
+      -0.38,
+      -1.16,
+      0.41
+     ]
+    },
+    "soft: majority per source": {
+     "accuracy": 34.69,
+     "search_rate": 66.7,
+     "vs_told": [
+      -0.38,
+      -1.16,
+      0.41
+     ]
+    },
+    "oracle": {
+     "accuracy": 40.84,
+     "search_rate": 27.5
+    }
+   },
+   "told_in_sample": 35.3,
+   "told_other_seeds": [
+    34.94,
+    35.19,
+    35.09,
+    35.3,
+    35.15
+   ],
+   "told_200_assignments": {
+    "mean": 35.06,
+    "hard_minus_told_mean": -2.23,
+    "soft_minus_told_mean": -1.86,
+    "hard_ahead_share": 0.0,
+    "soft_ahead_share": 0.0
+   },
+   "hard_agrees_with_its_majority": 82.8,
+   "by_source": {
+    "life": {
+     "never": 20.6,
+     "always": 31.3,
+     "hard_rate": 96.0,
+     "soft_rate": 59.0,
+     "told_rate": 100.0
+    },
+    "in-house 2": {
+     "never": 17.1,
+     "always": 13.9,
+     "hard_rate": 100.0,
+     "soft_rate": 81.0,
+     "told_rate": 0.0
+    },
+    "dyn-vqa zh": {
+     "never": 13.8,
+     "always": 26.9,
+     "hard_rate": 94.0,
+     "soft_rate": 77.0,
+     "told_rate": 100.0
+    },
+    "dyn-vqa en": {
+     "never": 21.0,
+     "always": 37.3,
+     "hard_rate": 89.0,
+     "soft_rate": 71.0,
+     "told_rate": 100.0
+    },
+    "nocaps": {
+     "never": 55.0,
+     "always": 37.1,
+     "hard_rate": 42.0,
+     "soft_rate": 0.0,
+     "told_rate": 0.0
+    },
+    "visual7w": {
+     "never": 43.8,
+     "always": 44.3,
+     "hard_rate": 40.0,
+     "soft_rate": 8.0,
+     "told_rate": 60.0
+    }
+   },
+   "planner": {
+    "help": 13.8,
+    "harm": 11.2,
+    "auroc_floor": 0.545,
+    "auroc_needed": 0.616,
+    "by_source": {
+     "life": {
+      "help": 15.0,
+      "harm": 9.0
+     },
+     "in-house 2": {
+      "help": 2.0,
+      "harm": 6.0
+     },
+     "dyn-vqa zh": {
+      "help": 24.0,
+      "harm": 6.0
+     },
+     "dyn-vqa en": {
+      "help": 27.0,
+      "harm": 5.0
+     },
+     "nocaps": {
+      "help": 8.0,
+      "harm": 34.0
+     },
+     "visual7w": {
+      "help": 7.0,
+      "harm": 7.0
+     }
+    }
+   },
+   "reproduction_max_abs_diff": 6.81,
+   "never_always_abs_diff": [
+    5.89,
+    6.81
+   ]
+  },
+  "deepseek-vl-chat": {
+   "policies": {
+    "never": {
+     "accuracy": 28.4,
+     "search_rate": 0.0
+    },
+    "always": {
+     "accuracy": 40.65,
+     "search_rate": 100.0,
+     "vs_told": [
+      -0.84,
+      -1.5,
+      -0.23
+     ]
+    },
+    "hard": {
+     "accuracy": 39.88,
+     "search_rate": 76.8,
+     "vs_told": [
+      -1.61,
+      -2.7,
+      -0.51
+     ]
+    },
+    "soft": {
+     "accuracy": 37.87,
+     "search_rate": 49.3,
+     "vs_told": [
+      -3.62,
+      -5.38,
+      -1.95
+     ]
+    },
+    "prompt": {
+     "accuracy": 29.35,
+     "search_rate": 12.5,
+     "vs_told": [
+      -12.14,
+      -14.74,
+      -9.71
+     ]
+    },
+    "human": {
+     "accuracy": 36.31,
+     "search_rate": 38.3,
+     "vs_told": [
+      -5.18,
+      -7.2,
+      -3.2
+     ]
+    },
+    "told the source": {
+     "accuracy": 41.49,
+     "search_rate": 83.3
+    },
+    "hard: majority per source": {
+     "accuracy": 40.83,
+     "search_rate": 66.7,
+     "vs_told": [
+      -0.67,
+      -1.68,
+      0.4
+     ]
+    },
+    "soft: majority per source": {
+     "accuracy": 40.83,
+     "search_rate": 66.7,
+     "vs_told": [
+      -0.67,
+      -1.68,
+      0.4
+     ]
+    },
+    "oracle": {
+     "accuracy": 45.78,
+     "search_rate": 33.3
+    }
+   },
+   "told_in_sample": 41.49,
+   "told_other_seeds": [
+    41.49,
+    41.49,
+    40.81,
+    41.49,
+    41.49
+   ],
+   "told_200_assignments": {
+    "mean": 41.47,
+    "hard_minus_told_mean": -1.58,
+    "soft_minus_told_mean": -3.6,
+    "hard_ahead_share": 0.0,
+    "soft_ahead_share": 0.0
+   },
+   "hard_agrees_with_its_majority": 82.8,
+   "by_source": {
+    "life": {
+     "never": 18.7,
+     "always": 46.1,
+     "hard_rate": 96.0,
+     "soft_rate": 59.0,
+     "told_rate": 100.0
+    },
+    "in-house 2": {
+     "never": 13.9,
+     "always": 20.9,
+     "hard_rate": 100.0,
+     "soft_rate": 81.0,
+     "told_rate": 100.0
+    },
+    "dyn-vqa zh": {
+     "never": 13.0,
+     "always": 31.4,
+     "hard_rate": 94.0,
+     "soft_rate": 77.0,
+     "told_rate": 100.0
+    },
+    "dyn-vqa en": {
+     "never": 17.1,
+     "always": 38.9,
+     "hard_rate": 89.0,
+     "soft_rate": 71.0,
+     "told_rate": 100.0
+    },
+    "nocaps": {
+     "never": 67.8,
+     "always": 62.7,
+     "hard_rate": 42.0,
+     "soft_rate": 0.0,
+     "told_rate": 0.0
+    },
+    "visual7w": {
+     "never": 39.9,
+     "always": 43.9,
+     "hard_rate": 40.0,
+     "soft_rate": 8.0,
+     "told_rate": 100.0
+    }
+   },
+   "planner": {
+    "help": 20.5,
+    "harm": 5.5,
+    "auroc_floor": 0.591,
+    "auroc_needed": 0.822,
+    "by_source": {
+     "life": {
+      "help": 33.0,
+      "harm": 5.0
+     },
+     "in-house 2": {
+      "help": 9.0,
+      "harm": 3.0
+     },
+     "dyn-vqa zh": {
+      "help": 29.0,
+      "harm": 2.0
+     },
+     "dyn-vqa en": {
+      "help": 30.0,
+      "harm": 3.0
+     },
+     "nocaps": {
+      "help": 5.0,
+      "harm": 12.0
+     },
+     "visual7w": {
+      "help": 17.0,
+      "harm": 8.0
+     }
+    }
+   },
+   "reproduction_max_abs_diff": 6.56,
+   "never_always_abs_diff": [
+    6.56,
+    4.53
+   ]
+  }
+ },
+ "K1": true,
+ "K2": true,
+ "K3": false,
+ "K4": true,
+ "judge_valid": false,
+ "L1": true,
+ "L2": true,
+ "L3": true
+}

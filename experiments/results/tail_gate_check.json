@@ -1,0 +1,104 @@
+{
+ "n_features": 75,
+ "benchmarks": {
+  "evqa": {
+   "n": 2750,
+   "help": 32.9,
+   "harm": 4.7,
+   "auroc_floor": 0.606,
+   "auroc_needed": 0.881,
+   "models": {
+    "logistic": {
+     "auroc": 0.718,
+     "read_rate": 93.7,
+     "rule_lead": -0.18,
+     "lo": -0.59,
+     "hi": 0.17,
+     "best_threshold_lead": 0.0,
+     "estimate": 0.03,
+     "ceiling": 2.06
+    },
+    "boosted": {
+     "auroc": 0.734,
+     "read_rate": 94.1,
+     "rule_lead": -0.18,
+     "lo": -0.57,
+     "hi": 0.19,
+     "best_threshold_lead": 0.11,
+     "estimate": 0.05,
+     "ceiling": 2.21
+    }
+   },
+   "T1_boosted_rule_lead_below_one_point": true,
+   "T2_auroc_within_0p03": true,
+   "go": false
+  },
+  "infoseek": {
+   "n": 3637,
+   "help": 14.2,
+   "harm": 4.6,
+   "auroc_floor": 0.609,
+   "auroc_needed": 0.823,
+   "models": {
+    "logistic": {
+     "auroc": 0.779,
+     "read_rate": 83.6,
+     "rule_lead": 1.21,
+     "lo": 0.74,
+     "hi": 1.76,
+     "best_threshold_lead": 1.35,
+     "estimate": 0.62,
+     "ceiling": 2.57
+    },
+    "boosted": {
+     "auroc": 0.857,
+     "read_rate": 85.1,
+     "rule_lead": 1.46,
+     "lo": 0.89,
+     "hi": 2.06,
+     "best_threshold_lead": 1.51,
+     "estimate": 1.37,
+     "ceiling": 3.28
+    }
+   },
+   "T1_boosted_rule_lead_below_one_point": false,
+   "T2_auroc_within_0p03": false,
+   "go": true
+  },
+  "okvqa": {
+   "n": 4046,
+   "help": 4.9,
+   "harm": 24.5,
+   "auroc_floor": 0.602,
+   "auroc_needed": 0.857,
+   "models": {
+    "logistic": {
+     "auroc": 0.65,
+     "read_rate": 6.7,
+     "rule_lead": -0.17,
+     "lo": -0.52,
+     "hi": 0.17,
+     "best_threshold_lead": 0.0,
+     "estimate": 0.0,
+     "ceiling": 1.47
+    },
+    "boosted": {
+     "auroc": 0.634,
+     "read_rate": 4.3,
+     "rule_lead": -0.15,
+     "lo": -0.44,
+     "hi": 0.12,
+     "best_threshold_lead": 0.02,
+     "estimate": 0.0,
+     "ceiling": 1.31
+    }
+   },
+   "T1_boosted_rule_lead_below_one_point": true,
+   "T2_auroc_within_0p03": true,
+   "go": false
+  }
+ },
+ "T1": false,
+ "T2": false,
+ "go": true
+}

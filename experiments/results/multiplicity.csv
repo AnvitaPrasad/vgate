@@ -1,0 +1,23 @@
+test,prereg,point,lo,hi,p,holm_threshold,significant_after_holm,unadjusted_ci_excludes_0
+"H-SEL (select - always), Qwen3-VL-4B, OK-VQA",v2b,19.649036,18.125394,21.234737,0.0,0.002273,True,True
+"H-SEL (select - always), Qwen2.5-VL-3B, OK-VQA",v2b,13.791399,12.37954,15.284328,0.0,0.002381,True,True
+"probe, InternVL3.5-4B, E-VQA+InfoSeek",2026-10-03,2.326856,1.886707,2.761719,0.0,0.0025,True,True
+"probe, Qwen3-VL-8B, E-VQA+InfoSeek",v2c,1.92463,1.517047,2.32087,0.0,0.002632,True,True
+"primary, InternVL3.5-4B, E-VQA+InfoSeek",2026-10-03,1.783297,1.402558,2.169721,0.0,0.002778,True,True
+"primary, Qwen3-VL-4B, E-VQA+InfoSeek",v1,1.637104,1.255769,2.009078,0.0,0.002941,True,True
+"primary, Qwen3-VL-8B, E-VQA+InfoSeek",v2c,1.631736,1.231275,1.99187,0.0,0.003125,True,True
+"primary, Qwen2.5-VL-3B, E-VQA+InfoSeek",v1 (replication),1.488216,1.058508,1.893395,0.0,0.003333,True,True
+"probe, Qwen3-VL-8B, OK-VQA",v4c,1.52694,1.062601,1.997073,0.0,0.003571,True,True
+"probe, Qwen3-VL-4B, OK-VQA",v2,1.552645,1.057088,2.021012,0.0,0.003846,True,True
+"VGate-full - VGate-pre, Qwen3-VL-4B, OK-VQA",v2b,0.673258,0.440245,0.910779,0.0,0.004167,True,True
+"primary, Qwen3-VL-8B, OK-VQA",v4c,1.203658,0.76187,1.627804,0.0,0.004545,True,True
+"VGate-full - VGate-post, Qwen3-VL-4B, OK-VQA",v2b,1.368759,0.846649,1.878701,0.0,0.005,True,True
+"probe, Qwen2.5-VL-3B, OK-VQA",v2,1.210826,0.661451,1.75351,1.4e-05,0.005556,True,True
+"VGate-full - VGate-pre, Qwen2.5-VL-3B, OK-VQA",v2b,0.508651,0.235878,0.788751,0.00031,0.00625,True,True
+"primary, Qwen2.5-VL-3B, OK-VQA",v2,0.820316,0.250889,1.368954,0.004027,0.007143,True,True
+"probe, InternVL3.5-4B, OK-VQA",v4c,0.563025,0.058471,1.026748,0.022648,0.008333,False,True
+"primary, InternVL3.5-4B, OK-VQA",v4c,0.251854,-0.027938,0.505944,0.064431,0.01,False,False
+"primary, Qwen3-VL-4B, OK-VQA",v2,0.32526,-0.127167,0.7641,0.152562,0.0125,False,False
+"VGate-full - VGate-post, Qwen2.5-VL-3B, OK-VQA",v2b,0.200692,-0.244709,0.659526,0.384292,0.016667,False,False
+"H-OK (gate - never at dev-chosen rate), Qwen2.5-VL-3B, OK-VQA",v2,-0.024716,-0.272075,0.197726,0.836616,0.025,False,False
+"H-OK (gate - never at dev-chosen rate), Qwen3-VL-4B, OK-VQA",v2,0.0,0.0,0.0,1.0,0.05,False,False

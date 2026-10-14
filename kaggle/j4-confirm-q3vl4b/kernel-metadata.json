@@ -1,0 +1,17 @@
+{
+ "id": "YOUR_KAGGLE_USERNAME/j4-confirm-q3vl4b",
+ "title": "j4-confirm-q3vl4b",
+ "code_file": "run.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": [
+  "YOUR_KAGGLE_USERNAME/vgate-code",
+  "YOUR_KAGGLE_USERNAME/vgate-data"
+ ],
+ "competition_sources": [],
+ "kernel_sources": []
+}

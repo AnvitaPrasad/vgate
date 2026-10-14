@@ -1,0 +1,42 @@
+{
+ "model": "Qwen3-VL-8B-Instruct",
+ "runs": {
+  "evqa": [
+   "J7",
+   "J7"
+  ],
+  "infoseek": [
+   "J7",
+   "J7"
+  ],
+  "okvqa": [
+   "J12",
+   "J12"
+  ]
+ },
+ "layer": 27,
+ "n_train": 3000,
+ "base": [
+  "ent_mean",
+  "ent_max",
+  "ent_first",
+  "lp_min",
+  "lp_mean",
+  "seq_lp",
+  "n_gen_ne",
+  "qpp_top1_z",
+  "qpp_margin_z",
+  "qpp_nqc",
+  "qpp_entropy"
+ ],
+ "sklearn": "1.9.1",
+ "max_abs_diff_vs_sklearn": {
+  "pre": 1.4926511907042972e-06,
+  "full": 1.4495988018281558e-06
+ },
+ "heldout_macro_accuracy": {
+  "benefit_rule_pre": 0.4852502108225969,
+  "benefit_rule_full": 0.4866332382770566
+ },
+ "note": "mixed-traffic gates of scripts/operating_point.py (pooled dev sets, no dataset identity)"
+}

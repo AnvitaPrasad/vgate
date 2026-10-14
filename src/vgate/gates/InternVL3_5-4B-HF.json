@@ -1,0 +1,42 @@
+{
+ "model": "InternVL3_5-4B-HF",
+ "runs": {
+  "evqa": [
+   "J5",
+   "J5"
+  ],
+  "infoseek": [
+   "J5",
+   "J5"
+  ],
+  "okvqa": [
+   "J11",
+   "J11"
+  ]
+ },
+ "layer": 27,
+ "n_train": 3000,
+ "base": [
+  "ent_mean",
+  "ent_max",
+  "ent_first",
+  "lp_min",
+  "lp_mean",
+  "seq_lp",
+  "n_gen_ne",
+  "qpp_top1_z",
+  "qpp_margin_z",
+  "qpp_nqc",
+  "qpp_entropy"
+ ],
+ "sklearn": "1.9.1",
+ "max_abs_diff_vs_sklearn": {
+  "pre": 9.267883471775207e-07,
+  "full": 8.548747998937678e-07
+ },
+ "heldout_macro_accuracy": {
+  "benefit_rule_pre": 0.37794546656262984,
+  "benefit_rule_full": 0.3801206578929426
+ },
+ "note": "mixed-traffic gates of scripts/operating_point.py (pooled dev sets, no dataset identity)"
+}

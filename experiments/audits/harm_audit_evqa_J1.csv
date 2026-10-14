@@ -1,0 +1,51 @@
+qid,verdict,note,stable_harm
+EVQA_1018,real,,True
+EVQA_1064,real,,False
+EVQA_1106,real,,True
+EVQA_1179,not_real,"EV answer semantically acceptable; format/granularity mismatch (yes vs occurs, species vs category)",True
+EVQA_1202,real,,True
+EVQA_1374,not_real,"EV answer semantically acceptable; format/granularity mismatch (yes vs occurs, species vs category)",True
+EVQA_1394,real,,True
+EVQA_1413,ambiguous,EV partially overlaps gold (superset/subset/adjacent),True
+EVQA_146,ambiguous,EV partially overlaps gold (superset/subset/adjacent),False
+EVQA_1635,not_real,BEM false positive on NE (numeric/date near-miss or wrong answer judged correct),False
+EVQA_1648,not_real,"EV answer semantically acceptable; format/granularity mismatch (yes vs occurs, species vs category)",True
+EVQA_1741,real,,True
+EVQA_1764,real,,True
+EVQA_1765,not_real,BEM false positive on NE (numeric/date near-miss or wrong answer judged correct),False
+EVQA_1816,real,,True
+EVQA_1823,real,,True
+EVQA_1857,not_real,"EV answer semantically acceptable; format/granularity mismatch (yes vs occurs, species vs category)",True
+EVQA_2100,real,,True
+EVQA_2131,real,,True
+EVQA_2151,not_real,BEM false positive on NE (numeric/date near-miss or wrong answer judged correct),True
+EVQA_2172,real,,True
+EVQA_2286,real,,False
+EVQA_2293,real,,False
+EVQA_2357,ambiguous,EV partially overlaps gold (superset/subset/adjacent),True
+EVQA_2361,not_real,"EV answer semantically acceptable; format/granularity mismatch (yes vs occurs, species vs category)",True
+EVQA_2406,not_real,"EV answer semantically acceptable; format/granularity mismatch (yes vs occurs, species vs category)",True
+EVQA_2456,real,,True
+EVQA_2675,real,,True
+EVQA_2677,not_real,BEM false positive on NE (numeric/date near-miss or wrong answer judged correct),True
+EVQA_2698,real,,False
+EVQA_2926,not_real,BEM false positive on NE (numeric/date near-miss or wrong answer judged correct),True
+EVQA_2970,not_real,BEM false positive on NE (numeric/date near-miss or wrong answer judged correct),True
+EVQA_2974,not_real,BEM false positive on NE (numeric/date near-miss or wrong answer judged correct),False
+EVQA_3131,ambiguous,EV partially overlaps gold (superset/subset/adjacent),False
+EVQA_3162,real,,True
+EVQA_3201,real,,True
+EVQA_3203,real,,True
+EVQA_3362,real,,True
+EVQA_340,ambiguous,EV partially overlaps gold (superset/subset/adjacent),False
+EVQA_3413,not_real,BEM false positive on NE (numeric/date near-miss or wrong answer judged correct),True
+EVQA_3491,real,,True
+EVQA_468,real,,False
+EVQA_531,real,,True
+EVQA_545,real,,True
+EVQA_685,real,,False
+EVQA_738,real,,True
+EVQA_792,real,,True
+EVQA_820,real,,True
+EVQA_94,real,,True
+EVQA_973,not_real,BEM false positive on NE (numeric/date near-miss or wrong answer judged correct),True

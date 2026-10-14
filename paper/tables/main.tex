@@ -1,0 +1,22 @@
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+ & \multicolumn{3}{c}{nAUC} & \multicolumn{2}{c}{Read} \\
+Policy & E-VQA & InfoS. & OK-VQA & E-VQA & InfoS. \\
+\midrule
+\multicolumn{6}{l}{\emph{Pre-search (decides search and read)}} \\
+Random & 36.7 & 22.4 & 49.8 & 98\% & 96\% \\
+Entropy threshold & 40.0 & 23.3 & 50.1 & 92\% & 93\% \\
+Error probe (hidden state) & 39.0 & 23.2 & 50.0 & 93\% & 83\% \\
+Four-outcome probe & 41.5 & 25.0 & 51.5 & 93\% & 67\% \\
+\textbf{VGate-pre} (benefit probe) & 41.5 & 25.0 & 51.6 & 93\% & 69\% \\
+\midrule
+\multicolumn{6}{l}{\emph{Post-search (always searches; decides read)}} \\
+Error gate (unc.\,+\,retriever) & 39.5 & 23.1 & 50.6 & 98\% & 94\% \\
+NQC threshold (retriever) & 41.8 & 23.6 & 50.1 & 89\% & 85\% \\
+Factorised P(wrong)$\cdot$P(hit) & 42.5 & 24.1 & 50.3 & 81\% & 83\% \\
+\textbf{VGate-post} (benefit) & 41.8 & 24.1 & 50.9 & 90\% & 95\% \\
+\textbf{VGate-full} (+\,hidden state) & 42.1 & 25.2 & 52.3 & 90\% & 65\% \\
+\midrule
+Oracle gate & 50.4 & 30.8 & 61.4 & 28\% & 10\% \\
+\bottomrule
+\end{tabular}

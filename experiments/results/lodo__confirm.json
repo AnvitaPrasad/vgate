@@ -1,0 +1,454 @@
+{
+ "split": "confirm",
+ "results": {
+  "Qwen3-VL-4B-Instruct": {
+   "evqa": {
+    "never": {
+     "acc": 23.05,
+     "read": 0.0
+    },
+    "always": {
+     "acc": 51.2,
+     "read": 100.0
+    },
+    "train_majority": {
+     "acc": 23.05,
+     "read": 0.0
+    },
+    "nearest_regime": {
+     "acc": 47.53,
+     "read": 77.7
+    },
+    "error_post": {
+     "acc": 48.44,
+     "read": 77.2
+    },
+    "error_full": {
+     "acc": 50.36,
+     "read": 89.7
+    },
+    "benefit_post": {
+     "acc": 37.78,
+     "read": 34.9
+    },
+    "benefit_pre": {
+     "acc": 37.45,
+     "read": 44.6
+    },
+    "benefit_full": {
+     "acc": 39.31,
+     "read": 44.5
+    },
+    "oracle": {
+     "acc": 55.93,
+     "read": 32.9
+    },
+    "best_fixed": {
+     "acc": 51.2
+    }
+   },
+   "infoseek": {
+    "never": {
+     "acc": 17.76,
+     "read": 0.0
+    },
+    "always": {
+     "acc": 27.36,
+     "read": 100.0
+    },
+    "train_majority": {
+     "acc": 27.36,
+     "read": 100.0
+    },
+    "nearest_regime": {
+     "acc": 26.64,
+     "read": 90.5
+    },
+    "error_post": {
+     "acc": 25.13,
+     "read": 62.7
+    },
+    "error_full": {
+     "acc": 25.71,
+     "read": 72.8
+    },
+    "benefit_post": {
+     "acc": 26.75,
+     "read": 81.3
+    },
+    "benefit_pre": {
+     "acc": 26.18,
+     "read": 84.8
+    },
+    "benefit_full": {
+     "acc": 26.86,
+     "read": 90.1
+    },
+    "oracle": {
+     "acc": 31.95,
+     "read": 14.2
+    },
+    "best_fixed": {
+     "acc": 27.36
+    }
+   },
+   "okvqa": {
+    "never": {
+     "acc": 59.59,
+     "read": 0.0
+    },
+    "always": {
+     "acc": 39.94,
+     "read": 100.0
+    },
+    "train_majority": {
+     "acc": 39.94,
+     "read": 100.0
+    },
+    "nearest_regime": {
+     "acc": 39.94,
+     "read": 100.0
+    },
+    "error_post": {
+     "acc": 42.17,
+     "read": 88.8
+    },
+    "error_full": {
+     "acc": 43.72,
+     "read": 77.1
+    },
+    "benefit_post": {
+     "acc": 40.21,
+     "read": 97.8
+    },
+    "benefit_pre": {
+     "acc": 40.61,
+     "read": 91.7
+    },
+    "benefit_full": {
+     "acc": 41.89,
+     "read": 88.6
+    },
+    "oracle": {
+     "acc": 64.48,
+     "read": 4.9
+    },
+    "best_fixed": {
+     "acc": 59.59
+    }
+   },
+   "macro": {
+    "never": 33.47,
+    "always": 39.5,
+    "train_majority": 30.12,
+    "nearest_regime": 38.04,
+    "error_post": 38.58,
+    "error_full": 39.93,
+    "benefit_post": 34.91,
+    "benefit_pre": 34.75,
+    "benefit_full": 36.02,
+    "oracle": 50.79,
+    "best_fixed": 46.05
+   },
+   "macro_diff_95ci": {
+    "error_full - benefit_full": [
+     3.91,
+     3.34,
+     4.47
+    ],
+    "error_post - benefit_post": [
+     3.66,
+     3.04,
+     4.27
+    ],
+    "nearest_regime - best_fixed": [
+     -8.01,
+     -8.61,
+     -7.36
+    ],
+    "error_post - best_fixed": [
+     -7.47,
+     -8.12,
+     -6.85
+    ],
+    "error_full - best_fixed": [
+     -6.12,
+     -6.65,
+     -5.55
+    ],
+    "benefit_post - best_fixed": [
+     -11.13,
+     -11.9,
+     -10.31
+    ],
+    "benefit_pre - best_fixed": [
+     -11.3,
+     -12.01,
+     -10.55
+    ],
+    "benefit_full - best_fixed": [
+     -10.03,
+     -10.7,
+     -9.34
+    ],
+    "nearest_regime - always": [
+     -1.46,
+     -1.78,
+     -1.11
+    ],
+    "error_post - always": [
+     -0.92,
+     -1.36,
+     -0.54
+    ],
+    "error_full - always": [
+     0.43,
+     0.05,
+     0.8
+    ],
+    "benefit_post - always": [
+     -4.58,
+     -5.21,
+     -3.98
+    ],
+    "benefit_pre - always": [
+     -4.75,
+     -5.32,
+     -4.19
+    ],
+    "benefit_full - always": [
+     -3.48,
+     -4.01,
+     -2.93
+    ]
+   }
+  },
+  "Qwen2.5-VL-3B-Instruct": {
+   "evqa": {
+    "never": {
+     "acc": 22.29,
+     "read": 0.0
+    },
+    "always": {
+     "acc": 48.62,
+     "read": 100.0
+    },
+    "train_majority": {
+     "acc": 22.29,
+     "read": 0.0
+    },
+    "nearest_regime": {
+     "acc": 44.55,
+     "read": 77.2
+    },
+    "error_post": {
+     "acc": 47.49,
+     "read": 83.5
+    },
+    "error_full": {
+     "acc": 48.25,
+     "read": 90.5
+    },
+    "benefit_post": {
+     "acc": 37.13,
+     "read": 37.4
+    },
+    "benefit_pre": {
+     "acc": 41.38,
+     "read": 66.9
+    },
+    "benefit_full": {
+     "acc": 41.05,
+     "read": 59.3
+    },
+    "oracle": {
+     "acc": 53.27,
+     "read": 31.0
+    },
+    "best_fixed": {
+     "acc": 48.62
+    }
+   },
+   "infoseek": {
+    "never": {
+     "acc": 16.99,
+     "read": 0.0
+    },
+    "always": {
+     "acc": 26.56,
+     "read": 100.0
+    },
+    "train_majority": {
+     "acc": 26.56,
+     "read": 100.0
+    },
+    "nearest_regime": {
+     "acc": 25.85,
+     "read": 89.6
+    },
+    "error_post": {
+     "acc": 23.98,
+     "read": 66.9
+    },
+    "error_full": {
+     "acc": 24.28,
+     "read": 73.5
+    },
+    "benefit_post": {
+     "acc": 25.65,
+     "read": 81.8
+    },
+    "benefit_pre": {
+     "acc": 25.41,
+     "read": 85.7
+    },
+    "benefit_full": {
+     "acc": 26.04,
+     "read": 89.1
+    },
+    "oracle": {
+     "acc": 30.99,
+     "read": 14.0
+    },
+    "best_fixed": {
+     "acc": 26.56
+    }
+   },
+   "okvqa": {
+    "never": {
+     "acc": 59.52,
+     "read": 0.0
+    },
+    "always": {
+     "acc": 45.87,
+     "read": 100.0
+    },
+    "train_majority": {
+     "acc": 45.87,
+     "read": 100.0
+    },
+    "nearest_regime": {
+     "acc": 45.87,
+     "read": 100.0
+    },
+    "error_post": {
+     "acc": 49.18,
+     "read": 71.6
+    },
+    "error_full": {
+     "acc": 50.49,
+     "read": 66.0
+    },
+    "benefit_post": {
+     "acc": 46.12,
+     "read": 96.8
+    },
+    "benefit_pre": {
+     "acc": 47.21,
+     "read": 93.2
+    },
+    "benefit_full": {
+     "acc": 49.21,
+     "read": 79.1
+    },
+    "oracle": {
+     "acc": 65.15,
+     "read": 5.6
+    },
+    "best_fixed": {
+     "acc": 59.52
+    }
+   },
+   "macro": {
+    "never": 32.93,
+    "always": 40.35,
+    "train_majority": 31.57,
+    "nearest_regime": 38.76,
+    "error_post": 40.22,
+    "error_full": 41.01,
+    "benefit_post": 36.3,
+    "benefit_pre": 38.0,
+    "benefit_full": 38.77,
+    "oracle": 49.8,
+    "best_fixed": 44.9
+   },
+   "macro_diff_95ci": {
+    "error_full - benefit_full": [
+     2.24,
+     1.65,
+     2.82
+    ],
+    "error_post - benefit_post": [
+     3.92,
+     3.3,
+     4.54
+    ],
+    "nearest_regime - best_fixed": [
+     -6.14,
+     -6.79,
+     -5.48
+    ],
+    "error_post - best_fixed": [
+     -4.68,
+     -5.24,
+     -4.1
+    ],
+    "error_full - best_fixed": [
+     -3.89,
+     -4.41,
+     -3.38
+    ],
+    "benefit_post - best_fixed": [
+     -8.6,
+     -9.35,
+     -7.85
+    ],
+    "benefit_pre - best_fixed": [
+     -6.9,
+     -7.63,
+     -6.16
+    ],
+    "benefit_full - best_fixed": [
+     -6.13,
+     -6.79,
+     -5.45
+    ],
+    "nearest_regime - always": [
+     -1.6,
+     -2.04,
+     -1.2
+    ],
+    "error_post - always": [
+     -0.13,
+     -0.55,
+     0.28
+    ],
+    "error_full - always": [
+     0.66,
+     0.27,
+     1.05
+    ],
+    "benefit_post - always": [
+     -4.05,
+     -4.66,
+     -3.48
+    ],
+    "benefit_pre - always": [
+     -2.35,
+     -2.93,
+     -1.81
+    ],
+    "benefit_full - always": [
+     -1.58,
+     -2.1,
+     -1.04
+    ]
+   }
+  }
+ },
+ "expectations": {
+  "L1": true,
+  "L2": true,
+  "L3": true
+ }
+}

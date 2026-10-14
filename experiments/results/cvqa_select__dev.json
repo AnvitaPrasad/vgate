@@ -1,0 +1,33 @@
+{
+ "split": "dev",
+ "n": 2001,
+ "interval": "80%",
+ "acc": {
+  "never": 66.27,
+  "always": 60.72,
+  "select": 68.77,
+  "oracle": 74.81,
+  "prob_only": 67.97
+ },
+ "uses_evidence_answer": 31.9,
+ "select_minus_never": [
+  2.5,
+  1.42,
+  3.66
+ ],
+ "select_minus_always": [
+  8.05,
+  7.01,
+  9.11
+ ],
+ "tokens_relative_to_always": 1.24,
+ "help_kept": 74.3,
+ "harm_avoided": 72.7,
+ "fallback_labels": false,
+ "prob_only_minus_never": [
+  1.7,
+  0.57,
+  2.89
+ ],
+ "no_option_but_more_confident": 2.8
+}

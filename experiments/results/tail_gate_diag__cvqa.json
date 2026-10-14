@@ -1,0 +1,83 @@
+{
+ "cvqa": {
+  "n": 8373,
+  "help": 8.3,
+  "harm": 14.0,
+  "question_strings": 6738,
+  "auroc_floor": 0.56,
+  "auroc_needed": 0.692,
+  "share_in_strings_of_10_or_more": 3.4,
+  "rows": {
+   "logistic, image folds": {
+    "lead": 0.84,
+    "lo": 0.28,
+    "hi": 1.36,
+    "read_rate": 15.9,
+    "auroc": 0.638,
+    "estimate": 0.41,
+    "ceiling": 2.29
+   },
+   "logistic, string folds": {
+    "lead": 0.56,
+    "lo": -0.04,
+    "hi": 1.09,
+    "read_rate": 16.2,
+    "auroc": 0.629,
+    "estimate": 0.33,
+    "ceiling": 2.15
+   },
+   "logistic, image folds, 1,000 labels": {
+    "lead": 0.17,
+    "lo": -0.4,
+    "hi": 0.71,
+    "read_rate": 20.6,
+    "auroc": 0.573,
+    "estimate": 0.02,
+    "ceiling": 1.21
+   },
+   "boosted, image folds": {
+    "lead": 0.48,
+    "lo": -0.06,
+    "hi": 0.99,
+    "read_rate": 15.2,
+    "auroc": 0.621,
+    "estimate": 0.27,
+    "ceiling": 2.01
+   },
+   "boosted, string folds": {
+    "lead": 0.24,
+    "lo": -0.3,
+    "hi": 0.76,
+    "read_rate": 15.6,
+    "auroc": 0.605,
+    "estimate": 0.16,
+    "ceiling": 1.75
+   },
+   "boosted, image folds, 1,000 labels": {
+    "lead": -0.18,
+    "lo": -0.64,
+    "hi": 0.28,
+    "read_rate": 15.8,
+    "auroc": 0.553,
+    "estimate": 0.0,
+    "ceiling": 0.88
+   },
+   "told the string (image folds)": {
+    "lead": -0.08,
+    "lo": -0.18,
+    "hi": 0.0,
+    "read_rate": 1.0
+   }
+  },
+  "logistic_minus_told_string": {
+   "diff": 0.92,
+   "lo": 0.35,
+   "hi": 1.46
+  },
+  "boosted_minus_told_string": {
+   "diff": 0.56,
+   "lo": 0.04,
+   "hi": 1.09
+  }
+ }
+}

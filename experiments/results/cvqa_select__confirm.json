@@ -1,0 +1,49 @@
+{
+ "split": "confirm",
+ "n": 8373,
+ "interval": "95%",
+ "acc": {
+  "never": 65.58,
+  "always": 59.94,
+  "select": 67.2,
+  "oracle": 73.9,
+  "prob_only": 66.34,
+  "vgate_full": 65.96,
+  "vgate_post": 66.18
+ },
+ "uses_evidence_answer": 33.1,
+ "select_minus_never": [
+  1.62,
+  0.89,
+  2.42
+ ],
+ "select_minus_always": [
+  7.26,
+  6.5,
+  8.03
+ ],
+ "tokens_relative_to_always": 1.24,
+ "help_kept": 71.9,
+ "harm_avoided": 68.8,
+ "fallback_labels": false,
+ "prob_only_minus_never": [
+  0.76,
+  -0.01,
+  1.57
+ ],
+ "no_option_but_more_confident": 3.0,
+ "select_minus_vgate_full": [
+  1.24,
+  0.59,
+  1.9
+ ],
+ "select_minus_vgate_post": [
+  1.03,
+  0.36,
+  1.72
+ ],
+ "expectations": {
+  "S1": true,
+  "S2": true
+ }
+}

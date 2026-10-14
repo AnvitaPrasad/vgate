@@ -1,0 +1,50 @@
+{
+ "n": 1000,
+ "candidates": 20,
+ "image_coverage": 97.3,
+ "weights_chosen": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "gold_page_in_top20": 78.7,
+ "page_in5": {
+  "retriever": 60.5,
+  "reranked": 70.9,
+  "diff": [
+   10.4,
+   8.8,
+   12.0
+  ]
+ },
+ "psg_in5": {
+  "retriever": 57.7,
+  "reranked": 68.0,
+  "diff": [
+   10.3,
+   8.8,
+   11.8
+  ]
+ },
+ "page_first": {
+  "retriever": 39.0,
+  "reranked": 50.2,
+  "diff": [
+   11.2,
+   8.8,
+   13.4
+  ]
+ },
+ "psg_first": {
+  "retriever": 34.9,
+  "reranked": 44.9,
+  "diff": [
+   10.0,
+   7.9,
+   12.0
+  ]
+ },
+ "go": true
+}

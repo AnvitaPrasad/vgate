@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VGate: audit a retrieval gate from its log</title>
+<style>
+  body { font: 15px/1.5 system-ui, sans-serif; margin: 0 auto; max-width: 1100px; padding: 16px 20px 40px; color: #1b1f24; }
+  h1 { font-size: 22px; margin: 8px 0 4px; } h2 { font-size: 16px; margin: 22px 0 6px; }
+  p.note { color: #555; margin: 4px 0 12px; } #help { color: #333; }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 12px 0; }
+  button, label.file { font: inherit; padding: 8px 12px; border: 1px solid #b8c0cc; border-radius: 6px; background: #f3f5f8; cursor: pointer; }
+  button:disabled { opacity: .5; cursor: default; } input[type=file] { display: none; }
+  #status { padding: 8px 12px; background: #eef4ff; border-radius: 6px; margin: 10px 0; }
+  #status.err { background: #ffecec; }
+  table { border-collapse: collapse; font-size: 13.5px; margin: 6px 0; } th, td { padding: 4px 10px; border-bottom: 1px solid #e3e6ea; text-align: right; }
+  th:first-child, td:first-child { text-align: left; } th { background: #f6f7f9; }
+  .scroll { overflow-x: auto; } img { max-width: 620px; width: 100%; } small { color: #666; } code { background: #f3f5f8; padding: 1px 4px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<h1>VGate — audit a retrieval gate from its log</h1>
+<p class="note">This page runs in your browser (Python on Pyodide): nothing you upload leaves your machine. It shows the log view of the
+VGate demonstration; the other views need the case study's per-query outputs or a GPU (see the repository).</p>
+<p><a href="vgate_demo.mp4">Video walkthrough of the whole application (2.5 minutes, captions, no sound)</a> ·
+<a href="https://github.com/AnvitaPrasad/vgate">code, splits, preregistration log</a> ·
+<a href="https://huggingface.co/datasets/AnvitaPrasad/vgate-outputs">per-query outputs</a></p>
+<p id="help"></p>
+<div class="row">
+  <label class="file"><input type="file" id="csv" accept=".csv" disabled>Upload a log (CSV)</label>
+  <button id="b1" disabled>Use the sample log (held-out runs of the three benchmarks; about a minute in the browser)</button>
+  <button id="b2" disabled>Use a published system's log (Chen et al., GPT-4o, six sources; logged gate: their fine-tuned gate)</button>
+</div>
+<div id="status">Loading the Python runtime (about a minute the first time)…</div>
+<div id="out" hidden>
+  <p id="md"></p>
+  <img id="plot" alt="accuracy against the fraction of queries that read evidence">
+  <h2>Audit</h2><small id="audit_label"></small><div class="scroll" id="audit"></div>
+  <h2>Should you gate? (planner)</h2>
+  <small>Per segment: help and harm (%), the better fixed policy and the paired labels that find it, oracle headroom and null_lead (what the best
+  threshold of a score with no signal would lead by on a log of this size, in points); the help-vs-harm AUROC a gate needs to lead that policy by
+  one point (auroc_floor: no score gets there below it; auroc_needed: a score of the usual shape, with its 5–95% range); with signal columns, the
+  AUROC of a benefit gate fitted on the log (out of fold), its ceiling, estimate and lead, in points.</small>
+  <div class="scroll" id="plan"></div>
+  <p id="gate"></p>
+</div>
+<p><small id="footer"></small></p>
+<script src="https://cdn.jsdelivr.net/pyodide/v0.27.3/full/pyodide.js"></script>
+<script>
+const FILES = __FILES__;
+const $ = id => document.getElementById(id);
+const status = (t, err) => { $("status").textContent = t; $("status").className = err ? "err" : ""; };
+const paint = () => new Promise(r => setTimeout(r, 60));
+let py;
+function mdToHtml(t) { return t.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/`([^`]+)`/g, "<code>$1</code>"); }
+async function boot() {
+  try {
+    py = await loadPyodide();
+    status("Loading numpy, pandas, scikit-learn, scipy and matplotlib…");
+    await py.loadPackage(["numpy", "pandas", "scikit-learn", "scipy", "matplotlib"]);
+    status("Loading VGate…");
+    for (const f of FILES) {
+      const r = await fetch("files/" + f); if (!r.ok) throw new Error("could not fetch " + f);
+      const parts = f.split("/"); let d = "";
+      for (const p of parts.slice(0, -1)) { d += (d ? "/" : "") + p; try { py.FS.mkdir(d); } catch (e) {} }
+      py.FS.writeFile(f, new Uint8Array(await r.arrayBuffer()));
+    }
+    await py.runPythonAsync(py.FS.readFile("glue.py", { encoding: "utf8" }));
+    const t = JSON.parse(py.runPython("texts()"));
+    $("help").innerHTML = mdToHtml(t.help); $("audit_label").textContent = t.audit_label; $("footer").textContent = t.footer;
+    for (const id of ["csv", "b1", "b2"]) $(id).disabled = false;
+    status("Ready. Upload a log or load a sample.");
+  } catch (e) { status("Could not start: " + e, true); }
+}
+async function run(path, what) {
+  for (const id of ["csv", "b1", "b2"]) $(id).disabled = true;
+  status("Working on " + what + "… (the page does not respond until it is done)"); await paint();
+  const t0 = performance.now();
+  try {
+    py.globals.set("_path", path);
+    const o = JSON.parse(await py.runPythonAsync("run(_path)"));
+    $("md").textContent = o.md; $("plot").src = "data:image/png;base64," + o.plot;
+    $("audit").innerHTML = o.audit || "<small>No <code>segment</code> column: no audit.</small>"; $("plan").innerHTML = o.plan || "";
+    if (o.gate) {
+      const url = URL.createObjectURL(new Blob([o.gate], { type: "application/json" }));
+      $("gate").innerHTML = '<a download="vgate_benefit_gate.json" href="' + url + '">Download the benefit gate fitted on the whole log (JSON weights)</a>';
+    } else $("gate").textContent = "";
+    $("out").hidden = false;
+    status("Done: " + what + " (" + Math.round((performance.now() - t0) / 1000) + " s).");
+  } catch (e) { status("Failed on " + what + ": " + String(e).split("\n").slice(-3).join(" "), true); }
+  for (const id of ["csv", "b1", "b2"]) $(id).disabled = false;
+}
+$("b1").onclick = () => run("demo/sample_log.csv", "the sample log");
+$("b2").onclick = () => run("demo/sample_log_published.csv", "the published system's log");
+$("csv").onchange = async e => {
+  const f = e.target.files[0]; if (!f) return;
+  py.FS.writeFile("uploaded.csv", new Uint8Array(await f.arrayBuffer())); run("uploaded.csv", f.name); e.target.value = "";
+};
+boot();
+</script>
+</body>
+</html>

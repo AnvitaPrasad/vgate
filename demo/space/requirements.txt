@@ -1,0 +1,8 @@
+# ZeroGPU supports PyTorch 2.8.0 - 2.13.0 (https://huggingface.co/docs/hub/spaces-zerogpu); transformers as in the runs.
+torch==2.11.0
+transformers==5.16.1
+accelerate
+sentence-transformers
+numpy
+pandas
+pillow

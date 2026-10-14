@@ -1,0 +1,3746 @@
+set,reader,row,source,acc_norag,acc_rag,hard,soft,human,prompt,soft_score
+mix,gpt4-o,0,life,0.333333,0.0,1,0,1,0,2.0
+mix,gpt4-o,1,life,0.333333,1.0,1,1,1,0,5.0
+mix,gpt4-o,2,life,0.5,0.5,1,1,1,0,5.0
+mix,gpt4-o,3,life,0.666667,1.0,1,0,1,0,1.0
+mix,gpt4-o,4,life,0.2,0.2,1,1,1,0,5.0
+mix,gpt4-o,5,life,0.0,0.25,1,0,1,0,1.0
+mix,gpt4-o,6,life,0.666667,1.0,1,0,1,0,1.0
+mix,gpt4-o,7,life,0.25,0.0,1,0,1,0,1.0
+mix,gpt4-o,8,life,0.5,1.0,1,0,1,0,1.0
+mix,gpt4-o,9,life,1.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,10,life,1.0,0.5,1,0,0,0,1.0
+mix,gpt4-o,11,life,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,12,life,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,13,life,0.0,0.5,1,0,1,1,1.0
+mix,gpt4-o,14,life,1.0,1.0,1,0,0,0,1.0
+mix,gpt4-o,15,life,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,16,life,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,17,life,0.0,0.0,1,1,1,1,5.0
+mix,gpt4-o,18,life,0.0,0.0,1,0,1,1,1.0
+mix,gpt4-o,19,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,20,life,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,21,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,22,life,0.0,0.0,1,1,1,1,5.0
+mix,gpt4-o,23,life,0.0,1.0,1,0,1,0,2.0
+mix,gpt4-o,24,life,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,25,life,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,26,life,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,27,life,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,28,life,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,29,life,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,30,life,0.333333,0.333333,1,0,0,0,2.0
+mix,gpt4-o,31,life,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,32,life,0.25,0.0,1,0,1,0,1.0
+mix,gpt4-o,33,life,1.0,1.0,1,0,1,0,1.0
+mix,gpt4-o,34,life,1.0,1.0,0,0,1,0,1.0
+mix,gpt4-o,35,life,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,36,life,1.0,1.0,1,0,1,0,1.0
+mix,gpt4-o,37,life,1.0,1.0,1,1,0,1,5.0
+mix,gpt4-o,38,life,0.0,0.0,1,0,0,1,1.0
+mix,gpt4-o,39,life,1.0,0.5,1,1,1,1,5.0
+mix,gpt4-o,40,life,0.5,0.5,0,0,1,0,2.0
+mix,gpt4-o,41,life,0.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,42,life,0.666667,0.666667,1,1,1,0,5.0
+mix,gpt4-o,43,life,0.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,44,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,45,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,46,life,0.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,47,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,48,life,0.5,1.0,1,0,1,0,2.0
+mix,gpt4-o,49,life,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,50,life,0.0,0.0,0,0,1,0,1.0
+mix,gpt4-o,51,life,1.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,52,life,0.0,1.0,1,0,1,0,1.0
+mix,gpt4-o,53,life,1.0,1.0,0,0,1,0,1.0
+mix,gpt4-o,54,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,55,life,1.0,1.0,1,0,1,0,1.0
+mix,gpt4-o,56,life,0.0,0.5,1,1,1,0,5.0
+mix,gpt4-o,57,life,0.0,0.5,1,1,1,0,5.0
+mix,gpt4-o,58,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,59,life,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,60,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,61,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,62,life,0.0,0.0,1,1,1,1,5.0
+mix,gpt4-o,63,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,64,life,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,65,life,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,66,life,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,67,life,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,68,life,0.0,0.0,1,1,1,1,5.0
+mix,gpt4-o,69,life,0.0,0.0,1,1,0,1,5.0
+mix,gpt4-o,70,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,71,life,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,72,life,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,73,life,0.0,0.666667,1,1,1,0,5.0
+mix,gpt4-o,74,life,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,75,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,76,life,0.0,0.333333,1,1,1,0,5.0
+mix,gpt4-o,77,life,1.0,1.0,1,0,1,0,2.0
+mix,gpt4-o,78,life,0.0,0.5,1,1,1,1,5.0
+mix,gpt4-o,79,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,80,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,81,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,82,life,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,83,life,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,84,life,0.5,1.0,1,1,1,0,5.0
+mix,gpt4-o,85,life,0.0,0.5,1,1,1,0,5.0
+mix,gpt4-o,86,life,0.25,1.0,1,1,1,0,5.0
+mix,gpt4-o,87,life,0.666667,1.0,1,1,1,0,5.0
+mix,gpt4-o,88,life,0.333333,0.666667,1,1,1,0,5.0
+mix,gpt4-o,89,life,0.25,1.0,1,1,1,0,5.0
+mix,gpt4-o,90,life,0.4,0.0,1,1,1,0,5.0
+mix,gpt4-o,91,life,1.0,1.0,1,0,0,0,1.0
+mix,gpt4-o,92,life,0.5,0.5,1,1,0,0,5.0
+mix,gpt4-o,93,life,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,94,life,0.333333,0.0,1,1,1,0,5.0
+mix,gpt4-o,95,life,1.0,1.0,1,0,1,0,2.0
+mix,gpt4-o,96,life,1.0,0.666667,1,1,0,0,5.0
+mix,gpt4-o,97,life,1.0,0.5,1,1,1,0,5.0
+mix,gpt4-o,98,life,0.545455,1.0,1,1,1,1,5.0
+mix,gpt4-o,99,life,0.5,0.5,1,1,1,0,5.0
+mix,gpt4-o,100,in-house 2,1.0,1.0,1,0,1,0,1.0
+mix,gpt4-o,101,in-house 2,1.0,1.0,1,1,1,1,5.0
+mix,gpt4-o,102,in-house 2,1.0,1.0,1,1,1,1,4.0
+mix,gpt4-o,103,in-house 2,0.0,0.0,1,1,1,0,4.0
+mix,gpt4-o,104,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,105,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,106,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,107,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,gpt4-o,108,in-house 2,1.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,109,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,110,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,111,in-house 2,0.333333,0.333333,1,1,1,0,5.0
+mix,gpt4-o,112,in-house 2,0.5,0.25,1,1,1,0,5.0
+mix,gpt4-o,113,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,114,in-house 2,1.0,1.0,1,1,1,0,4.0
+mix,gpt4-o,115,in-house 2,0.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,116,in-house 2,0.25,0.0,1,0,1,0,1.0
+mix,gpt4-o,117,in-house 2,0.333333,0.333333,1,1,0,0,5.0
+mix,gpt4-o,118,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,119,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,120,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,121,in-house 2,0.0,0.0,1,1,0,1,5.0
+mix,gpt4-o,122,in-house 2,1.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,123,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,124,in-house 2,0.0,0.5,1,1,1,0,5.0
+mix,gpt4-o,125,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,126,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,127,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,128,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,129,in-house 2,0.0,0.0,1,0,0,0,2.0
+mix,gpt4-o,130,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,131,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,132,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,133,in-house 2,1.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,134,in-house 2,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,135,in-house 2,0.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,136,in-house 2,0.666667,0.666667,1,1,0,0,5.0
+mix,gpt4-o,137,in-house 2,0.0,0.0,1,1,1,0,4.0
+mix,gpt4-o,138,in-house 2,0.5,0.5,1,0,1,0,1.0
+mix,gpt4-o,139,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,140,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,141,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,142,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,143,in-house 2,0.333333,0.666667,1,1,1,0,5.0
+mix,gpt4-o,144,in-house 2,0.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,145,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,146,in-house 2,1.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,147,in-house 2,1.0,0.333333,1,1,1,1,5.0
+mix,gpt4-o,148,in-house 2,0.0,0.0,1,1,0,1,5.0
+mix,gpt4-o,149,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,150,in-house 2,0.5,0.5,1,1,0,0,5.0
+mix,gpt4-o,151,in-house 2,1.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,152,in-house 2,1.0,1.0,1,0,0,0,1.0
+mix,gpt4-o,153,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,154,in-house 2,0.5,0.5,1,1,1,0,5.0
+mix,gpt4-o,155,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,156,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,gpt4-o,157,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,gpt4-o,158,in-house 2,0.666667,0.0,1,1,1,0,5.0
+mix,gpt4-o,159,in-house 2,0.0,0.0,1,0,1,1,1.0
+mix,gpt4-o,160,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,gpt4-o,161,in-house 2,1.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,162,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,163,in-house 2,0.5,0.0,1,0,1,0,1.0
+mix,gpt4-o,164,in-house 2,0.5,0.5,1,1,1,0,5.0
+mix,gpt4-o,165,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,166,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,gpt4-o,167,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,168,in-house 2,0.0,0.0,1,0,1,1,1.0
+mix,gpt4-o,169,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,170,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,171,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,gpt4-o,172,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,173,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,174,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,175,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,176,in-house 2,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,177,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,gpt4-o,178,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,179,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,180,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,181,in-house 2,1.0,1.0,1,1,1,0,4.0
+mix,gpt4-o,182,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,183,in-house 2,0.2,0.2,1,1,1,1,5.0
+mix,gpt4-o,184,in-house 2,1.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,185,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,186,in-house 2,0.5,0.5,1,1,1,0,5.0
+mix,gpt4-o,187,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,188,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,gpt4-o,189,in-house 2,0.0,1.0,1,1,1,1,5.0
+mix,gpt4-o,190,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,191,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,192,in-house 2,0.5,0.0,1,1,0,0,5.0
+mix,gpt4-o,193,in-house 2,0.5,0.5,1,1,0,0,5.0
+mix,gpt4-o,194,in-house 2,0.5,0.5,1,1,1,1,5.0
+mix,gpt4-o,195,in-house 2,1.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,196,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,gpt4-o,197,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,198,in-house 2,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,199,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,200,dyn-vqa zh,0.333333,0.333333,1,1,0,0,5.0
+mix,gpt4-o,201,dyn-vqa zh,0.3,0.3,1,1,0,0,5.0
+mix,gpt4-o,202,dyn-vqa zh,0.5,0.6,1,1,0,0,5.0
+mix,gpt4-o,203,dyn-vqa zh,0.2,0.6,1,1,1,0,5.0
+mix,gpt4-o,204,dyn-vqa zh,0.666667,0.583333,1,1,0,0,5.0
+mix,gpt4-o,205,dyn-vqa zh,0.36,0.36,1,1,1,0,5.0
+mix,gpt4-o,206,dyn-vqa zh,0.0,0.6,1,0,1,0,1.0
+mix,gpt4-o,207,dyn-vqa zh,1.0,0.5,1,1,0,0,5.0
+mix,gpt4-o,208,dyn-vqa zh,0.5,0.454545,1,1,1,0,5.0
+mix,gpt4-o,209,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,210,dyn-vqa zh,0.272727,0.545455,1,1,0,0,5.0
+mix,gpt4-o,211,dyn-vqa zh,0.071429,0.5,1,1,0,0,5.0
+mix,gpt4-o,212,dyn-vqa zh,0.36,0.48,1,1,0,0,5.0
+mix,gpt4-o,213,dyn-vqa zh,0.555556,0.444444,1,1,0,0,5.0
+mix,gpt4-o,214,dyn-vqa zh,0.666667,0.133333,1,1,1,1,5.0
+mix,gpt4-o,215,dyn-vqa zh,0.333333,0.5,1,0,0,0,1.0
+mix,gpt4-o,216,dyn-vqa zh,0.571429,0.5,0,1,1,0,5.0
+mix,gpt4-o,217,dyn-vqa zh,0.0,0.5,1,1,1,0,5.0
+mix,gpt4-o,218,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,219,dyn-vqa zh,0.6,0.4,1,1,0,0,5.0
+mix,gpt4-o,220,dyn-vqa zh,0.0,0.714286,1,1,1,0,5.0
+mix,gpt4-o,221,dyn-vqa zh,0.25,0.0,1,0,0,0,1.0
+mix,gpt4-o,222,dyn-vqa zh,0.0,0.125,1,1,1,0,5.0
+mix,gpt4-o,223,dyn-vqa zh,0.666667,0.833333,1,1,0,0,5.0
+mix,gpt4-o,224,dyn-vqa zh,0.166667,0.0,1,1,0,0,5.0
+mix,gpt4-o,225,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,226,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,227,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,228,dyn-vqa zh,0.333333,0.333333,1,1,0,0,5.0
+mix,gpt4-o,229,dyn-vqa zh,1.0,0.2,1,1,0,0,5.0
+mix,gpt4-o,230,dyn-vqa zh,0.0,0.75,1,0,1,0,2.0
+mix,gpt4-o,231,dyn-vqa zh,0.666667,1.0,1,1,1,1,5.0
+mix,gpt4-o,232,dyn-vqa zh,1.0,0.666667,1,1,0,0,5.0
+mix,gpt4-o,233,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,234,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,235,dyn-vqa zh,0.0,0.666667,1,1,1,0,5.0
+mix,gpt4-o,236,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,237,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,238,dyn-vqa zh,0.0,0.5,1,1,0,0,5.0
+mix,gpt4-o,239,dyn-vqa zh,1.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,240,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,241,dyn-vqa zh,0.166667,0.75,1,1,0,0,5.0
+mix,gpt4-o,242,dyn-vqa zh,1.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,243,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,244,dyn-vqa zh,0.0,0.25,1,1,0,0,5.0
+mix,gpt4-o,245,dyn-vqa zh,1.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,246,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,247,dyn-vqa zh,1.0,1.0,1,0,1,0,3.5
+mix,gpt4-o,248,dyn-vqa zh,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,249,dyn-vqa zh,0.0,0.5,1,1,1,0,5.0
+mix,gpt4-o,250,dyn-vqa zh,0.333333,0.666667,1,0,1,0,1.0
+mix,gpt4-o,251,dyn-vqa zh,1.0,0.0,1,0,0,0,3.5
+mix,gpt4-o,252,dyn-vqa zh,1.0,0.5,1,1,0,0,5.0
+mix,gpt4-o,253,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,254,dyn-vqa zh,0.5,0.0,1,1,1,0,5.0
+mix,gpt4-o,255,dyn-vqa zh,1.0,1.0,1,0,1,0,1.0
+mix,gpt4-o,256,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,257,dyn-vqa zh,0.0,1.0,1,0,1,0,1.0
+mix,gpt4-o,258,dyn-vqa zh,1.0,1.0,0,0,1,0,1.0
+mix,gpt4-o,259,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,260,dyn-vqa zh,1.0,1.0,1,0,0,1,1.0
+mix,gpt4-o,261,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,262,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,263,dyn-vqa zh,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,264,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,265,dyn-vqa zh,1.0,1.0,1,0,1,0,1.0
+mix,gpt4-o,266,dyn-vqa zh,1.0,1.0,1,0,0,0,1.0
+mix,gpt4-o,267,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,268,dyn-vqa zh,0.5,0.333333,1,1,1,0,5.0
+mix,gpt4-o,269,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,270,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,271,dyn-vqa zh,0.333333,1.0,1,1,0,0,5.0
+mix,gpt4-o,272,dyn-vqa zh,0.318182,0.363636,1,1,1,0,5.0
+mix,gpt4-o,273,dyn-vqa zh,0.5,0.25,1,1,0,0,5.0
+mix,gpt4-o,274,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,275,dyn-vqa zh,0.666667,0.666667,0,1,0,0,5.0
+mix,gpt4-o,276,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,277,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,278,dyn-vqa zh,0.857143,0.857143,1,1,1,0,5.0
+mix,gpt4-o,279,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,280,dyn-vqa zh,0.666667,0.666667,1,0,1,0,1.0
+mix,gpt4-o,281,dyn-vqa zh,1.0,0.25,1,0,1,0,1.0
+mix,gpt4-o,282,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,283,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,284,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,gpt4-o,285,dyn-vqa zh,0.333333,0.333333,1,1,1,0,5.0
+mix,gpt4-o,286,dyn-vqa zh,0.0,1.0,0,0,1,0,1.0
+mix,gpt4-o,287,dyn-vqa zh,0.166667,1.0,1,0,0,0,1.0
+mix,gpt4-o,288,dyn-vqa zh,0.5,1.0,0,1,0,0,5.0
+mix,gpt4-o,289,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,290,dyn-vqa zh,0.333333,0.333333,0,0,0,0,1.0
+mix,gpt4-o,291,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,292,dyn-vqa zh,0.0,0.0,1,1,1,1,5.0
+mix,gpt4-o,293,dyn-vqa zh,0.052632,0.052632,1,1,0,0,5.0
+mix,gpt4-o,294,dyn-vqa zh,0.166667,0.166667,1,1,0,0,5.0
+mix,gpt4-o,295,dyn-vqa zh,0.666667,1.0,1,0,0,0,1.0
+mix,gpt4-o,296,dyn-vqa zh,0.0,1.0,1,0,1,0,1.0
+mix,gpt4-o,297,dyn-vqa zh,0.8,0.6,1,1,0,0,5.0
+mix,gpt4-o,298,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,299,dyn-vqa zh,0.75,0.5,1,0,0,0,1.0
+mix,gpt4-o,300,dyn-vqa en,0.0,0.142857,0,1,0,0,5.0
+mix,gpt4-o,301,dyn-vqa en,0.428571,0.571429,1,1,0,0,4.0
+mix,gpt4-o,302,dyn-vqa en,0.285714,0.357143,1,1,1,0,5.0
+mix,gpt4-o,303,dyn-vqa en,0.25,0.333333,1,0,0,0,1.0
+mix,gpt4-o,304,dyn-vqa en,0.0625,0.0,1,1,0,0,5.0
+mix,gpt4-o,305,dyn-vqa en,0.272727,0.181818,1,1,1,0,5.0
+mix,gpt4-o,306,dyn-vqa en,0.37037,0.444444,1,1,0,1,5.0
+mix,gpt4-o,307,dyn-vqa en,0.375,0.5,1,1,1,1,5.0
+mix,gpt4-o,308,dyn-vqa en,0.0,0.0,1,0,1,0,1.0
+mix,gpt4-o,309,dyn-vqa en,0.5,0.5,1,1,0,0,5.0
+mix,gpt4-o,310,dyn-vqa en,0.285714,0.071429,1,1,1,0,5.0
+mix,gpt4-o,311,dyn-vqa en,0.133333,0.2,1,1,0,0,5.0
+mix,gpt4-o,312,dyn-vqa en,0.466667,0.333333,1,1,0,0,5.0
+mix,gpt4-o,313,dyn-vqa en,0.444444,0.444444,1,1,0,1,5.0
+mix,gpt4-o,314,dyn-vqa en,0.285714,0.071429,1,1,0,0,5.0
+mix,gpt4-o,315,dyn-vqa en,0.333333,0.333333,1,0,0,0,2.0
+mix,gpt4-o,316,dyn-vqa en,0.0,0.357143,1,0,0,0,1.0
+mix,gpt4-o,317,dyn-vqa en,0.346154,0.346154,1,1,0,0,5.0
+mix,gpt4-o,318,dyn-vqa en,0.75,0.375,1,1,0,0,5.0
+mix,gpt4-o,319,dyn-vqa en,0.571429,0.571429,1,0,0,0,1.0
+mix,gpt4-o,320,dyn-vqa en,0.363636,0.363636,1,1,0,0,5.0
+mix,gpt4-o,321,dyn-vqa en,0.166667,0.166667,1,0,1,0,1.0
+mix,gpt4-o,322,dyn-vqa en,0.428571,0.142857,1,1,0,0,5.0
+mix,gpt4-o,323,dyn-vqa en,0.2,0.1,0,0,0,0,1.0
+mix,gpt4-o,324,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,325,dyn-vqa en,0.714286,0.714286,1,1,0,0,5.0
+mix,gpt4-o,326,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,gpt4-o,327,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,328,dyn-vqa en,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,329,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,330,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,gpt4-o,331,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,332,dyn-vqa en,0.0,0.0,1,1,1,1,5.0
+mix,gpt4-o,333,dyn-vqa en,1.0,0.75,1,1,0,0,4.0
+mix,gpt4-o,334,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,335,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,336,dyn-vqa en,0.666667,0.666667,1,1,0,0,5.0
+mix,gpt4-o,337,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,338,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,339,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,340,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,341,dyn-vqa en,0.0,0.0,0,1,0,1,5.0
+mix,gpt4-o,342,dyn-vqa en,1.0,1.0,1,1,0,1,5.0
+mix,gpt4-o,343,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,gpt4-o,344,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,345,dyn-vqa en,1.0,1.0,1,0,0,0,3.5
+mix,gpt4-o,346,dyn-vqa en,0.0,0.0,1,0,0,1,1.0
+mix,gpt4-o,347,dyn-vqa en,0.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,348,dyn-vqa en,0.0,0.333333,1,1,0,0,5.0
+mix,gpt4-o,349,dyn-vqa en,0.0,0.0,1,0,1,0,2.0
+mix,gpt4-o,350,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,351,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,352,dyn-vqa en,0.0,0.0,1,0,0,0,3.5
+mix,gpt4-o,353,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,354,dyn-vqa en,0.333333,0.333333,1,1,1,0,5.0
+mix,gpt4-o,355,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,356,dyn-vqa en,1.0,1.0,0,1,0,0,5.0
+mix,gpt4-o,357,dyn-vqa en,0.666667,0.666667,1,0,1,0,1.0
+mix,gpt4-o,358,dyn-vqa en,1.0,1.0,1,0,0,1,1.0
+mix,gpt4-o,359,dyn-vqa en,0.0,0.0,0,0,1,0,1.0
+mix,gpt4-o,360,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,361,dyn-vqa en,0.0,0.0,0,1,0,1,5.0
+mix,gpt4-o,362,dyn-vqa en,0.5,0.5,1,1,0,0,5.0
+mix,gpt4-o,363,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,364,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,365,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,366,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,367,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,368,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,gpt4-o,369,dyn-vqa en,0.5,0.75,0,0,0,0,1.0
+mix,gpt4-o,370,dyn-vqa en,0.5,0.5,1,1,1,0,5.0
+mix,gpt4-o,371,dyn-vqa en,0.0,0.166667,1,1,0,1,5.0
+mix,gpt4-o,372,dyn-vqa en,0.666667,0.666667,1,1,0,0,5.0
+mix,gpt4-o,373,dyn-vqa en,1.0,1.0,1,0,0,0,1.0
+mix,gpt4-o,374,dyn-vqa en,1.0,1.0,1,1,0,0,5.0
+mix,gpt4-o,375,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,376,dyn-vqa en,0.666667,0.666667,1,1,0,0,5.0
+mix,gpt4-o,377,dyn-vqa en,0.333333,0.333333,1,1,0,0,5.0
+mix,gpt4-o,378,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,379,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,380,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,381,dyn-vqa en,0.666667,0.666667,1,1,0,0,5.0
+mix,gpt4-o,382,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,383,dyn-vqa en,0.285714,0.428571,1,1,0,0,5.0
+mix,gpt4-o,384,dyn-vqa en,0.285714,0.714286,0,0,0,0,1.0
+mix,gpt4-o,385,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,386,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,gpt4-o,387,dyn-vqa en,1.0,1.0,1,0,1,0,1.0
+mix,gpt4-o,388,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,389,dyn-vqa en,1.0,1.0,1,0,0,0,1.0
+mix,gpt4-o,390,dyn-vqa en,0.0,0.0,1,1,1,1,5.0
+mix,gpt4-o,391,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,392,dyn-vqa en,0.0,1.0,1,0,0,0,1.0
+mix,gpt4-o,393,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,394,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,395,dyn-vqa en,0.0,0.5,1,1,1,0,5.0
+mix,gpt4-o,396,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,gpt4-o,397,dyn-vqa en,0.2,0.5,1,0,0,0,1.0
+mix,gpt4-o,398,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,399,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,400,nocaps,0.666667,0.666667,1,0,0,0,1.0
+mix,gpt4-o,401,nocaps,0.333333,0.333333,0,0,0,0,1.0
+mix,gpt4-o,402,nocaps,0.4,0.3,1,0,0,0,1.0
+mix,gpt4-o,403,nocaps,0.2,0.2,1,0,0,0,1.0
+mix,gpt4-o,404,nocaps,0.444444,0.333333,0,0,0,0,1.0
+mix,gpt4-o,405,nocaps,0.230769,0.416667,0,0,0,0,1.0
+mix,gpt4-o,406,nocaps,0.666667,0.777778,0,0,0,0,1.0
+mix,gpt4-o,407,nocaps,0.25,0.166667,0,0,0,0,1.0
+mix,gpt4-o,408,nocaps,0.428571,0.285714,0,0,0,0,1.0
+mix,gpt4-o,409,nocaps,0.555556,0.625,1,0,0,0,1.0
+mix,gpt4-o,410,nocaps,0.4,0.4,1,0,0,0,1.0
+mix,gpt4-o,411,nocaps,0.333333,0.333333,1,0,0,0,1.0
+mix,gpt4-o,412,nocaps,0.083333,0.214286,0,0,0,0,1.0
+mix,gpt4-o,413,nocaps,0.285714,0.428571,0,0,0,0,1.0
+mix,gpt4-o,414,nocaps,0.142857,0.357143,1,0,0,0,1.0
+mix,gpt4-o,415,nocaps,0.285714,0.285714,0,0,0,0,1.0
+mix,gpt4-o,416,nocaps,0.3,0.2,1,0,0,0,1.0
+mix,gpt4-o,417,nocaps,0.2,0.3,0,0,0,0,1.0
+mix,gpt4-o,418,nocaps,0.25,0.333333,1,0,0,0,1.0
+mix,gpt4-o,419,nocaps,0.111111,0.454545,0,0,0,0,1.0
+mix,gpt4-o,420,nocaps,0.25,0.25,1,0,0,0,1.0
+mix,gpt4-o,421,nocaps,0.583333,0.666667,0,0,0,0,1.0
+mix,gpt4-o,422,nocaps,0.333333,0.5,0,0,0,0,1.0
+mix,gpt4-o,423,nocaps,0.444444,0.333333,1,0,0,0,1.0
+mix,gpt4-o,424,nocaps,0.416667,0.4,0,0,0,0,1.0
+mix,gpt4-o,425,nocaps,0.375,0.625,0,0,0,0,1.0
+mix,gpt4-o,426,nocaps,0.222222,0.333333,0,0,0,0,1.0
+mix,gpt4-o,427,nocaps,0.363636,0.454545,0,0,0,0,1.0
+mix,gpt4-o,428,nocaps,0.2,0.4375,1,0,0,0,1.0
+mix,gpt4-o,429,nocaps,0.333333,0.444444,1,0,0,0,1.0
+mix,gpt4-o,430,nocaps,0.375,0.375,0,0,0,0,1.0
+mix,gpt4-o,431,nocaps,0.25,0.222222,1,0,0,0,1.0
+mix,gpt4-o,432,nocaps,0.444444,0.444444,0,0,0,0,1.0
+mix,gpt4-o,433,nocaps,0.5,0.4,0,0,0,0,1.0
+mix,gpt4-o,434,nocaps,0.3,0.3,0,0,0,0,1.0
+mix,gpt4-o,435,nocaps,0.3,0.4,0,0,0,0,1.0
+mix,gpt4-o,436,nocaps,0.142857,0.142857,0,0,0,0,1.0
+mix,gpt4-o,437,nocaps,0.4,0.4,0,0,0,0,1.0
+mix,gpt4-o,438,nocaps,0.25,0.375,1,0,0,0,1.0
+mix,gpt4-o,439,nocaps,0.444444,0.444444,1,0,0,0,1.0
+mix,gpt4-o,440,nocaps,0.25,0.333333,1,0,0,0,1.0
+mix,gpt4-o,441,nocaps,0.416667,0.5,0,0,0,0,1.0
+mix,gpt4-o,442,nocaps,0.125,0.375,0,0,0,0,1.0
+mix,gpt4-o,443,nocaps,0.2,0.166667,0,0,0,0,1.0
+mix,gpt4-o,444,nocaps,0.090909,0.333333,1,0,0,0,1.0
+mix,gpt4-o,445,nocaps,0.571429,0.571429,1,0,0,0,1.0
+mix,gpt4-o,446,nocaps,0.25,0.25,1,0,0,0,1.0
+mix,gpt4-o,447,nocaps,0.181818,0.375,0,0,0,0,1.0
+mix,gpt4-o,448,nocaps,0.555556,0.454545,1,0,0,0,1.0
+mix,gpt4-o,449,nocaps,0.333333,0.444444,1,0,0,0,1.0
+mix,gpt4-o,450,nocaps,0.5,0.625,1,0,0,0,1.0
+mix,gpt4-o,451,nocaps,0.375,0.363636,0,0,0,0,1.0
+mix,gpt4-o,452,nocaps,0.4,0.3,0,0,0,0,1.0
+mix,gpt4-o,453,nocaps,0.333333,0.444444,0,0,0,0,1.0
+mix,gpt4-o,454,nocaps,0.375,0.384615,1,0,0,0,1.0
+mix,gpt4-o,455,nocaps,0.222222,0.222222,0,0,0,0,1.0
+mix,gpt4-o,456,nocaps,0.333333,0.333333,0,0,0,0,1.0
+mix,gpt4-o,457,nocaps,0.444444,0.375,0,0,0,0,1.0
+mix,gpt4-o,458,nocaps,0.333333,0.333333,1,0,0,0,1.0
+mix,gpt4-o,459,nocaps,0.375,0.5,0,0,0,0,1.0
+mix,gpt4-o,460,nocaps,0.222222,0.5,0,0,0,0,1.0
+mix,gpt4-o,461,nocaps,0.125,0.25,0,0,0,0,1.0
+mix,gpt4-o,462,nocaps,0.25,0.272727,0,0,0,0,1.0
+mix,gpt4-o,463,nocaps,0.555556,0.666667,0,0,0,0,1.0
+mix,gpt4-o,464,nocaps,0.181818,0.25,1,0,0,0,1.0
+mix,gpt4-o,465,nocaps,0.333333,0.375,1,0,0,0,1.0
+mix,gpt4-o,466,nocaps,0.555556,0.444444,0,0,0,0,1.0
+mix,gpt4-o,467,nocaps,0.1,0.1,0,0,0,0,1.0
+mix,gpt4-o,468,nocaps,0.333333,0.5,0,0,0,0,1.0
+mix,gpt4-o,469,nocaps,0.2,0.5,1,0,0,0,1.0
+mix,gpt4-o,470,nocaps,0.444444,0.333333,0,0,0,0,1.0
+mix,gpt4-o,471,nocaps,0.666667,0.666667,0,0,0,0,1.0
+mix,gpt4-o,472,nocaps,0.125,0.25,1,0,0,0,1.0
+mix,gpt4-o,473,nocaps,0.375,0.125,0,0,0,0,1.0
+mix,gpt4-o,474,nocaps,0.3,0.333333,1,0,0,0,1.0
+mix,gpt4-o,475,nocaps,0.375,0.5,0,0,0,0,1.0
+mix,gpt4-o,476,nocaps,0.2,0.2,0,0,0,0,1.0
+mix,gpt4-o,477,nocaps,0.3,0.3,1,0,0,0,1.0
+mix,gpt4-o,478,nocaps,0.230769,0.307692,0,0,0,0,1.0
+mix,gpt4-o,479,nocaps,0.3,0.3,0,0,0,0,1.0
+mix,gpt4-o,480,nocaps,0.444444,0.384615,1,0,0,0,1.0
+mix,gpt4-o,481,nocaps,0.5,0.3,1,0,0,0,1.0
+mix,gpt4-o,482,nocaps,0.333333,0.416667,1,0,0,0,1.0
+mix,gpt4-o,483,nocaps,0.142857,0.125,1,0,0,0,1.0
+mix,gpt4-o,484,nocaps,0.375,0.375,0,0,0,0,1.0
+mix,gpt4-o,485,nocaps,0.133333,0.333333,0,0,0,0,1.0
+mix,gpt4-o,486,nocaps,0.333333,0.222222,1,0,0,0,1.0
+mix,gpt4-o,487,nocaps,0.222222,0.375,1,0,0,0,1.0
+mix,gpt4-o,488,nocaps,0.416667,0.4,0,0,0,0,1.0
+mix,gpt4-o,489,nocaps,0.222222,0.444444,0,0,0,0,1.0
+mix,gpt4-o,490,nocaps,0.222222,0.222222,1,0,0,0,1.0
+mix,gpt4-o,491,nocaps,0.153846,0.25,1,0,0,0,1.0
+mix,gpt4-o,492,nocaps,0.375,0.5,1,0,0,0,1.0
+mix,gpt4-o,493,nocaps,0.181818,0.166667,0,0,0,0,1.0
+mix,gpt4-o,494,nocaps,0.444444,0.2,0,0,0,0,1.0
+mix,gpt4-o,495,nocaps,0.357143,0.444444,0,0,0,0,1.0
+mix,gpt4-o,496,nocaps,0.3,0.3,1,0,0,0,1.0
+mix,gpt4-o,497,nocaps,0.2,0.4,0,0,0,0,1.0
+mix,gpt4-o,498,nocaps,0.5,0.375,0,0,0,0,1.0
+mix,gpt4-o,499,nocaps,0.3,0.142857,1,0,0,0,1.0
+mix,gpt4-o,500,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,501,visual7w,0.5,0.333333,1,1,0,0,4.0
+mix,gpt4-o,502,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,503,visual7w,1.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,504,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,505,visual7w,1.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,506,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,507,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,508,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,509,visual7w,0.0,0.0,1,0,0,1,1.0
+mix,gpt4-o,510,visual7w,0.0,1.0,0,0,0,0,1.0
+mix,gpt4-o,511,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,gpt4-o,512,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,513,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,514,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,gpt4-o,515,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,gpt4-o,516,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,gpt4-o,517,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,518,visual7w,1.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,519,visual7w,0.666667,0.0,1,0,0,0,1.0
+mix,gpt4-o,520,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,gpt4-o,521,visual7w,1.0,0.0,1,0,0,0,2.0
+mix,gpt4-o,522,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,gpt4-o,523,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,524,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,525,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,526,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,gpt4-o,527,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,gpt4-o,528,visual7w,0.666667,0.666667,0,0,0,0,1.0
+mix,gpt4-o,529,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,530,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,531,visual7w,1.0,1.0,1,1,0,0,4.0
+mix,gpt4-o,532,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,533,visual7w,0.5,0.5,0,0,0,0,1.0
+mix,gpt4-o,534,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,535,visual7w,0.5,0.5,0,1,0,1,4.0
+mix,gpt4-o,536,visual7w,1.0,1.0,1,0,0,1,1.0
+mix,gpt4-o,537,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,538,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,gpt4-o,539,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,540,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,gpt4-o,541,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,542,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,543,visual7w,0.833333,0.166667,1,0,1,1,1.0
+mix,gpt4-o,544,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,gpt4-o,545,visual7w,0.8,0.8,0,0,0,1,1.0
+mix,gpt4-o,546,visual7w,0.5,0.5,0,0,0,1,1.0
+mix,gpt4-o,547,visual7w,0.333333,0.333333,1,1,0,0,5.0
+mix,gpt4-o,548,visual7w,0.0,0.333333,0,0,0,0,1.0
+mix,gpt4-o,549,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,550,visual7w,0.666667,0.666667,0,0,0,0,1.0
+mix,gpt4-o,551,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,552,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,553,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,554,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,555,visual7w,0.5,0.5,1,0,0,0,1.0
+mix,gpt4-o,556,visual7w,1.0,0.0,1,0,0,1,1.0
+mix,gpt4-o,557,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,558,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,559,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,560,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,561,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,562,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,563,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,564,visual7w,0.5,0.5,1,0,0,0,1.0
+mix,gpt4-o,565,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,566,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,567,visual7w,0.666667,0.0,1,0,0,0,1.0
+mix,gpt4-o,568,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,569,visual7w,0.333333,0.333333,0,0,0,0,1.0
+mix,gpt4-o,570,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,571,visual7w,0.25,0.25,1,0,0,0,1.0
+mix,gpt4-o,572,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,573,visual7w,0.8,0.8,1,0,0,0,1.0
+mix,gpt4-o,574,visual7w,1.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,575,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,gpt4-o,576,visual7w,1.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,577,visual7w,0.5,0.0,0,0,0,0,1.0
+mix,gpt4-o,578,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,579,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,gpt4-o,580,visual7w,1.0,1.0,1,1,0,0,4.0
+mix,gpt4-o,581,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,582,visual7w,0.0,1.0,1,0,0,0,1.0
+mix,gpt4-o,583,visual7w,0.5,0.0,1,0,0,0,1.0
+mix,gpt4-o,584,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,585,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,gpt4-o,586,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,gpt4-o,587,visual7w,0.333333,0.333333,1,1,0,0,5.0
+mix,gpt4-o,588,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,589,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,gpt4-o,590,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,gpt4-o,591,visual7w,1.0,1.0,1,0,0,0,1.0
+mix,gpt4-o,592,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,593,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,gpt4-o,594,visual7w,1.0,1.0,1,0,0,0,1.0
+mix,gpt4-o,595,visual7w,0.0,0.0,1,1,0,0,5.0
+mix,gpt4-o,596,visual7w,0.333333,0.5,1,1,0,0,5.0
+mix,gpt4-o,597,visual7w,0.25,0.0,0,0,0,0,1.0
+mix,gpt4-o,598,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,gpt4-o,599,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,0,life,0.0,0.0,1,0,1,0,2.0
+mix,qwen-vl-max,1,life,0.333333,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,2,life,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,3,life,1.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,4,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,5,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,6,life,0.666667,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,7,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,8,life,0.5,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,9,life,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-max,10,life,1.0,0.5,1,0,0,0,1.0
+mix,qwen-vl-max,11,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,12,life,0.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-max,13,life,0.166667,0.0,1,0,1,1,1.0
+mix,qwen-vl-max,14,life,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-max,15,life,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,16,life,0.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,17,life,0.0,1.0,1,1,1,1,5.0
+mix,qwen-vl-max,18,life,0.0,1.0,1,0,1,1,1.0
+mix,qwen-vl-max,19,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,20,life,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,21,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,22,life,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-max,23,life,0.0,1.0,1,0,1,0,2.0
+mix,qwen-vl-max,24,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,25,life,0.333333,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,26,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,27,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,28,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,29,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,30,life,0.0,0.333333,1,0,0,0,2.0
+mix,qwen-vl-max,31,life,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,32,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,33,life,0.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,34,life,0.5,1.0,0,0,1,0,1.0
+mix,qwen-vl-max,35,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,36,life,1.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,37,life,1.0,1.0,1,1,0,1,5.0
+mix,qwen-vl-max,38,life,0.0,0.0,1,0,0,1,1.0
+mix,qwen-vl-max,39,life,0.0,0.5,1,1,1,1,5.0
+mix,qwen-vl-max,40,life,0.5,0.5,0,0,1,0,2.0
+mix,qwen-vl-max,41,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,42,life,0.666667,0.666667,1,1,1,0,5.0
+mix,qwen-vl-max,43,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,44,life,0.166667,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,45,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,46,life,0.666667,0.666667,1,1,1,0,5.0
+mix,qwen-vl-max,47,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,48,life,0.5,0.5,1,0,1,0,2.0
+mix,qwen-vl-max,49,life,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,50,life,0.0,0.0,0,0,1,0,1.0
+mix,qwen-vl-max,51,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,52,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,53,life,0.5,0.5,0,0,1,0,1.0
+mix,qwen-vl-max,54,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,55,life,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,56,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,57,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,58,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,59,life,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,60,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,61,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,62,life,0.0,1.0,1,1,1,1,5.0
+mix,qwen-vl-max,63,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,64,life,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,65,life,0.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,66,life,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,67,life,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,68,life,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-max,69,life,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-max,70,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,71,life,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,72,life,0.4,0.2,1,0,1,0,1.0
+mix,qwen-vl-max,73,life,0.666667,0.666667,1,1,1,0,5.0
+mix,qwen-vl-max,74,life,0.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-max,75,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,76,life,0.0,0.666667,1,1,1,0,5.0
+mix,qwen-vl-max,77,life,1.0,1.0,1,0,1,0,2.0
+mix,qwen-vl-max,78,life,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-max,79,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,80,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,81,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,82,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,83,life,0.5,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,84,life,0.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,85,life,0.25,0.25,1,1,1,0,5.0
+mix,qwen-vl-max,86,life,0.75,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,87,life,0.333333,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,88,life,0.333333,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,89,life,0.25,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,90,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,91,life,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-max,92,life,0.5,0.5,1,1,0,0,5.0
+mix,qwen-vl-max,93,life,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,94,life,0.333333,0.333333,1,1,1,0,5.0
+mix,qwen-vl-max,95,life,0.0,1.0,1,0,1,0,2.0
+mix,qwen-vl-max,96,life,1.0,0.666667,1,1,0,0,5.0
+mix,qwen-vl-max,97,life,0.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,98,life,1.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-max,99,life,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,100,in-house 2,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,101,in-house 2,1.0,1.0,1,1,1,1,5.0
+mix,qwen-vl-max,102,in-house 2,1.0,0.333333,1,1,1,1,4.0
+mix,qwen-vl-max,103,in-house 2,0.0,0.0,1,1,1,0,4.0
+mix,qwen-vl-max,104,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,105,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,106,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,107,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-max,108,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,109,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,110,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,111,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,112,in-house 2,0.75,0.75,1,1,1,0,5.0
+mix,qwen-vl-max,113,in-house 2,1.0,0.2,1,1,1,0,5.0
+mix,qwen-vl-max,114,in-house 2,0.0,0.0,1,1,1,0,4.0
+mix,qwen-vl-max,115,in-house 2,1.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,116,in-house 2,1.0,0.5,1,0,1,0,1.0
+mix,qwen-vl-max,117,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,118,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,119,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,120,in-house 2,1.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,121,in-house 2,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-max,122,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,123,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,124,in-house 2,0.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,125,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,126,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,127,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,128,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,129,in-house 2,0.0,0.0,1,0,0,0,2.0
+mix,qwen-vl-max,130,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,131,in-house 2,1.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,132,in-house 2,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,133,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,134,in-house 2,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,135,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,136,in-house 2,0.666667,0.333333,1,1,0,0,5.0
+mix,qwen-vl-max,137,in-house 2,0.0,0.0,1,1,1,0,4.0
+mix,qwen-vl-max,138,in-house 2,0.5,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,139,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,140,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,141,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,142,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,143,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,144,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,145,in-house 2,1.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,146,in-house 2,1.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,147,in-house 2,0.666667,0.333333,1,1,1,1,5.0
+mix,qwen-vl-max,148,in-house 2,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-max,149,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,150,in-house 2,0.5,0.5,1,1,0,0,5.0
+mix,qwen-vl-max,151,in-house 2,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,152,in-house 2,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-max,153,in-house 2,0.333333,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,154,in-house 2,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,155,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,156,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,qwen-vl-max,157,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-max,158,in-house 2,0.666667,0.666667,1,1,1,0,5.0
+mix,qwen-vl-max,159,in-house 2,0.0,1.0,1,0,1,1,1.0
+mix,qwen-vl-max,160,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-max,161,in-house 2,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,162,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,163,in-house 2,0.5,0.5,1,0,1,0,1.0
+mix,qwen-vl-max,164,in-house 2,1.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,165,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,166,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,qwen-vl-max,167,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,168,in-house 2,0.0,0.0,1,0,1,1,1.0
+mix,qwen-vl-max,169,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,170,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,171,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,qwen-vl-max,172,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,173,in-house 2,0.5,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,174,in-house 2,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,175,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,176,in-house 2,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,177,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-max,178,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,179,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,180,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,181,in-house 2,0.0,0.0,1,1,1,0,4.0
+mix,qwen-vl-max,182,in-house 2,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,183,in-house 2,0.2,0.2,1,1,1,1,5.0
+mix,qwen-vl-max,184,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,185,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,186,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,187,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,188,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-max,189,in-house 2,0.0,1.0,1,1,1,1,5.0
+mix,qwen-vl-max,190,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,191,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,192,in-house 2,0.5,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,193,in-house 2,0.0,0.5,1,1,0,0,5.0
+mix,qwen-vl-max,194,in-house 2,0.5,0.5,1,1,1,1,5.0
+mix,qwen-vl-max,195,in-house 2,1.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,196,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,qwen-vl-max,197,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,198,in-house 2,0.5,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,199,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,200,dyn-vqa zh,0.333333,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,201,dyn-vqa zh,0.3,0.3,1,1,0,0,5.0
+mix,qwen-vl-max,202,dyn-vqa zh,0.3,0.2,1,1,0,0,5.0
+mix,qwen-vl-max,203,dyn-vqa zh,0.2,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,204,dyn-vqa zh,0.25,0.5,1,1,0,0,5.0
+mix,qwen-vl-max,205,dyn-vqa zh,0.24,0.32,1,1,1,0,5.0
+mix,qwen-vl-max,206,dyn-vqa zh,0.4,0.6,1,0,1,0,1.0
+mix,qwen-vl-max,207,dyn-vqa zh,0.666667,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,208,dyn-vqa zh,0.227273,0.227273,1,1,1,0,5.0
+mix,qwen-vl-max,209,dyn-vqa zh,0.363636,0.285714,1,1,1,0,5.0
+mix,qwen-vl-max,210,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,211,dyn-vqa zh,0.214286,0.214286,1,1,0,0,5.0
+mix,qwen-vl-max,212,dyn-vqa zh,0.36,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,213,dyn-vqa zh,0.222222,0.333333,1,1,0,0,5.0
+mix,qwen-vl-max,214,dyn-vqa zh,0.133333,0.0,1,1,1,1,5.0
+mix,qwen-vl-max,215,dyn-vqa zh,0.0,0.333333,1,0,0,0,1.0
+mix,qwen-vl-max,216,dyn-vqa zh,0.571429,0.0,0,1,1,0,5.0
+mix,qwen-vl-max,217,dyn-vqa zh,0.416667,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,218,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,219,dyn-vqa zh,0.4,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,220,dyn-vqa zh,0.428571,0.428571,1,1,1,0,5.0
+mix,qwen-vl-max,221,dyn-vqa zh,0.25,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,222,dyn-vqa zh,0.25,0.875,1,1,1,0,5.0
+mix,qwen-vl-max,223,dyn-vqa zh,0.833333,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,224,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,225,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,226,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,227,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,228,dyn-vqa zh,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-max,229,dyn-vqa zh,1.0,0.2,1,1,0,0,5.0
+mix,qwen-vl-max,230,dyn-vqa zh,0.0,0.75,1,0,1,0,2.0
+mix,qwen-vl-max,231,dyn-vqa zh,0.333333,1.0,1,1,1,1,5.0
+mix,qwen-vl-max,232,dyn-vqa zh,0.666667,0.666667,1,1,0,0,5.0
+mix,qwen-vl-max,233,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,234,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,235,dyn-vqa zh,0.5,0.666667,1,1,1,0,5.0
+mix,qwen-vl-max,236,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,237,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,238,dyn-vqa zh,0.0,0.5,1,1,0,0,5.0
+mix,qwen-vl-max,239,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,240,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,241,dyn-vqa zh,0.5,0.666667,1,1,0,0,5.0
+mix,qwen-vl-max,242,dyn-vqa zh,1.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,243,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,244,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,245,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,246,dyn-vqa zh,0.25,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,247,dyn-vqa zh,0.5,1.0,1,0,1,0,3.5
+mix,qwen-vl-max,248,dyn-vqa zh,1.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,249,dyn-vqa zh,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,250,dyn-vqa zh,0.333333,0.666667,1,0,1,0,1.0
+mix,qwen-vl-max,251,dyn-vqa zh,1.0,0.5,1,0,0,0,3.5
+mix,qwen-vl-max,252,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,253,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,254,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,255,dyn-vqa zh,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,256,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,257,dyn-vqa zh,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,258,dyn-vqa zh,0.5,0.5,0,0,1,0,1.0
+mix,qwen-vl-max,259,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,260,dyn-vqa zh,0.0,1.0,1,0,0,1,1.0
+mix,qwen-vl-max,261,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,262,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,263,dyn-vqa zh,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,264,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,265,dyn-vqa zh,0.333333,0.666667,1,0,1,0,1.0
+mix,qwen-vl-max,266,dyn-vqa zh,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-max,267,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,268,dyn-vqa zh,0.166667,0.333333,1,1,1,0,5.0
+mix,qwen-vl-max,269,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,270,dyn-vqa zh,0.333333,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,271,dyn-vqa zh,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-max,272,dyn-vqa zh,0.090909,0.454545,1,1,1,0,5.0
+mix,qwen-vl-max,273,dyn-vqa zh,0.25,0.25,1,1,0,0,5.0
+mix,qwen-vl-max,274,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,275,dyn-vqa zh,0.0,0.0,0,1,0,0,5.0
+mix,qwen-vl-max,276,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,277,dyn-vqa zh,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,278,dyn-vqa zh,0.0,0.857143,1,1,1,0,5.0
+mix,qwen-vl-max,279,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,280,dyn-vqa zh,0.666667,0.666667,1,0,1,0,1.0
+mix,qwen-vl-max,281,dyn-vqa zh,0.8,0.25,1,0,1,0,1.0
+mix,qwen-vl-max,282,dyn-vqa zh,0.333333,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,283,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,284,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-max,285,dyn-vqa zh,0.333333,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,286,dyn-vqa zh,0.5,1.0,0,0,1,0,1.0
+mix,qwen-vl-max,287,dyn-vqa zh,0.166667,0.5,1,0,0,0,1.0
+mix,qwen-vl-max,288,dyn-vqa zh,1.0,0.0,0,1,0,0,5.0
+mix,qwen-vl-max,289,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,290,dyn-vqa zh,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,291,dyn-vqa zh,0.0,0.666667,1,1,1,0,5.0
+mix,qwen-vl-max,292,dyn-vqa zh,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-max,293,dyn-vqa zh,0.052632,0.263158,1,1,0,0,5.0
+mix,qwen-vl-max,294,dyn-vqa zh,0.166667,0.166667,1,1,0,0,5.0
+mix,qwen-vl-max,295,dyn-vqa zh,0.0,0.5,1,0,0,0,1.0
+mix,qwen-vl-max,296,dyn-vqa zh,0.1,1.0,1,0,1,0,1.0
+mix,qwen-vl-max,297,dyn-vqa zh,0.6,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,298,dyn-vqa zh,0.2,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,299,dyn-vqa zh,0.0,0.5,1,0,0,0,1.0
+mix,qwen-vl-max,300,dyn-vqa en,0.428571,0.142857,0,1,0,0,5.0
+mix,qwen-vl-max,301,dyn-vqa en,0.571429,0.0,1,1,0,0,4.0
+mix,qwen-vl-max,302,dyn-vqa en,0.357143,0.285714,1,1,1,0,5.0
+mix,qwen-vl-max,303,dyn-vqa en,0.166667,0.083333,1,0,0,0,1.0
+mix,qwen-vl-max,304,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,305,dyn-vqa en,0.090909,0.090909,1,1,1,0,5.0
+mix,qwen-vl-max,306,dyn-vqa en,0.296296,0.0,1,1,0,1,5.0
+mix,qwen-vl-max,307,dyn-vqa en,0.25,0.25,1,1,1,1,5.0
+mix,qwen-vl-max,308,dyn-vqa en,0.6,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,309,dyn-vqa en,0.5,0.5,1,1,0,0,5.0
+mix,qwen-vl-max,310,dyn-vqa en,0.357143,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,311,dyn-vqa en,0.133333,0.133333,1,1,0,0,5.0
+mix,qwen-vl-max,312,dyn-vqa en,0.333333,0.4,1,1,0,0,5.0
+mix,qwen-vl-max,313,dyn-vqa en,0.111111,0.388889,1,1,0,1,5.0
+mix,qwen-vl-max,314,dyn-vqa en,0.214286,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,315,dyn-vqa en,0.166667,0.0,1,0,0,0,2.0
+mix,qwen-vl-max,316,dyn-vqa en,0.071429,0.357143,1,0,0,0,1.0
+mix,qwen-vl-max,317,dyn-vqa en,0.384615,0.076923,1,1,0,0,5.0
+mix,qwen-vl-max,318,dyn-vqa en,0.75,0.375,1,1,0,0,5.0
+mix,qwen-vl-max,319,dyn-vqa en,0.428571,0.571429,1,0,0,0,1.0
+mix,qwen-vl-max,320,dyn-vqa en,0.181818,0.090909,1,1,0,0,5.0
+mix,qwen-vl-max,321,dyn-vqa en,0.166667,0.166667,1,0,1,0,1.0
+mix,qwen-vl-max,322,dyn-vqa en,0.142857,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,323,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,324,dyn-vqa en,0.25,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,325,dyn-vqa en,0.571429,0.714286,1,1,0,0,5.0
+mix,qwen-vl-max,326,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-max,327,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,328,dyn-vqa en,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,329,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,330,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-max,331,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,332,dyn-vqa en,0.0,0.25,1,1,1,1,5.0
+mix,qwen-vl-max,333,dyn-vqa en,1.0,0.75,1,1,0,0,4.0
+mix,qwen-vl-max,334,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,335,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,336,dyn-vqa en,0.666667,0.666667,1,1,0,0,5.0
+mix,qwen-vl-max,337,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,338,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,339,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,340,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,341,dyn-vqa en,0.0,0.0,0,1,0,1,5.0
+mix,qwen-vl-max,342,dyn-vqa en,0.0,1.0,1,1,0,1,5.0
+mix,qwen-vl-max,343,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-max,344,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,345,dyn-vqa en,0.0,1.0,1,0,0,0,3.5
+mix,qwen-vl-max,346,dyn-vqa en,0.0,0.0,1,0,0,1,1.0
+mix,qwen-vl-max,347,dyn-vqa en,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,348,dyn-vqa en,0.0,0.333333,1,1,0,0,5.0
+mix,qwen-vl-max,349,dyn-vqa en,0.0,0.0,1,0,1,0,2.0
+mix,qwen-vl-max,350,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,351,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,352,dyn-vqa en,1.0,0.0,1,0,0,0,3.5
+mix,qwen-vl-max,353,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,354,dyn-vqa en,0.333333,0.333333,1,1,1,0,5.0
+mix,qwen-vl-max,355,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,356,dyn-vqa en,1.0,1.0,0,1,0,0,5.0
+mix,qwen-vl-max,357,dyn-vqa en,0.666667,0.666667,1,0,1,0,1.0
+mix,qwen-vl-max,358,dyn-vqa en,1.0,1.0,1,0,0,1,1.0
+mix,qwen-vl-max,359,dyn-vqa en,0.0,0.0,0,0,1,0,1.0
+mix,qwen-vl-max,360,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,361,dyn-vqa en,0.0,0.0,0,1,0,1,5.0
+mix,qwen-vl-max,362,dyn-vqa en,0.5,0.5,1,1,0,0,5.0
+mix,qwen-vl-max,363,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,364,dyn-vqa en,0.25,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,365,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,366,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,367,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,368,dyn-vqa en,0.2,0.0,1,1,0,1,5.0
+mix,qwen-vl-max,369,dyn-vqa en,0.5,0.25,0,0,0,0,1.0
+mix,qwen-vl-max,370,dyn-vqa en,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,371,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-max,372,dyn-vqa en,0.0,0.666667,1,1,0,0,5.0
+mix,qwen-vl-max,373,dyn-vqa en,0.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-max,374,dyn-vqa en,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-max,375,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,376,dyn-vqa en,0.666667,0.666667,1,1,0,0,5.0
+mix,qwen-vl-max,377,dyn-vqa en,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-max,378,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,379,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,380,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,381,dyn-vqa en,0.666667,0.666667,1,1,0,0,5.0
+mix,qwen-vl-max,382,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,383,dyn-vqa en,0.285714,0.285714,1,1,0,0,5.0
+mix,qwen-vl-max,384,dyn-vqa en,0.285714,0.285714,0,0,0,0,1.0
+mix,qwen-vl-max,385,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,386,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-max,387,dyn-vqa en,0.333333,0.0,1,0,1,0,1.0
+mix,qwen-vl-max,388,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,389,dyn-vqa en,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-max,390,dyn-vqa en,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-max,391,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,392,dyn-vqa en,0.125,1.0,1,0,0,0,1.0
+mix,qwen-vl-max,393,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,394,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,395,dyn-vqa en,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-max,396,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-max,397,dyn-vqa en,0.5,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,398,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,399,dyn-vqa en,0.047619,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,400,nocaps,0.666667,0.555556,1,0,0,0,1.0
+mix,qwen-vl-max,401,nocaps,0.461538,0.555556,0,0,0,0,1.0
+mix,qwen-vl-max,402,nocaps,0.375,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,403,nocaps,0.466667,0.363636,1,0,0,0,1.0
+mix,qwen-vl-max,404,nocaps,0.333333,0.285714,0,0,0,0,1.0
+mix,qwen-vl-max,405,nocaps,0.111111,0.583333,0,0,0,0,1.0
+mix,qwen-vl-max,406,nocaps,0.666667,0.777778,0,0,0,0,1.0
+mix,qwen-vl-max,407,nocaps,0.071429,0.142857,0,0,0,0,1.0
+mix,qwen-vl-max,408,nocaps,0.428571,0.285714,0,0,0,0,1.0
+mix,qwen-vl-max,409,nocaps,0.625,0.625,1,0,0,0,1.0
+mix,qwen-vl-max,410,nocaps,0.4,0.375,1,0,0,0,1.0
+mix,qwen-vl-max,411,nocaps,0.333333,0.222222,1,0,0,0,1.0
+mix,qwen-vl-max,412,nocaps,0.285714,0.166667,0,0,0,0,1.0
+mix,qwen-vl-max,413,nocaps,0.083333,0.25,0,0,0,0,1.0
+mix,qwen-vl-max,414,nocaps,0.307692,0.307692,1,0,0,0,1.0
+mix,qwen-vl-max,415,nocaps,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,416,nocaps,0.444444,0.285714,1,0,0,0,1.0
+mix,qwen-vl-max,417,nocaps,0.230769,0.3,0,0,0,0,1.0
+mix,qwen-vl-max,418,nocaps,0.25,0.333333,1,0,0,0,1.0
+mix,qwen-vl-max,419,nocaps,0.222222,0.333333,0,0,0,0,1.0
+mix,qwen-vl-max,420,nocaps,0.444444,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,421,nocaps,0.666667,0.583333,0,0,0,0,1.0
+mix,qwen-vl-max,422,nocaps,0.25,0.25,0,0,0,0,1.0
+mix,qwen-vl-max,423,nocaps,0.444444,0.444444,1,0,0,0,1.0
+mix,qwen-vl-max,424,nocaps,0.333333,0.25,0,0,0,0,1.0
+mix,qwen-vl-max,425,nocaps,0.625,0.375,0,0,0,0,1.0
+mix,qwen-vl-max,426,nocaps,0.0,0.333333,0,0,0,0,1.0
+mix,qwen-vl-max,427,nocaps,0.272727,0.454545,0,0,0,0,1.0
+mix,qwen-vl-max,428,nocaps,0.2,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,429,nocaps,0.25,0.333333,1,0,0,0,1.0
+mix,qwen-vl-max,430,nocaps,0.3,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,431,nocaps,0.25,0.25,1,0,0,0,1.0
+mix,qwen-vl-max,432,nocaps,0.555556,0.333333,0,0,0,0,1.0
+mix,qwen-vl-max,433,nocaps,0.4,0.4,0,0,0,0,1.0
+mix,qwen-vl-max,434,nocaps,0.4,0.2,0,0,0,0,1.0
+mix,qwen-vl-max,435,nocaps,0.3,0.125,0,0,0,0,1.0
+mix,qwen-vl-max,436,nocaps,0.142857,0.142857,0,0,0,0,1.0
+mix,qwen-vl-max,437,nocaps,0.4,0.5,0,0,0,0,1.0
+mix,qwen-vl-max,438,nocaps,0.3,0.2,1,0,0,0,1.0
+mix,qwen-vl-max,439,nocaps,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-max,440,nocaps,0.333333,0.2,1,0,0,0,1.0
+mix,qwen-vl-max,441,nocaps,0.5,0.5,0,0,0,0,1.0
+mix,qwen-vl-max,442,nocaps,0.375,0.375,0,0,0,0,1.0
+mix,qwen-vl-max,443,nocaps,0.5,0.5,0,0,0,0,1.0
+mix,qwen-vl-max,444,nocaps,0.125,0.555556,1,0,0,0,1.0
+mix,qwen-vl-max,445,nocaps,0.3,0.2,1,0,0,0,1.0
+mix,qwen-vl-max,446,nocaps,0.25,0.375,1,0,0,0,1.0
+mix,qwen-vl-max,447,nocaps,0.375,0.214286,0,0,0,0,1.0
+mix,qwen-vl-max,448,nocaps,0.375,0.666667,1,0,0,0,1.0
+mix,qwen-vl-max,449,nocaps,0.333333,0.375,1,0,0,0,1.0
+mix,qwen-vl-max,450,nocaps,0.625,0.272727,1,0,0,0,1.0
+mix,qwen-vl-max,451,nocaps,0.363636,0.272727,0,0,0,0,1.0
+mix,qwen-vl-max,452,nocaps,0.333333,0.222222,0,0,0,0,1.0
+mix,qwen-vl-max,453,nocaps,0.555556,0.666667,0,0,0,0,1.0
+mix,qwen-vl-max,454,nocaps,0.375,0.375,1,0,0,0,1.0
+mix,qwen-vl-max,455,nocaps,0.222222,0.3,0,0,0,0,1.0
+mix,qwen-vl-max,456,nocaps,0.272727,0.363636,0,0,0,0,1.0
+mix,qwen-vl-max,457,nocaps,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,458,nocaps,0.555556,0.555556,1,0,0,0,1.0
+mix,qwen-vl-max,459,nocaps,0.181818,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,460,nocaps,0.272727,0.25,0,0,0,0,1.0
+mix,qwen-vl-max,461,nocaps,0.25,0.222222,0,0,0,0,1.0
+mix,qwen-vl-max,462,nocaps,0.625,0.5,0,0,0,0,1.0
+mix,qwen-vl-max,463,nocaps,0.555556,0.555556,0,0,0,0,1.0
+mix,qwen-vl-max,464,nocaps,0.181818,0.363636,1,0,0,0,1.0
+mix,qwen-vl-max,465,nocaps,0.333333,0.142857,1,0,0,0,1.0
+mix,qwen-vl-max,466,nocaps,0.0,0.555556,0,0,0,0,1.0
+mix,qwen-vl-max,467,nocaps,0.125,0.3,0,0,0,0,1.0
+mix,qwen-vl-max,468,nocaps,0.333333,0.214286,0,0,0,0,1.0
+mix,qwen-vl-max,469,nocaps,0.5,0.4,1,0,0,0,1.0
+mix,qwen-vl-max,470,nocaps,0.555556,0.555556,0,0,0,0,1.0
+mix,qwen-vl-max,471,nocaps,0.571429,0.294118,0,0,0,0,1.0
+mix,qwen-vl-max,472,nocaps,0.333333,0.285714,1,0,0,0,1.0
+mix,qwen-vl-max,473,nocaps,0.375,0.5,0,0,0,0,1.0
+mix,qwen-vl-max,474,nocaps,0.3,0.363636,1,0,0,0,1.0
+mix,qwen-vl-max,475,nocaps,0.454545,0.090909,0,0,0,0,1.0
+mix,qwen-vl-max,476,nocaps,0.4,0.133333,0,0,0,0,1.0
+mix,qwen-vl-max,477,nocaps,0.4,0.222222,1,0,0,0,1.0
+mix,qwen-vl-max,478,nocaps,0.153846,0.538462,0,0,0,0,1.0
+mix,qwen-vl-max,479,nocaps,0.333333,0.375,0,0,0,0,1.0
+mix,qwen-vl-max,480,nocaps,0.384615,0.555556,1,0,0,0,1.0
+mix,qwen-vl-max,481,nocaps,0.5,0.6,1,0,0,0,1.0
+mix,qwen-vl-max,482,nocaps,0.416667,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,483,nocaps,0.125,0.142857,1,0,0,0,1.0
+mix,qwen-vl-max,484,nocaps,0.375,0.375,0,0,0,0,1.0
+mix,qwen-vl-max,485,nocaps,0.111111,0.125,0,0,0,0,1.0
+mix,qwen-vl-max,486,nocaps,0.3,0.444444,1,0,0,0,1.0
+mix,qwen-vl-max,487,nocaps,0.25,0.111111,1,0,0,0,1.0
+mix,qwen-vl-max,488,nocaps,0.454545,0.333333,0,0,0,0,1.0
+mix,qwen-vl-max,489,nocaps,0.222222,0.333333,0,0,0,0,1.0
+mix,qwen-vl-max,490,nocaps,0.454545,0.222222,1,0,0,0,1.0
+mix,qwen-vl-max,491,nocaps,0.125,0.75,1,0,0,0,1.0
+mix,qwen-vl-max,492,nocaps,0.444444,0.25,1,0,0,0,1.0
+mix,qwen-vl-max,493,nocaps,0.333333,0.307692,0,0,0,0,1.0
+mix,qwen-vl-max,494,nocaps,0.461538,0.4,0,0,0,0,1.0
+mix,qwen-vl-max,495,nocaps,0.285714,0.333333,0,0,0,0,1.0
+mix,qwen-vl-max,496,nocaps,0.333333,0.333333,1,0,0,0,1.0
+mix,qwen-vl-max,497,nocaps,0.4,0.444444,0,0,0,0,1.0
+mix,qwen-vl-max,498,nocaps,0.375,0.25,0,0,0,0,1.0
+mix,qwen-vl-max,499,nocaps,0.666667,0.3,1,0,0,0,1.0
+mix,qwen-vl-max,500,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-max,501,visual7w,0.333333,0.5,1,1,0,0,4.0
+mix,qwen-vl-max,502,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,503,visual7w,1.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-max,504,visual7w,0.0,0.5,0,0,0,1,1.0
+mix,qwen-vl-max,505,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-max,506,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,507,visual7w,0.333333,0.333333,1,0,0,0,1.0
+mix,qwen-vl-max,508,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,509,visual7w,0.0,0.0,1,0,0,1,1.0
+mix,qwen-vl-max,510,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-max,511,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-max,512,visual7w,0.5,0.5,0,0,0,1,1.0
+mix,qwen-vl-max,513,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-max,514,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-max,515,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-max,516,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-max,517,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,518,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-max,519,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-max,520,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-max,521,visual7w,1.0,0.5,1,0,0,0,2.0
+mix,qwen-vl-max,522,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-max,523,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-max,524,visual7w,0.0,0.5,0,0,0,0,1.0
+mix,qwen-vl-max,525,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,526,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-max,527,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-max,528,visual7w,0.666667,0.666667,0,0,0,0,1.0
+mix,qwen-vl-max,529,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,530,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,531,visual7w,1.0,1.0,1,1,0,0,4.0
+mix,qwen-vl-max,532,visual7w,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-max,533,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,534,visual7w,0.5,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,535,visual7w,0.5,0.0,0,1,0,1,4.0
+mix,qwen-vl-max,536,visual7w,1.0,1.0,1,0,0,1,1.0
+mix,qwen-vl-max,537,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,538,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-max,539,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-max,540,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-max,541,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-max,542,visual7w,1.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,543,visual7w,0.833333,0.833333,1,0,1,1,1.0
+mix,qwen-vl-max,544,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-max,545,visual7w,0.8,0.8,0,0,0,1,1.0
+mix,qwen-vl-max,546,visual7w,0.5,0.5,0,0,0,1,1.0
+mix,qwen-vl-max,547,visual7w,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-max,548,visual7w,0.0,0.333333,0,0,0,0,1.0
+mix,qwen-vl-max,549,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,550,visual7w,0.666667,0.666667,0,0,0,0,1.0
+mix,qwen-vl-max,551,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,552,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,553,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,554,visual7w,0.333333,0.333333,1,0,0,0,1.0
+mix,qwen-vl-max,555,visual7w,1.0,0.5,1,0,0,0,1.0
+mix,qwen-vl-max,556,visual7w,1.0,0.0,1,0,0,1,1.0
+mix,qwen-vl-max,557,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,558,visual7w,0.333333,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,559,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-max,560,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-max,561,visual7w,0.5,0.5,0,0,0,0,1.0
+mix,qwen-vl-max,562,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,563,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-max,564,visual7w,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-max,565,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,566,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-max,567,visual7w,0.333333,0.333333,1,0,0,0,1.0
+mix,qwen-vl-max,568,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,569,visual7w,0.666667,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,570,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-max,571,visual7w,0.25,0.25,1,0,0,0,1.0
+mix,qwen-vl-max,572,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,573,visual7w,0.6,0.4,1,0,0,0,1.0
+mix,qwen-vl-max,574,visual7w,1.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,575,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-max,576,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-max,577,visual7w,0.5,0.5,0,0,0,0,1.0
+mix,qwen-vl-max,578,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,579,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-max,580,visual7w,1.0,1.0,1,1,0,0,4.0
+mix,qwen-vl-max,581,visual7w,0.333333,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,582,visual7w,1.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,583,visual7w,0.375,0.25,1,0,0,0,1.0
+mix,qwen-vl-max,584,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-max,585,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-max,586,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-max,587,visual7w,0.0,0.333333,1,1,0,0,5.0
+mix,qwen-vl-max,588,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,589,visual7w,0.666667,0.333333,1,0,0,0,1.0
+mix,qwen-vl-max,590,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-max,591,visual7w,1.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-max,592,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-max,593,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-max,594,visual7w,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-max,595,visual7w,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-max,596,visual7w,0.333333,0.166667,1,1,0,0,5.0
+mix,qwen-vl-max,597,visual7w,0.25,0.25,0,0,0,0,1.0
+mix,qwen-vl-max,598,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-max,599,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,0,life,0.0,0.0,1,0,1,0,2.0
+mix,qwen-vl-2,1,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,2,life,0.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-2,3,life,0.666667,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,4,life,0.0,0.2,1,1,1,0,5.0
+mix,qwen-vl-2,5,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,6,life,0.666667,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,7,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,8,life,0.5,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,9,life,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-2,10,life,1.0,0.5,1,0,0,0,1.0
+mix,qwen-vl-2,11,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,12,life,0.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-2,13,life,0.0,0.0,1,0,1,1,1.0
+mix,qwen-vl-2,14,life,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-2,15,life,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,16,life,0.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,17,life,0.0,1.0,1,1,1,1,5.0
+mix,qwen-vl-2,18,life,0.0,1.0,1,0,1,1,1.0
+mix,qwen-vl-2,19,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,20,life,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,21,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,22,life,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,23,life,0.0,1.0,1,0,1,0,2.0
+mix,qwen-vl-2,24,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,25,life,0.333333,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,26,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,27,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,28,life,0.25,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,29,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,30,life,0.0,0.0,1,0,0,0,2.0
+mix,qwen-vl-2,31,life,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,32,life,0.25,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,33,life,0.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,34,life,0.5,1.0,0,0,1,0,1.0
+mix,qwen-vl-2,35,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,36,life,1.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,37,life,1.0,1.0,1,1,0,1,5.0
+mix,qwen-vl-2,38,life,0.0,0.0,1,0,0,1,1.0
+mix,qwen-vl-2,39,life,0.0,0.5,1,1,1,1,5.0
+mix,qwen-vl-2,40,life,0.5,0.5,0,0,1,0,2.0
+mix,qwen-vl-2,41,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,42,life,0.666667,0.666667,1,1,1,0,5.0
+mix,qwen-vl-2,43,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,44,life,0.166667,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,45,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,46,life,0.666667,0.666667,1,1,1,0,5.0
+mix,qwen-vl-2,47,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,48,life,0.5,0.5,1,0,1,0,2.0
+mix,qwen-vl-2,49,life,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,50,life,0.0,0.0,0,0,1,0,1.0
+mix,qwen-vl-2,51,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,52,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,53,life,0.5,0.5,0,0,1,0,1.0
+mix,qwen-vl-2,54,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,55,life,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,56,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,57,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,58,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,59,life,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,60,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,61,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,62,life,0.0,1.0,1,1,1,1,5.0
+mix,qwen-vl-2,63,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,64,life,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,65,life,0.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,66,life,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,67,life,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,68,life,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,69,life,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-2,70,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,71,life,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,72,life,0.2,0.2,1,0,1,0,1.0
+mix,qwen-vl-2,73,life,0.666667,0.666667,1,1,1,0,5.0
+mix,qwen-vl-2,74,life,0.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-2,75,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,76,life,0.0,0.666667,1,1,1,0,5.0
+mix,qwen-vl-2,77,life,1.0,1.0,1,0,1,0,2.0
+mix,qwen-vl-2,78,life,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,79,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,80,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,81,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,82,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,83,life,0.5,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,84,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,85,life,0.25,0.25,1,1,1,0,5.0
+mix,qwen-vl-2,86,life,0.75,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,87,life,0.333333,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,88,life,0.333333,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,89,life,0.25,0.5,1,1,1,0,5.0
+mix,qwen-vl-2,90,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,91,life,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-2,92,life,0.5,0.5,1,1,0,0,5.0
+mix,qwen-vl-2,93,life,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,94,life,0.333333,0.333333,1,1,1,0,5.0
+mix,qwen-vl-2,95,life,0.0,1.0,1,0,1,0,2.0
+mix,qwen-vl-2,96,life,1.0,0.666667,1,1,0,0,5.0
+mix,qwen-vl-2,97,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,98,life,1.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,99,life,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-2,100,in-house 2,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,101,in-house 2,1.0,1.0,1,1,1,1,5.0
+mix,qwen-vl-2,102,in-house 2,1.0,1.0,1,1,1,1,4.0
+mix,qwen-vl-2,103,in-house 2,0.0,0.0,1,1,1,0,4.0
+mix,qwen-vl-2,104,in-house 2,0.5,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,105,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,106,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,107,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,108,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,109,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,110,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,111,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,112,in-house 2,0.75,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,113,in-house 2,0.2,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,114,in-house 2,1.0,1.0,1,1,1,0,4.0
+mix,qwen-vl-2,115,in-house 2,1.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,116,in-house 2,1.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,117,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,118,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,119,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,120,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,121,in-house 2,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-2,122,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,123,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,124,in-house 2,0.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-2,125,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,126,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,127,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,128,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,129,in-house 2,0.0,0.0,1,0,0,0,2.0
+mix,qwen-vl-2,130,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,131,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,132,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,133,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,134,in-house 2,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,135,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,136,in-house 2,0.666667,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,137,in-house 2,0.0,0.0,1,1,1,0,4.0
+mix,qwen-vl-2,138,in-house 2,0.5,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,139,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,140,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,141,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,142,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,143,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,144,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,145,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,146,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,147,in-house 2,0.666667,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,148,in-house 2,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-2,149,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,150,in-house 2,0.5,0.5,1,1,0,0,5.0
+mix,qwen-vl-2,151,in-house 2,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,152,in-house 2,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-2,153,in-house 2,0.333333,0.333333,1,1,1,0,5.0
+mix,qwen-vl-2,154,in-house 2,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-2,155,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,156,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,qwen-vl-2,157,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,158,in-house 2,0.666667,0.333333,1,1,1,0,5.0
+mix,qwen-vl-2,159,in-house 2,0.0,1.0,1,0,1,1,1.0
+mix,qwen-vl-2,160,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,161,in-house 2,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,162,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,163,in-house 2,0.5,0.5,1,0,1,0,1.0
+mix,qwen-vl-2,164,in-house 2,1.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-2,165,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,166,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,qwen-vl-2,167,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,168,in-house 2,0.0,0.0,1,0,1,1,1.0
+mix,qwen-vl-2,169,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,170,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,171,in-house 2,0.0,1.0,1,1,0,0,4.0
+mix,qwen-vl-2,172,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,173,in-house 2,0.5,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,174,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,175,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,176,in-house 2,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,177,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,178,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,179,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,180,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,181,in-house 2,0.0,1.0,1,1,1,0,4.0
+mix,qwen-vl-2,182,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,183,in-house 2,0.2,0.2,1,1,1,1,5.0
+mix,qwen-vl-2,184,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,185,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,186,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,187,in-house 2,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,188,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,189,in-house 2,0.0,1.0,1,1,1,1,5.0
+mix,qwen-vl-2,190,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,191,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,192,in-house 2,0.5,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,193,in-house 2,0.0,0.5,1,1,0,0,5.0
+mix,qwen-vl-2,194,in-house 2,0.5,0.5,1,1,1,1,5.0
+mix,qwen-vl-2,195,in-house 2,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-2,196,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,qwen-vl-2,197,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,198,in-house 2,0.5,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,199,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,200,dyn-vqa zh,0.333333,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,201,dyn-vqa zh,0.3,0.3,1,1,0,0,5.0
+mix,qwen-vl-2,202,dyn-vqa zh,0.3,0.2,1,1,0,0,5.0
+mix,qwen-vl-2,203,dyn-vqa zh,0.2,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,204,dyn-vqa zh,0.25,0.5,1,1,0,0,5.0
+mix,qwen-vl-2,205,dyn-vqa zh,0.24,0.32,1,1,1,0,5.0
+mix,qwen-vl-2,206,dyn-vqa zh,0.4,0.6,1,0,1,0,1.0
+mix,qwen-vl-2,207,dyn-vqa zh,0.666667,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,208,dyn-vqa zh,0.227273,0.227273,1,1,1,0,5.0
+mix,qwen-vl-2,209,dyn-vqa zh,0.363636,0.285714,1,1,1,0,5.0
+mix,qwen-vl-2,210,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,211,dyn-vqa zh,0.214286,0.214286,1,1,0,0,5.0
+mix,qwen-vl-2,212,dyn-vqa zh,0.36,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,213,dyn-vqa zh,0.222222,0.333333,1,1,0,0,5.0
+mix,qwen-vl-2,214,dyn-vqa zh,0.133333,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,215,dyn-vqa zh,0.0,0.5,1,0,0,0,1.0
+mix,qwen-vl-2,216,dyn-vqa zh,0.571429,0.0,0,1,1,0,5.0
+mix,qwen-vl-2,217,dyn-vqa zh,0.416667,0.5,1,1,1,0,5.0
+mix,qwen-vl-2,218,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,219,dyn-vqa zh,0.4,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,220,dyn-vqa zh,0.428571,0.428571,1,1,1,0,5.0
+mix,qwen-vl-2,221,dyn-vqa zh,0.25,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,222,dyn-vqa zh,0.25,0.875,1,1,1,0,5.0
+mix,qwen-vl-2,223,dyn-vqa zh,0.833333,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,224,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,225,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,226,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,227,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,228,dyn-vqa zh,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-2,229,dyn-vqa zh,1.0,0.2,1,1,0,0,5.0
+mix,qwen-vl-2,230,dyn-vqa zh,0.0,0.75,1,0,1,0,2.0
+mix,qwen-vl-2,231,dyn-vqa zh,0.333333,1.0,1,1,1,1,5.0
+mix,qwen-vl-2,232,dyn-vqa zh,0.666667,0.666667,1,1,0,0,5.0
+mix,qwen-vl-2,233,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,234,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,235,dyn-vqa zh,0.5,0.666667,1,1,1,0,5.0
+mix,qwen-vl-2,236,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,237,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,238,dyn-vqa zh,0.0,0.5,1,1,0,0,5.0
+mix,qwen-vl-2,239,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,240,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,241,dyn-vqa zh,0.5,0.666667,1,1,0,0,5.0
+mix,qwen-vl-2,242,dyn-vqa zh,1.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,243,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,244,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,245,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,246,dyn-vqa zh,0.25,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,247,dyn-vqa zh,0.5,1.0,1,0,1,0,3.5
+mix,qwen-vl-2,248,dyn-vqa zh,1.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,249,dyn-vqa zh,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-2,250,dyn-vqa zh,0.333333,0.666667,1,0,1,0,1.0
+mix,qwen-vl-2,251,dyn-vqa zh,1.0,0.5,1,0,0,0,3.5
+mix,qwen-vl-2,252,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,253,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,254,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,255,dyn-vqa zh,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,256,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,257,dyn-vqa zh,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,258,dyn-vqa zh,0.5,1.0,0,0,1,0,1.0
+mix,qwen-vl-2,259,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,260,dyn-vqa zh,0.0,1.0,1,0,0,1,1.0
+mix,qwen-vl-2,261,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,262,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,263,dyn-vqa zh,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,264,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,265,dyn-vqa zh,0.333333,0.666667,1,0,1,0,1.0
+mix,qwen-vl-2,266,dyn-vqa zh,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-2,267,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,268,dyn-vqa zh,0.166667,0.333333,1,1,1,0,5.0
+mix,qwen-vl-2,269,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,270,dyn-vqa zh,0.333333,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,271,dyn-vqa zh,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-2,272,dyn-vqa zh,0.090909,0.454545,1,1,1,0,5.0
+mix,qwen-vl-2,273,dyn-vqa zh,0.25,0.25,1,1,0,0,5.0
+mix,qwen-vl-2,274,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,275,dyn-vqa zh,0.0,0.0,0,1,0,0,5.0
+mix,qwen-vl-2,276,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,277,dyn-vqa zh,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,278,dyn-vqa zh,0.0,0.857143,1,1,1,0,5.0
+mix,qwen-vl-2,279,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,280,dyn-vqa zh,0.666667,0.666667,1,0,1,0,1.0
+mix,qwen-vl-2,281,dyn-vqa zh,0.8,0.25,1,0,1,0,1.0
+mix,qwen-vl-2,282,dyn-vqa zh,0.333333,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,283,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,284,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-2,285,dyn-vqa zh,0.333333,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,286,dyn-vqa zh,0.5,1.0,0,0,1,0,1.0
+mix,qwen-vl-2,287,dyn-vqa zh,0.166667,0.5,1,0,0,0,1.0
+mix,qwen-vl-2,288,dyn-vqa zh,1.0,0.0,0,1,0,0,5.0
+mix,qwen-vl-2,289,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,290,dyn-vqa zh,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,291,dyn-vqa zh,0.0,0.666667,1,1,1,0,5.0
+mix,qwen-vl-2,292,dyn-vqa zh,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,293,dyn-vqa zh,0.052632,0.157895,1,1,0,0,5.0
+mix,qwen-vl-2,294,dyn-vqa zh,0.166667,0.166667,1,1,0,0,5.0
+mix,qwen-vl-2,295,dyn-vqa zh,0.0,0.5,1,0,0,0,1.0
+mix,qwen-vl-2,296,dyn-vqa zh,0.1,1.0,1,0,1,0,1.0
+mix,qwen-vl-2,297,dyn-vqa zh,0.6,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,298,dyn-vqa zh,0.2,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,299,dyn-vqa zh,0.0,0.5,1,0,0,0,1.0
+mix,qwen-vl-2,300,dyn-vqa en,0.428571,0.142857,0,1,0,0,5.0
+mix,qwen-vl-2,301,dyn-vqa en,0.714286,0.0,1,1,0,0,4.0
+mix,qwen-vl-2,302,dyn-vqa en,0.285714,0.285714,1,1,1,0,5.0
+mix,qwen-vl-2,303,dyn-vqa en,0.0,0.083333,1,0,0,0,1.0
+mix,qwen-vl-2,304,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,305,dyn-vqa en,0.090909,0.090909,1,1,1,0,5.0
+mix,qwen-vl-2,306,dyn-vqa en,0.37037,0.0,1,1,0,1,5.0
+mix,qwen-vl-2,307,dyn-vqa en,0.25,0.25,1,1,1,1,5.0
+mix,qwen-vl-2,308,dyn-vqa en,0.6,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,309,dyn-vqa en,0.5,0.5,1,1,0,0,5.0
+mix,qwen-vl-2,310,dyn-vqa en,0.071429,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,311,dyn-vqa en,0.133333,0.133333,1,1,0,0,5.0
+mix,qwen-vl-2,312,dyn-vqa en,0.266667,0.4,1,1,0,0,5.0
+mix,qwen-vl-2,313,dyn-vqa en,0.388889,0.388889,1,1,0,1,5.0
+mix,qwen-vl-2,314,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,315,dyn-vqa en,0.5,0.0,1,0,0,0,2.0
+mix,qwen-vl-2,316,dyn-vqa en,0.5,0.357143,1,0,0,0,1.0
+mix,qwen-vl-2,317,dyn-vqa en,0.538462,0.076923,1,1,0,0,5.0
+mix,qwen-vl-2,318,dyn-vqa en,0.75,0.375,1,1,0,0,5.0
+mix,qwen-vl-2,319,dyn-vqa en,0.571429,0.571429,1,0,0,0,1.0
+mix,qwen-vl-2,320,dyn-vqa en,0.0,0.090909,1,1,0,0,5.0
+mix,qwen-vl-2,321,dyn-vqa en,0.166667,0.166667,1,0,1,0,1.0
+mix,qwen-vl-2,322,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,323,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,324,dyn-vqa en,0.25,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,325,dyn-vqa en,0.714286,0.714286,1,1,0,0,5.0
+mix,qwen-vl-2,326,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-2,327,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,328,dyn-vqa en,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,329,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,330,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-2,331,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,332,dyn-vqa en,0.0,0.25,1,1,1,1,5.0
+mix,qwen-vl-2,333,dyn-vqa en,1.0,0.75,1,1,0,0,4.0
+mix,qwen-vl-2,334,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,335,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,336,dyn-vqa en,0.666667,0.666667,1,1,0,0,5.0
+mix,qwen-vl-2,337,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,338,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,339,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,340,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,341,dyn-vqa en,0.0,0.0,0,1,0,1,5.0
+mix,qwen-vl-2,342,dyn-vqa en,0.0,1.0,1,1,0,1,5.0
+mix,qwen-vl-2,343,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-2,344,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,345,dyn-vqa en,1.0,1.0,1,0,0,0,3.5
+mix,qwen-vl-2,346,dyn-vqa en,0.0,0.0,1,0,0,1,1.0
+mix,qwen-vl-2,347,dyn-vqa en,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,348,dyn-vqa en,0.0,0.333333,1,1,0,0,5.0
+mix,qwen-vl-2,349,dyn-vqa en,0.0,0.0,1,0,1,0,2.0
+mix,qwen-vl-2,350,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,351,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,352,dyn-vqa en,0.0,0.0,1,0,0,0,3.5
+mix,qwen-vl-2,353,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,354,dyn-vqa en,0.333333,0.333333,1,1,1,0,5.0
+mix,qwen-vl-2,355,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,356,dyn-vqa en,1.0,1.0,0,1,0,0,5.0
+mix,qwen-vl-2,357,dyn-vqa en,0.666667,0.666667,1,0,1,0,1.0
+mix,qwen-vl-2,358,dyn-vqa en,1.0,1.0,1,0,0,1,1.0
+mix,qwen-vl-2,359,dyn-vqa en,0.0,0.0,0,0,1,0,1.0
+mix,qwen-vl-2,360,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,361,dyn-vqa en,0.0,0.0,0,1,0,1,5.0
+mix,qwen-vl-2,362,dyn-vqa en,0.5,0.5,1,1,0,0,5.0
+mix,qwen-vl-2,363,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,364,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,365,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,366,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,367,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,368,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-2,369,dyn-vqa en,0.5,0.25,0,0,0,0,1.0
+mix,qwen-vl-2,370,dyn-vqa en,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-2,371,dyn-vqa en,0.166667,0.0,1,1,0,1,5.0
+mix,qwen-vl-2,372,dyn-vqa en,0.0,0.666667,1,1,0,0,5.0
+mix,qwen-vl-2,373,dyn-vqa en,0.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-2,374,dyn-vqa en,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-2,375,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,376,dyn-vqa en,0.666667,0.666667,1,1,0,0,5.0
+mix,qwen-vl-2,377,dyn-vqa en,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-2,378,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,379,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,380,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,381,dyn-vqa en,0.666667,0.666667,1,1,0,0,5.0
+mix,qwen-vl-2,382,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,383,dyn-vqa en,0.285714,0.285714,1,1,0,0,5.0
+mix,qwen-vl-2,384,dyn-vqa en,0.285714,0.285714,0,0,0,0,1.0
+mix,qwen-vl-2,385,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,386,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-2,387,dyn-vqa en,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-2,388,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,389,dyn-vqa en,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-2,390,dyn-vqa en,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-2,391,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,392,dyn-vqa en,0.125,1.0,1,0,0,0,1.0
+mix,qwen-vl-2,393,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,394,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,395,dyn-vqa en,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-2,396,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-2,397,dyn-vqa en,0.3,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,398,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,399,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,400,nocaps,0.666667,0.555556,1,0,0,0,1.0
+mix,qwen-vl-2,401,nocaps,0.444444,0.25,0,0,0,0,1.0
+mix,qwen-vl-2,402,nocaps,0.375,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,403,nocaps,0.466667,0.363636,1,0,0,0,1.0
+mix,qwen-vl-2,404,nocaps,0.333333,0.285714,0,0,0,0,1.0
+mix,qwen-vl-2,405,nocaps,0.111111,0.583333,0,0,0,0,1.0
+mix,qwen-vl-2,406,nocaps,0.666667,0.777778,0,0,0,0,1.0
+mix,qwen-vl-2,407,nocaps,0.071429,0.142857,0,0,0,0,1.0
+mix,qwen-vl-2,408,nocaps,0.428571,0.285714,0,0,0,0,1.0
+mix,qwen-vl-2,409,nocaps,0.625,0.625,1,0,0,0,1.0
+mix,qwen-vl-2,410,nocaps,0.3,0.375,1,0,0,0,1.0
+mix,qwen-vl-2,411,nocaps,0.333333,0.222222,1,0,0,0,1.0
+mix,qwen-vl-2,412,nocaps,0.285714,0.166667,0,0,0,0,1.0
+mix,qwen-vl-2,413,nocaps,0.083333,0.25,0,0,0,0,1.0
+mix,qwen-vl-2,414,nocaps,0.307692,0.307692,1,0,0,0,1.0
+mix,qwen-vl-2,415,nocaps,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,416,nocaps,0.444444,0.285714,1,0,0,0,1.0
+mix,qwen-vl-2,417,nocaps,0.230769,0.3,0,0,0,0,1.0
+mix,qwen-vl-2,418,nocaps,0.25,0.333333,1,0,0,0,1.0
+mix,qwen-vl-2,419,nocaps,0.222222,0.333333,0,0,0,0,1.0
+mix,qwen-vl-2,420,nocaps,0.375,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,421,nocaps,0.666667,0.583333,0,0,0,0,1.0
+mix,qwen-vl-2,422,nocaps,0.25,0.25,0,0,0,0,1.0
+mix,qwen-vl-2,423,nocaps,0.444444,0.444444,1,0,0,0,1.0
+mix,qwen-vl-2,424,nocaps,0.333333,0.25,0,0,0,0,1.0
+mix,qwen-vl-2,425,nocaps,0.625,0.375,0,0,0,0,1.0
+mix,qwen-vl-2,426,nocaps,0.0,0.333333,0,0,0,0,1.0
+mix,qwen-vl-2,427,nocaps,0.272727,0.454545,0,0,0,0,1.0
+mix,qwen-vl-2,428,nocaps,0.2,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,429,nocaps,0.25,0.25,1,0,0,0,1.0
+mix,qwen-vl-2,430,nocaps,0.3,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,431,nocaps,0.25,0.25,1,0,0,0,1.0
+mix,qwen-vl-2,432,nocaps,0.555556,0.333333,0,0,0,0,1.0
+mix,qwen-vl-2,433,nocaps,0.4,0.4,0,0,0,0,1.0
+mix,qwen-vl-2,434,nocaps,0.4,0.2,0,0,0,0,1.0
+mix,qwen-vl-2,435,nocaps,0.3,0.125,0,0,0,0,1.0
+mix,qwen-vl-2,436,nocaps,0.142857,0.142857,0,0,0,0,1.0
+mix,qwen-vl-2,437,nocaps,0.4,0.5,0,0,0,0,1.0
+mix,qwen-vl-2,438,nocaps,0.3,0.2,1,0,0,0,1.0
+mix,qwen-vl-2,439,nocaps,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-2,440,nocaps,0.333333,0.3,1,0,0,0,1.0
+mix,qwen-vl-2,441,nocaps,0.6,0.5,0,0,0,0,1.0
+mix,qwen-vl-2,442,nocaps,0.375,0.375,0,0,0,0,1.0
+mix,qwen-vl-2,443,nocaps,0.5,0.5,0,0,0,0,1.0
+mix,qwen-vl-2,444,nocaps,0.125,0.555556,1,0,0,0,1.0
+mix,qwen-vl-2,445,nocaps,0.3,0.2,1,0,0,0,1.0
+mix,qwen-vl-2,446,nocaps,0.25,0.375,1,0,0,0,1.0
+mix,qwen-vl-2,447,nocaps,0.375,0.214286,0,0,0,0,1.0
+mix,qwen-vl-2,448,nocaps,0.375,0.666667,1,0,0,0,1.0
+mix,qwen-vl-2,449,nocaps,0.333333,0.375,1,0,0,0,1.0
+mix,qwen-vl-2,450,nocaps,0.625,0.272727,1,0,0,0,1.0
+mix,qwen-vl-2,451,nocaps,0.363636,0.272727,0,0,0,0,1.0
+mix,qwen-vl-2,452,nocaps,0.333333,0.222222,0,0,0,0,1.0
+mix,qwen-vl-2,453,nocaps,0.555556,0.666667,0,0,0,0,1.0
+mix,qwen-vl-2,454,nocaps,0.375,0.375,1,0,0,0,1.0
+mix,qwen-vl-2,455,nocaps,0.222222,0.3,0,0,0,0,1.0
+mix,qwen-vl-2,456,nocaps,0.272727,0.363636,0,0,0,0,1.0
+mix,qwen-vl-2,457,nocaps,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,458,nocaps,0.555556,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,459,nocaps,0.181818,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,460,nocaps,0.272727,0.25,0,0,0,0,1.0
+mix,qwen-vl-2,461,nocaps,0.25,0.222222,0,0,0,0,1.0
+mix,qwen-vl-2,462,nocaps,0.625,0.5,0,0,0,0,1.0
+mix,qwen-vl-2,463,nocaps,0.555556,0.555556,0,0,0,0,1.0
+mix,qwen-vl-2,464,nocaps,0.181818,0.363636,1,0,0,0,1.0
+mix,qwen-vl-2,465,nocaps,0.333333,0.375,1,0,0,0,1.0
+mix,qwen-vl-2,466,nocaps,0.0,0.555556,0,0,0,0,1.0
+mix,qwen-vl-2,467,nocaps,0.125,0.3,0,0,0,0,1.0
+mix,qwen-vl-2,468,nocaps,0.333333,0.214286,0,0,0,0,1.0
+mix,qwen-vl-2,469,nocaps,0.5,0.4,1,0,0,0,1.0
+mix,qwen-vl-2,470,nocaps,0.555556,0.555556,0,0,0,0,1.0
+mix,qwen-vl-2,471,nocaps,0.571429,0.294118,0,0,0,0,1.0
+mix,qwen-vl-2,472,nocaps,0.333333,0.285714,1,0,0,0,1.0
+mix,qwen-vl-2,473,nocaps,0.375,0.5,0,0,0,0,1.0
+mix,qwen-vl-2,474,nocaps,0.3,0.363636,1,0,0,0,1.0
+mix,qwen-vl-2,475,nocaps,0.454545,0.090909,0,0,0,0,1.0
+mix,qwen-vl-2,476,nocaps,0.4,0.133333,0,0,0,0,1.0
+mix,qwen-vl-2,477,nocaps,0.4,0.222222,1,0,0,0,1.0
+mix,qwen-vl-2,478,nocaps,0.153846,0.538462,0,0,0,0,1.0
+mix,qwen-vl-2,479,nocaps,0.3,0.375,0,0,0,0,1.0
+mix,qwen-vl-2,480,nocaps,0.384615,0.555556,1,0,0,0,1.0
+mix,qwen-vl-2,481,nocaps,0.8,0.6,1,0,0,0,1.0
+mix,qwen-vl-2,482,nocaps,0.416667,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,483,nocaps,0.125,0.142857,1,0,0,0,1.0
+mix,qwen-vl-2,484,nocaps,0.375,0.375,0,0,0,0,1.0
+mix,qwen-vl-2,485,nocaps,0.333333,0.125,0,0,0,0,1.0
+mix,qwen-vl-2,486,nocaps,0.3,0.444444,1,0,0,0,1.0
+mix,qwen-vl-2,487,nocaps,0.25,0.111111,1,0,0,0,1.0
+mix,qwen-vl-2,488,nocaps,0.454545,0.333333,0,0,0,0,1.0
+mix,qwen-vl-2,489,nocaps,0.222222,0.333333,0,0,0,0,1.0
+mix,qwen-vl-2,490,nocaps,0.4,0.222222,1,0,0,0,1.0
+mix,qwen-vl-2,491,nocaps,0.222222,0.75,1,0,0,0,1.0
+mix,qwen-vl-2,492,nocaps,0.444444,0.25,1,0,0,0,1.0
+mix,qwen-vl-2,493,nocaps,0.333333,0.307692,0,0,0,0,1.0
+mix,qwen-vl-2,494,nocaps,0.461538,0.4,0,0,0,0,1.0
+mix,qwen-vl-2,495,nocaps,0.285714,0.333333,0,0,0,0,1.0
+mix,qwen-vl-2,496,nocaps,0.333333,0.333333,1,0,0,0,1.0
+mix,qwen-vl-2,497,nocaps,0.4,0.444444,0,0,0,0,1.0
+mix,qwen-vl-2,498,nocaps,0.375,0.375,0,0,0,0,1.0
+mix,qwen-vl-2,499,nocaps,0.666667,0.3,1,0,0,0,1.0
+mix,qwen-vl-2,500,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-2,501,visual7w,0.333333,0.5,1,1,0,0,4.0
+mix,qwen-vl-2,502,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,503,visual7w,1.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-2,504,visual7w,0.0,0.5,0,0,0,1,1.0
+mix,qwen-vl-2,505,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-2,506,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,507,visual7w,0.333333,0.333333,1,0,0,0,1.0
+mix,qwen-vl-2,508,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,509,visual7w,0.0,0.0,1,0,0,1,1.0
+mix,qwen-vl-2,510,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-2,511,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-2,512,visual7w,0.5,0.5,0,0,0,1,1.0
+mix,qwen-vl-2,513,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-2,514,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-2,515,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-2,516,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-2,517,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,518,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-2,519,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-2,520,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-2,521,visual7w,1.0,0.5,1,0,0,0,2.0
+mix,qwen-vl-2,522,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-2,523,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-2,524,visual7w,0.0,0.5,0,0,0,0,1.0
+mix,qwen-vl-2,525,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,526,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-2,527,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-2,528,visual7w,0.666667,0.666667,0,0,0,0,1.0
+mix,qwen-vl-2,529,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,530,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,531,visual7w,1.0,1.0,1,1,0,0,4.0
+mix,qwen-vl-2,532,visual7w,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-2,533,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,534,visual7w,0.5,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,535,visual7w,0.5,0.0,0,1,0,1,4.0
+mix,qwen-vl-2,536,visual7w,1.0,1.0,1,0,0,1,1.0
+mix,qwen-vl-2,537,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,538,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-2,539,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-2,540,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-2,541,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-2,542,visual7w,1.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,543,visual7w,0.833333,0.833333,1,0,1,1,1.0
+mix,qwen-vl-2,544,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-2,545,visual7w,0.8,0.8,0,0,0,1,1.0
+mix,qwen-vl-2,546,visual7w,0.5,0.5,0,0,0,1,1.0
+mix,qwen-vl-2,547,visual7w,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-2,548,visual7w,0.0,0.333333,0,0,0,0,1.0
+mix,qwen-vl-2,549,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,550,visual7w,0.666667,0.666667,0,0,0,0,1.0
+mix,qwen-vl-2,551,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,552,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,553,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,554,visual7w,0.333333,0.333333,1,0,0,0,1.0
+mix,qwen-vl-2,555,visual7w,1.0,0.5,1,0,0,0,1.0
+mix,qwen-vl-2,556,visual7w,1.0,0.0,1,0,0,1,1.0
+mix,qwen-vl-2,557,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,558,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,559,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-2,560,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-2,561,visual7w,0.5,0.5,0,0,0,0,1.0
+mix,qwen-vl-2,562,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,563,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-2,564,visual7w,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-2,565,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,566,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-2,567,visual7w,0.333333,0.333333,1,0,0,0,1.0
+mix,qwen-vl-2,568,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,569,visual7w,0.666667,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,570,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-2,571,visual7w,0.25,0.25,1,0,0,0,1.0
+mix,qwen-vl-2,572,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,573,visual7w,0.6,0.4,1,0,0,0,1.0
+mix,qwen-vl-2,574,visual7w,1.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,575,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-2,576,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-2,577,visual7w,0.5,0.5,0,0,0,0,1.0
+mix,qwen-vl-2,578,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,579,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-2,580,visual7w,1.0,1.0,1,1,0,0,4.0
+mix,qwen-vl-2,581,visual7w,0.333333,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,582,visual7w,1.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,583,visual7w,0.375,0.25,1,0,0,0,1.0
+mix,qwen-vl-2,584,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-2,585,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-2,586,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-2,587,visual7w,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,588,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,589,visual7w,0.666667,0.333333,1,0,0,0,1.0
+mix,qwen-vl-2,590,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-2,591,visual7w,1.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-2,592,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-2,593,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-2,594,visual7w,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-2,595,visual7w,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-2,596,visual7w,0.166667,0.166667,1,1,0,0,5.0
+mix,qwen-vl-2,597,visual7w,0.5,0.25,0,0,0,0,1.0
+mix,qwen-vl-2,598,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-2,599,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,0,life,0.0,0.0,1,0,1,0,2.0
+mix,qwen-vl-chat,1,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,2,life,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-chat,3,life,0.333333,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,4,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,5,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,6,life,0.0,0.666667,1,0,1,0,1.0
+mix,qwen-vl-chat,7,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,8,life,0.5,0.5,1,0,1,0,1.0
+mix,qwen-vl-chat,9,life,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,10,life,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-chat,11,life,0.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-chat,12,life,0.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-chat,13,life,0.0,0.333333,1,0,1,1,1.0
+mix,qwen-vl-chat,14,life,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-chat,15,life,1.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,16,life,0.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-chat,17,life,0.0,1.0,1,1,1,1,5.0
+mix,qwen-vl-chat,18,life,0.0,0.0,1,0,1,1,1.0
+mix,qwen-vl-chat,19,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,20,life,0.333333,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,21,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,22,life,0.0,0.5,1,1,1,1,5.0
+mix,qwen-vl-chat,23,life,0.0,0.0,1,0,1,0,2.0
+mix,qwen-vl-chat,24,life,0.25,0.25,1,0,1,0,1.0
+mix,qwen-vl-chat,25,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,26,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,27,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,28,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,29,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,30,life,0.0,0.0,1,0,0,0,2.0
+mix,qwen-vl-chat,31,life,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,32,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,33,life,0.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-chat,34,life,1.0,1.0,0,0,1,0,1.0
+mix,qwen-vl-chat,35,life,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,36,life,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-chat,37,life,0.0,1.0,1,1,0,1,5.0
+mix,qwen-vl-chat,38,life,0.0,0.0,1,0,0,1,1.0
+mix,qwen-vl-chat,39,life,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,40,life,0.5,0.5,0,0,1,0,2.0
+mix,qwen-vl-chat,41,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,42,life,0.666667,0.666667,1,1,1,0,5.0
+mix,qwen-vl-chat,43,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,44,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,45,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,46,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,47,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,48,life,0.0,1.0,1,0,1,0,2.0
+mix,qwen-vl-chat,49,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,50,life,0.0,0.0,0,0,1,0,1.0
+mix,qwen-vl-chat,51,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,52,life,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,53,life,0.0,0.0,0,0,1,0,1.0
+mix,qwen-vl-chat,54,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,55,life,0.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-chat,56,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,57,life,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-chat,58,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,59,life,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,60,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,61,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,62,life,0.0,1.0,1,1,1,1,5.0
+mix,qwen-vl-chat,63,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,64,life,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,65,life,0.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-chat,66,life,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,67,life,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,68,life,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,69,life,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-chat,70,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,71,life,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-chat,72,life,0.2,0.2,1,0,1,0,1.0
+mix,qwen-vl-chat,73,life,0.666667,0.666667,1,1,1,0,5.0
+mix,qwen-vl-chat,74,life,0.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-chat,75,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,76,life,0.0,0.666667,1,1,1,0,5.0
+mix,qwen-vl-chat,77,life,0.75,0.75,1,0,1,0,2.0
+mix,qwen-vl-chat,78,life,0.0,0.5,1,1,1,1,5.0
+mix,qwen-vl-chat,79,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,80,life,0.333333,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,81,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,82,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,83,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,84,life,0.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-chat,85,life,0.0,0.75,1,1,1,0,5.0
+mix,qwen-vl-chat,86,life,0.25,0.25,1,1,1,0,5.0
+mix,qwen-vl-chat,87,life,0.333333,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,88,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,89,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,90,life,0.166667,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,91,life,0.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-chat,92,life,0.5,0.5,1,1,0,0,5.0
+mix,qwen-vl-chat,93,life,1.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-chat,94,life,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,95,life,1.0,1.0,1,0,1,0,2.0
+mix,qwen-vl-chat,96,life,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-chat,97,life,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,98,life,1.0,1.0,1,1,1,1,5.0
+mix,qwen-vl-chat,99,life,1.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-chat,100,in-house 2,1.0,0.5,1,0,1,0,1.0
+mix,qwen-vl-chat,101,in-house 2,1.0,0.5,1,1,1,1,5.0
+mix,qwen-vl-chat,102,in-house 2,1.0,1.0,1,1,1,1,4.0
+mix,qwen-vl-chat,103,in-house 2,0.0,0.0,1,1,1,0,4.0
+mix,qwen-vl-chat,104,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,105,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,106,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,107,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,108,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,109,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,110,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,111,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,112,in-house 2,0.75,0.5,1,1,1,0,5.0
+mix,qwen-vl-chat,113,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,114,in-house 2,0.0,0.0,1,1,1,0,4.0
+mix,qwen-vl-chat,115,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,116,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,117,in-house 2,0.0,0.333333,1,1,0,0,5.0
+mix,qwen-vl-chat,118,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,119,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,120,in-house 2,0.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-chat,121,in-house 2,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-chat,122,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,123,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,124,in-house 2,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-chat,125,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,126,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,127,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,128,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,129,in-house 2,0.0,0.0,1,0,0,0,2.0
+mix,qwen-vl-chat,130,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,131,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,132,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,133,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,134,in-house 2,1.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,135,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,136,in-house 2,0.333333,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,137,in-house 2,1.0,1.0,1,1,1,0,4.0
+mix,qwen-vl-chat,138,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,139,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,140,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,141,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,142,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,143,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,144,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,145,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,146,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,147,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,148,in-house 2,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-chat,149,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,150,in-house 2,0.5,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,151,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,152,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,153,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,154,in-house 2,0.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-chat,155,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,156,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,qwen-vl-chat,157,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,158,in-house 2,0.0,0.333333,1,1,1,0,5.0
+mix,qwen-vl-chat,159,in-house 2,1.0,1.0,1,0,1,1,1.0
+mix,qwen-vl-chat,160,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,161,in-house 2,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-chat,162,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,163,in-house 2,0.5,0.5,1,0,1,0,1.0
+mix,qwen-vl-chat,164,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,165,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,166,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,qwen-vl-chat,167,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,168,in-house 2,0.0,0.0,1,0,1,1,1.0
+mix,qwen-vl-chat,169,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,170,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,171,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,qwen-vl-chat,172,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,173,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,174,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,175,in-house 2,1.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,176,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,177,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,178,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,179,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,180,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,181,in-house 2,0.0,0.0,1,1,1,0,4.0
+mix,qwen-vl-chat,182,in-house 2,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,183,in-house 2,0.2,0.2,1,1,1,1,5.0
+mix,qwen-vl-chat,184,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,185,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,186,in-house 2,0.0,0.5,1,1,1,0,5.0
+mix,qwen-vl-chat,187,in-house 2,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,188,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,189,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,190,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,191,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,192,in-house 2,0.5,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,193,in-house 2,0.5,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,194,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,195,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,196,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,qwen-vl-chat,197,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,198,in-house 2,0.5,0.5,1,1,0,0,5.0
+mix,qwen-vl-chat,199,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,200,dyn-vqa zh,0.5,0.333333,1,1,0,0,5.0
+mix,qwen-vl-chat,201,dyn-vqa zh,0.5,0.4,1,1,0,0,5.0
+mix,qwen-vl-chat,202,dyn-vqa zh,0.4,0.1,1,1,0,0,5.0
+mix,qwen-vl-chat,203,dyn-vqa zh,0.2,0.4,1,1,1,0,5.0
+mix,qwen-vl-chat,204,dyn-vqa zh,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-chat,205,dyn-vqa zh,0.36,0.32,1,1,1,0,5.0
+mix,qwen-vl-chat,206,dyn-vqa zh,0.0,0.6,1,0,1,0,1.0
+mix,qwen-vl-chat,207,dyn-vqa zh,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-chat,208,dyn-vqa zh,0.363636,0.090909,1,1,1,0,5.0
+mix,qwen-vl-chat,209,dyn-vqa zh,0.363636,0.727273,1,1,1,0,5.0
+mix,qwen-vl-chat,210,dyn-vqa zh,0.363636,0.272727,1,1,0,0,5.0
+mix,qwen-vl-chat,211,dyn-vqa zh,0.357143,0.428571,1,1,0,0,5.0
+mix,qwen-vl-chat,212,dyn-vqa zh,0.2,0.4,1,1,0,0,5.0
+mix,qwen-vl-chat,213,dyn-vqa zh,0.555556,0.333333,1,1,0,0,5.0
+mix,qwen-vl-chat,214,dyn-vqa zh,0.266667,0.133333,1,1,1,1,5.0
+mix,qwen-vl-chat,215,dyn-vqa zh,0.5,0.333333,1,0,0,0,1.0
+mix,qwen-vl-chat,216,dyn-vqa zh,0.571429,0.357143,0,1,1,0,5.0
+mix,qwen-vl-chat,217,dyn-vqa zh,0.083333,0.083333,1,1,1,0,5.0
+mix,qwen-vl-chat,218,dyn-vqa zh,0.0,0.2,1,1,1,0,5.0
+mix,qwen-vl-chat,219,dyn-vqa zh,0.6,0.4,1,1,0,0,5.0
+mix,qwen-vl-chat,220,dyn-vqa zh,0.571429,0.428571,1,1,1,0,5.0
+mix,qwen-vl-chat,221,dyn-vqa zh,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,222,dyn-vqa zh,0.25,0.625,1,1,1,0,5.0
+mix,qwen-vl-chat,223,dyn-vqa zh,0.166667,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,224,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,225,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,226,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,227,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,228,dyn-vqa zh,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-chat,229,dyn-vqa zh,1.0,0.2,1,1,0,0,5.0
+mix,qwen-vl-chat,230,dyn-vqa zh,0.25,0.75,1,0,1,0,2.0
+mix,qwen-vl-chat,231,dyn-vqa zh,0.333333,0.666667,1,1,1,1,5.0
+mix,qwen-vl-chat,232,dyn-vqa zh,0.333333,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,233,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,234,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,235,dyn-vqa zh,0.5,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,236,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,237,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,238,dyn-vqa zh,0.0,0.5,1,1,0,0,5.0
+mix,qwen-vl-chat,239,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,240,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,241,dyn-vqa zh,0.5,0.166667,1,1,0,0,5.0
+mix,qwen-vl-chat,242,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,243,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,244,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,245,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,246,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,247,dyn-vqa zh,0.5,0.166667,1,0,1,0,3.5
+mix,qwen-vl-chat,248,dyn-vqa zh,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,249,dyn-vqa zh,0.5,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,250,dyn-vqa zh,0.0,0.333333,1,0,1,0,1.0
+mix,qwen-vl-chat,251,dyn-vqa zh,0.5,0.0,1,0,0,0,3.5
+mix,qwen-vl-chat,252,dyn-vqa zh,1.0,0.5,1,1,0,0,5.0
+mix,qwen-vl-chat,253,dyn-vqa zh,0.333333,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,254,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,255,dyn-vqa zh,0.5,1.0,1,0,1,0,1.0
+mix,qwen-vl-chat,256,dyn-vqa zh,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,257,dyn-vqa zh,1.0,1.0,1,0,1,0,1.0
+mix,qwen-vl-chat,258,dyn-vqa zh,0.5,0.5,0,0,1,0,1.0
+mix,qwen-vl-chat,259,dyn-vqa zh,0.5,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,260,dyn-vqa zh,0.0,1.0,1,0,0,1,1.0
+mix,qwen-vl-chat,261,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,262,dyn-vqa zh,0.2,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,263,dyn-vqa zh,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,264,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,265,dyn-vqa zh,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,266,dyn-vqa zh,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-chat,267,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,268,dyn-vqa zh,0.0,0.333333,1,1,1,0,5.0
+mix,qwen-vl-chat,269,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,270,dyn-vqa zh,0.333333,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,271,dyn-vqa zh,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-chat,272,dyn-vqa zh,0.1,0.045455,1,1,1,0,5.0
+mix,qwen-vl-chat,273,dyn-vqa zh,0.5,0.25,1,1,0,0,5.0
+mix,qwen-vl-chat,274,dyn-vqa zh,0.0,0.333333,1,1,1,0,5.0
+mix,qwen-vl-chat,275,dyn-vqa zh,0.0,0.0,0,1,0,0,5.0
+mix,qwen-vl-chat,276,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,277,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,278,dyn-vqa zh,0.0,0.857143,1,1,1,0,5.0
+mix,qwen-vl-chat,279,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,280,dyn-vqa zh,0.2,0.133333,1,0,1,0,1.0
+mix,qwen-vl-chat,281,dyn-vqa zh,0.25,0.5,1,0,1,0,1.0
+mix,qwen-vl-chat,282,dyn-vqa zh,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,283,dyn-vqa zh,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,284,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,qwen-vl-chat,285,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,286,dyn-vqa zh,1.0,1.0,0,0,1,0,1.0
+mix,qwen-vl-chat,287,dyn-vqa zh,0.166667,0.166667,1,0,0,0,1.0
+mix,qwen-vl-chat,288,dyn-vqa zh,1.0,0.5,0,1,0,0,5.0
+mix,qwen-vl-chat,289,dyn-vqa zh,0.090909,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,290,dyn-vqa zh,0.333333,0.333333,0,0,0,0,1.0
+mix,qwen-vl-chat,291,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,292,dyn-vqa zh,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,293,dyn-vqa zh,0.052632,0.052632,1,1,0,0,5.0
+mix,qwen-vl-chat,294,dyn-vqa zh,0.166667,0.166667,1,1,0,0,5.0
+mix,qwen-vl-chat,295,dyn-vqa zh,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-chat,296,dyn-vqa zh,0.0,0.2,1,0,1,0,1.0
+mix,qwen-vl-chat,297,dyn-vqa zh,0.6,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,298,dyn-vqa zh,0.2,0.2,1,1,1,0,5.0
+mix,qwen-vl-chat,299,dyn-vqa zh,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-chat,300,dyn-vqa en,0.142857,0.0,0,1,0,0,5.0
+mix,qwen-vl-chat,301,dyn-vqa en,0.142857,0.142857,1,1,0,0,4.0
+mix,qwen-vl-chat,302,dyn-vqa en,0.214286,0.285714,1,1,1,0,5.0
+mix,qwen-vl-chat,303,dyn-vqa en,0.083333,0.25,1,0,0,0,1.0
+mix,qwen-vl-chat,304,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,305,dyn-vqa en,0.272727,0.272727,1,1,1,0,5.0
+mix,qwen-vl-chat,306,dyn-vqa en,0.296296,0.407407,1,1,0,1,5.0
+mix,qwen-vl-chat,307,dyn-vqa en,0.25,0.25,1,1,1,1,5.0
+mix,qwen-vl-chat,308,dyn-vqa en,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,309,dyn-vqa en,0.4,0.3,1,1,0,0,5.0
+mix,qwen-vl-chat,310,dyn-vqa en,0.071429,0.071429,1,1,1,0,5.0
+mix,qwen-vl-chat,311,dyn-vqa en,0.133333,0.2,1,1,0,0,5.0
+mix,qwen-vl-chat,312,dyn-vqa en,0.266667,0.333333,1,1,0,0,5.0
+mix,qwen-vl-chat,313,dyn-vqa en,0.444444,0.388889,1,1,0,1,5.0
+mix,qwen-vl-chat,314,dyn-vqa en,0.285714,0.285714,1,1,0,0,5.0
+mix,qwen-vl-chat,315,dyn-vqa en,0.166667,0.0,1,0,0,0,2.0
+mix,qwen-vl-chat,316,dyn-vqa en,0.0,0.357143,1,0,0,0,1.0
+mix,qwen-vl-chat,317,dyn-vqa en,0.192308,0.153846,1,1,0,0,5.0
+mix,qwen-vl-chat,318,dyn-vqa en,0.5,0.375,1,1,0,0,5.0
+mix,qwen-vl-chat,319,dyn-vqa en,0.571429,0.571429,1,0,0,0,1.0
+mix,qwen-vl-chat,320,dyn-vqa en,0.0,0.181818,1,1,0,0,5.0
+mix,qwen-vl-chat,321,dyn-vqa en,0.166667,0.166667,1,0,1,0,1.0
+mix,qwen-vl-chat,322,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,323,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,324,dyn-vqa en,0.5,0.25,1,1,0,0,5.0
+mix,qwen-vl-chat,325,dyn-vqa en,0.142857,0.714286,1,1,0,0,5.0
+mix,qwen-vl-chat,326,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-chat,327,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,328,dyn-vqa en,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,329,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,330,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-chat,331,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,332,dyn-vqa en,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,333,dyn-vqa en,0.0,0.75,1,1,0,0,4.0
+mix,qwen-vl-chat,334,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,335,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,336,dyn-vqa en,0.0,0.666667,1,1,0,0,5.0
+mix,qwen-vl-chat,337,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,338,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,339,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,340,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,341,dyn-vqa en,0.0,0.0,0,1,0,1,5.0
+mix,qwen-vl-chat,342,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-chat,343,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-chat,344,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,345,dyn-vqa en,0.0,0.0,1,0,0,0,3.5
+mix,qwen-vl-chat,346,dyn-vqa en,0.0,0.0,1,0,0,1,1.0
+mix,qwen-vl-chat,347,dyn-vqa en,0.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,348,dyn-vqa en,0.0,0.333333,1,1,0,0,5.0
+mix,qwen-vl-chat,349,dyn-vqa en,0.0,0.0,1,0,1,0,2.0
+mix,qwen-vl-chat,350,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,351,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,352,dyn-vqa en,0.0,0.0,1,0,0,0,3.5
+mix,qwen-vl-chat,353,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,354,dyn-vqa en,0.333333,0.333333,1,1,1,0,5.0
+mix,qwen-vl-chat,355,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,356,dyn-vqa en,0.0,0.0,0,1,0,0,5.0
+mix,qwen-vl-chat,357,dyn-vqa en,0.666667,0.666667,1,0,1,0,1.0
+mix,qwen-vl-chat,358,dyn-vqa en,1.0,1.0,1,0,0,1,1.0
+mix,qwen-vl-chat,359,dyn-vqa en,0.0,0.0,0,0,1,0,1.0
+mix,qwen-vl-chat,360,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,361,dyn-vqa en,0.0,0.0,0,1,0,1,5.0
+mix,qwen-vl-chat,362,dyn-vqa en,0.5,0.5,1,1,0,0,5.0
+mix,qwen-vl-chat,363,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,364,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,365,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,366,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,367,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,368,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-chat,369,dyn-vqa en,0.0,0.5,0,0,0,0,1.0
+mix,qwen-vl-chat,370,dyn-vqa en,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-chat,371,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-chat,372,dyn-vqa en,0.0,0.666667,1,1,0,0,5.0
+mix,qwen-vl-chat,373,dyn-vqa en,0.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-chat,374,dyn-vqa en,1.0,1.0,1,1,0,0,5.0
+mix,qwen-vl-chat,375,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,376,dyn-vqa en,0.0,0.666667,1,1,0,0,5.0
+mix,qwen-vl-chat,377,dyn-vqa en,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-chat,378,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,379,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,380,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,381,dyn-vqa en,0.333333,0.666667,1,1,0,0,5.0
+mix,qwen-vl-chat,382,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,383,dyn-vqa en,0.285714,0.285714,1,1,0,0,5.0
+mix,qwen-vl-chat,384,dyn-vqa en,0.285714,0.285714,0,0,0,0,1.0
+mix,qwen-vl-chat,385,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,386,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,qwen-vl-chat,387,dyn-vqa en,0.0,0.0,1,0,1,0,1.0
+mix,qwen-vl-chat,388,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,389,dyn-vqa en,0.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-chat,390,dyn-vqa en,0.0,0.0,1,1,1,1,5.0
+mix,qwen-vl-chat,391,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,392,dyn-vqa en,0.125,0.375,1,0,0,0,1.0
+mix,qwen-vl-chat,393,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,394,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,395,dyn-vqa en,0.5,0.5,1,1,1,0,5.0
+mix,qwen-vl-chat,396,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,qwen-vl-chat,397,dyn-vqa en,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-chat,398,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,399,dyn-vqa en,0.047619,0.166667,1,1,0,0,5.0
+mix,qwen-vl-chat,400,nocaps,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-chat,401,nocaps,0.444444,0.125,0,0,0,0,1.0
+mix,qwen-vl-chat,402,nocaps,0.4,0.3,1,0,0,0,1.0
+mix,qwen-vl-chat,403,nocaps,0.333333,0.1875,1,0,0,0,1.0
+mix,qwen-vl-chat,404,nocaps,0.4,0.181818,0,0,0,0,1.0
+mix,qwen-vl-chat,405,nocaps,0.571429,0.416667,0,0,0,0,1.0
+mix,qwen-vl-chat,406,nocaps,0.25,0.25,0,0,0,0,1.0
+mix,qwen-vl-chat,407,nocaps,0.375,0.153846,0,0,0,0,1.0
+mix,qwen-vl-chat,408,nocaps,0.428571,0.230769,0,0,0,0,1.0
+mix,qwen-vl-chat,409,nocaps,0.444444,0.444444,1,0,0,0,1.0
+mix,qwen-vl-chat,410,nocaps,0.333333,0.2,1,0,0,0,1.0
+mix,qwen-vl-chat,411,nocaps,0.555556,0.125,1,0,0,0,1.0
+mix,qwen-vl-chat,412,nocaps,0.375,0.142857,0,0,0,0,1.0
+mix,qwen-vl-chat,413,nocaps,0.333333,0.571429,0,0,0,0,1.0
+mix,qwen-vl-chat,414,nocaps,0.25,0.153846,1,0,0,0,1.0
+mix,qwen-vl-chat,415,nocaps,0.222222,0.222222,0,0,0,0,1.0
+mix,qwen-vl-chat,416,nocaps,0.444444,0.428571,1,0,0,0,1.0
+mix,qwen-vl-chat,417,nocaps,0.428571,0.428571,0,0,0,0,1.0
+mix,qwen-vl-chat,418,nocaps,0.333333,0.166667,1,0,0,0,1.0
+mix,qwen-vl-chat,419,nocaps,0.555556,0.333333,0,0,0,0,1.0
+mix,qwen-vl-chat,420,nocaps,0.375,0.222222,1,0,0,0,1.0
+mix,qwen-vl-chat,421,nocaps,0.583333,0.555556,0,0,0,0,1.0
+mix,qwen-vl-chat,422,nocaps,0.333333,0.333333,0,0,0,0,1.0
+mix,qwen-vl-chat,423,nocaps,0.444444,0.444444,1,0,0,0,1.0
+mix,qwen-vl-chat,424,nocaps,0.25,0.25,0,0,0,0,1.0
+mix,qwen-vl-chat,425,nocaps,0.25,0.25,0,0,0,0,1.0
+mix,qwen-vl-chat,426,nocaps,0.272727,0.222222,0,0,0,0,1.0
+mix,qwen-vl-chat,427,nocaps,0.166667,0.111111,0,0,0,0,1.0
+mix,qwen-vl-chat,428,nocaps,0.3,0.1875,1,0,0,0,1.0
+mix,qwen-vl-chat,429,nocaps,0.363636,0.125,1,0,0,0,1.0
+mix,qwen-vl-chat,430,nocaps,0.25,0.25,0,0,0,0,1.0
+mix,qwen-vl-chat,431,nocaps,0.363636,0.25,1,0,0,0,1.0
+mix,qwen-vl-chat,432,nocaps,0.692308,0.666667,0,0,0,0,1.0
+mix,qwen-vl-chat,433,nocaps,0.4,0.4,0,0,0,0,1.0
+mix,qwen-vl-chat,434,nocaps,0.583333,0.222222,0,0,0,0,1.0
+mix,qwen-vl-chat,435,nocaps,0.4,0.176471,0,0,0,0,1.0
+mix,qwen-vl-chat,436,nocaps,0.25,0.166667,0,0,0,0,1.0
+mix,qwen-vl-chat,437,nocaps,0.75,0.75,0,0,0,0,1.0
+mix,qwen-vl-chat,438,nocaps,0.25,0.2,1,0,0,0,1.0
+mix,qwen-vl-chat,439,nocaps,0.545455,0.454545,1,0,0,0,1.0
+mix,qwen-vl-chat,440,nocaps,0.333333,0.125,1,0,0,0,1.0
+mix,qwen-vl-chat,441,nocaps,0.285714,0.6,0,0,0,0,1.0
+mix,qwen-vl-chat,442,nocaps,0.5,0.5,0,0,0,0,1.0
+mix,qwen-vl-chat,443,nocaps,0.25,0.5,0,0,0,0,1.0
+mix,qwen-vl-chat,444,nocaps,0.090909,0.181818,1,0,0,0,1.0
+mix,qwen-vl-chat,445,nocaps,0.333333,0.285714,1,0,0,0,1.0
+mix,qwen-vl-chat,446,nocaps,0.25,0.125,1,0,0,0,1.0
+mix,qwen-vl-chat,447,nocaps,0.272727,0.142857,0,0,0,0,1.0
+mix,qwen-vl-chat,448,nocaps,0.272727,0.222222,1,0,0,0,1.0
+mix,qwen-vl-chat,449,nocaps,0.4,0.3,1,0,0,0,1.0
+mix,qwen-vl-chat,450,nocaps,0.5,0.375,1,0,0,0,1.0
+mix,qwen-vl-chat,451,nocaps,0.444444,0.666667,0,0,0,0,1.0
+mix,qwen-vl-chat,452,nocaps,0.363636,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,453,nocaps,0.555556,0.333333,0,0,0,0,1.0
+mix,qwen-vl-chat,454,nocaps,0.25,0.090909,1,0,0,0,1.0
+mix,qwen-vl-chat,455,nocaps,0.142857,0.444444,0,0,0,0,1.0
+mix,qwen-vl-chat,456,nocaps,0.444444,0.444444,0,0,0,0,1.0
+mix,qwen-vl-chat,457,nocaps,0.125,0.222222,0,0,0,0,1.0
+mix,qwen-vl-chat,458,nocaps,0.555556,0.444444,1,0,0,0,1.0
+mix,qwen-vl-chat,459,nocaps,0.25,0.375,0,0,0,0,1.0
+mix,qwen-vl-chat,460,nocaps,0.25,0.25,0,0,0,0,1.0
+mix,qwen-vl-chat,461,nocaps,0.222222,0.555556,0,0,0,0,1.0
+mix,qwen-vl-chat,462,nocaps,0.25,0.125,0,0,0,0,1.0
+mix,qwen-vl-chat,463,nocaps,0.777778,0.666667,0,0,0,0,1.0
+mix,qwen-vl-chat,464,nocaps,0.363636,0.7,1,0,0,0,1.0
+mix,qwen-vl-chat,465,nocaps,0.571429,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,466,nocaps,0.555556,0.444444,0,0,0,0,1.0
+mix,qwen-vl-chat,467,nocaps,0.307692,0.25,0,0,0,0,1.0
+mix,qwen-vl-chat,468,nocaps,0.444444,0.357143,0,0,0,0,1.0
+mix,qwen-vl-chat,469,nocaps,0.333333,0.5,1,0,0,0,1.0
+mix,qwen-vl-chat,470,nocaps,0.363636,0.222222,0,0,0,0,1.0
+mix,qwen-vl-chat,471,nocaps,0.352941,0.352941,0,0,0,0,1.0
+mix,qwen-vl-chat,472,nocaps,0.555556,0.444444,1,0,0,0,1.0
+mix,qwen-vl-chat,473,nocaps,0.5,0.214286,0,0,0,0,1.0
+mix,qwen-vl-chat,474,nocaps,0.545455,0.090909,1,0,0,0,1.0
+mix,qwen-vl-chat,475,nocaps,0.555556,0.090909,0,0,0,0,1.0
+mix,qwen-vl-chat,476,nocaps,0.5,0.266667,0,0,0,0,1.0
+mix,qwen-vl-chat,477,nocaps,0.4,0.4,1,0,0,0,1.0
+mix,qwen-vl-chat,478,nocaps,0.235294,0.214286,0,0,0,0,1.0
+mix,qwen-vl-chat,479,nocaps,0.636364,0.125,0,0,0,0,1.0
+mix,qwen-vl-chat,480,nocaps,0.555556,0.111111,1,0,0,0,1.0
+mix,qwen-vl-chat,481,nocaps,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-chat,482,nocaps,0.375,0.625,1,0,0,0,1.0
+mix,qwen-vl-chat,483,nocaps,0.142857,0.1,1,0,0,0,1.0
+mix,qwen-vl-chat,484,nocaps,0.363636,0.375,0,0,0,0,1.0
+mix,qwen-vl-chat,485,nocaps,0.333333,0.1875,0,0,0,0,1.0
+mix,qwen-vl-chat,486,nocaps,0.133333,0.133333,1,0,0,0,1.0
+mix,qwen-vl-chat,487,nocaps,0.125,0.5,1,0,0,0,1.0
+mix,qwen-vl-chat,488,nocaps,0.363636,0.125,0,0,0,0,1.0
+mix,qwen-vl-chat,489,nocaps,0.375,0.222222,0,0,0,0,1.0
+mix,qwen-vl-chat,490,nocaps,0.111111,0.111111,1,0,0,0,1.0
+mix,qwen-vl-chat,491,nocaps,0.5,0.25,1,0,0,0,1.0
+mix,qwen-vl-chat,492,nocaps,0.444444,0.230769,1,0,0,0,1.0
+mix,qwen-vl-chat,493,nocaps,0.625,0.181818,0,0,0,0,1.0
+mix,qwen-vl-chat,494,nocaps,0.384615,0.133333,0,0,0,0,1.0
+mix,qwen-vl-chat,495,nocaps,0.428571,0.333333,0,0,0,0,1.0
+mix,qwen-vl-chat,496,nocaps,0.7,0.214286,1,0,0,0,1.0
+mix,qwen-vl-chat,497,nocaps,0.4,0.333333,0,0,0,0,1.0
+mix,qwen-vl-chat,498,nocaps,0.4,0.25,0,0,0,0,1.0
+mix,qwen-vl-chat,499,nocaps,0.3,0.3,1,0,0,0,1.0
+mix,qwen-vl-chat,500,visual7w,0.5,0.5,0,0,0,1,1.0
+mix,qwen-vl-chat,501,visual7w,0.5,0.666667,1,1,0,0,4.0
+mix,qwen-vl-chat,502,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,503,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-chat,504,visual7w,0.5,0.5,0,0,0,1,1.0
+mix,qwen-vl-chat,505,visual7w,0.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,506,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,507,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-chat,508,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,509,visual7w,0.0,0.0,1,0,0,1,1.0
+mix,qwen-vl-chat,510,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,511,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,512,visual7w,0.5,0.5,0,0,0,1,1.0
+mix,qwen-vl-chat,513,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-chat,514,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-chat,515,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-chat,516,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,517,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,518,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-chat,519,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-chat,520,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,521,visual7w,1.0,0.0,1,0,0,0,2.0
+mix,qwen-vl-chat,522,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,523,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-chat,524,visual7w,0.0,0.5,0,0,0,0,1.0
+mix,qwen-vl-chat,525,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,526,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,527,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-chat,528,visual7w,0.666667,0.666667,0,0,0,0,1.0
+mix,qwen-vl-chat,529,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,530,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,531,visual7w,0.5,0.5,1,1,0,0,4.0
+mix,qwen-vl-chat,532,visual7w,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-chat,533,visual7w,0.5,0.5,0,0,0,0,1.0
+mix,qwen-vl-chat,534,visual7w,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-chat,535,visual7w,0.0,0.5,0,1,0,1,4.0
+mix,qwen-vl-chat,536,visual7w,1.0,1.0,1,0,0,1,1.0
+mix,qwen-vl-chat,537,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,538,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,539,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-chat,540,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,541,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-chat,542,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,543,visual7w,0.666667,0.666667,1,0,1,1,1.0
+mix,qwen-vl-chat,544,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-chat,545,visual7w,0.8,0.8,0,0,0,1,1.0
+mix,qwen-vl-chat,546,visual7w,0.5,0.5,0,0,0,1,1.0
+mix,qwen-vl-chat,547,visual7w,0.333333,0.333333,1,1,0,0,5.0
+mix,qwen-vl-chat,548,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,549,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,550,visual7w,0.666667,0.666667,0,0,0,0,1.0
+mix,qwen-vl-chat,551,visual7w,0.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,552,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,553,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,554,visual7w,0.333333,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,555,visual7w,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-chat,556,visual7w,0.0,1.0,1,0,0,1,1.0
+mix,qwen-vl-chat,557,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,558,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-chat,559,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-chat,560,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-chat,561,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,562,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,563,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-chat,564,visual7w,0.5,0.5,1,0,0,0,1.0
+mix,qwen-vl-chat,565,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,566,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,567,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,568,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,569,visual7w,0.333333,0.333333,0,0,0,0,1.0
+mix,qwen-vl-chat,570,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-chat,571,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,572,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,573,visual7w,0.8,0.8,1,0,0,0,1.0
+mix,qwen-vl-chat,574,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,575,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-chat,576,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-chat,577,visual7w,0.75,0.75,0,0,0,0,1.0
+mix,qwen-vl-chat,578,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,579,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-chat,580,visual7w,1.0,1.0,1,1,0,0,4.0
+mix,qwen-vl-chat,581,visual7w,0.333333,0.333333,1,0,0,0,1.0
+mix,qwen-vl-chat,582,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,583,visual7w,0.125,0.625,1,0,0,0,1.0
+mix,qwen-vl-chat,584,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-chat,585,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,qwen-vl-chat,586,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,587,visual7w,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,588,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,qwen-vl-chat,589,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,qwen-vl-chat,590,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,qwen-vl-chat,591,visual7w,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-chat,592,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-chat,593,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,qwen-vl-chat,594,visual7w,1.0,1.0,1,0,0,0,1.0
+mix,qwen-vl-chat,595,visual7w,0.0,0.0,1,1,0,0,5.0
+mix,qwen-vl-chat,596,visual7w,0.166667,0.5,1,1,0,0,5.0
+mix,qwen-vl-chat,597,visual7w,0.25,0.5,0,0,0,0,1.0
+mix,qwen-vl-chat,598,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,qwen-vl-chat,599,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,0,life,0.0,0.0,1,0,1,0,2.0
+mix,deepseek-vl-chat,1,life,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,2,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,3,life,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,4,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,5,life,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,6,life,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,7,life,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,8,life,0.0,0.5,1,0,1,0,1.0
+mix,deepseek-vl-chat,9,life,1.0,1.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,10,life,0.5,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,11,life,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,12,life,0.0,1.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,13,life,0.0,0.0,1,0,1,1,1.0
+mix,deepseek-vl-chat,14,life,1.0,1.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,15,life,1.0,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,16,life,0.0,1.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,17,life,0.0,1.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,18,life,0.0,0.0,1,0,1,1,1.0
+mix,deepseek-vl-chat,19,life,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,20,life,0.333333,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,21,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,22,life,0.0,0.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,23,life,0.0,1.0,1,0,1,0,2.0
+mix,deepseek-vl-chat,24,life,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,25,life,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,26,life,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,27,life,0.0,0.5,1,0,1,0,1.0
+mix,deepseek-vl-chat,28,life,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,29,life,0.333333,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,30,life,0.0,0.0,1,0,0,0,2.0
+mix,deepseek-vl-chat,31,life,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,32,life,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,33,life,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,34,life,0.5,1.0,0,0,1,0,1.0
+mix,deepseek-vl-chat,35,life,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,36,life,1.0,1.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,37,life,0.0,1.0,1,1,0,1,5.0
+mix,deepseek-vl-chat,38,life,0.0,0.0,1,0,0,1,1.0
+mix,deepseek-vl-chat,39,life,0.0,0.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,40,life,0.5,0.5,0,0,1,0,2.0
+mix,deepseek-vl-chat,41,life,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,42,life,0.333333,0.666667,1,1,1,0,5.0
+mix,deepseek-vl-chat,43,life,0.5,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,44,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,45,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,46,life,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,47,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,48,life,0.0,0.0,1,0,1,0,2.0
+mix,deepseek-vl-chat,49,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,50,life,0.0,0.0,0,0,1,0,1.0
+mix,deepseek-vl-chat,51,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,52,life,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,53,life,0.0,0.5,0,0,1,0,1.0
+mix,deepseek-vl-chat,54,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,55,life,1.0,1.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,56,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,57,life,0.0,0.5,1,1,1,0,5.0
+mix,deepseek-vl-chat,58,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,59,life,0.0,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,60,life,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,61,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,62,life,0.0,1.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,63,life,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,64,life,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,65,life,0.0,1.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,66,life,0.0,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,67,life,0.0,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,68,life,0.0,0.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,69,life,0.0,0.0,1,1,0,1,5.0
+mix,deepseek-vl-chat,70,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,71,life,1.0,1.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,72,life,0.2,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,73,life,0.0,0.166667,1,1,1,0,5.0
+mix,deepseek-vl-chat,74,life,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,75,life,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,76,life,0.0,0.666667,1,1,1,0,5.0
+mix,deepseek-vl-chat,77,life,0.25,1.0,1,0,1,0,2.0
+mix,deepseek-vl-chat,78,life,0.0,0.25,1,1,1,1,5.0
+mix,deepseek-vl-chat,79,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,80,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,81,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,82,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,83,life,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,84,life,0.0,0.5,1,1,1,0,5.0
+mix,deepseek-vl-chat,85,life,0.5,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,86,life,0.5,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,87,life,0.0,0.666667,1,1,1,0,5.0
+mix,deepseek-vl-chat,88,life,0.0,0.333333,1,1,1,0,5.0
+mix,deepseek-vl-chat,89,life,0.5,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,90,life,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,91,life,0.5,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,92,life,0.0,0.5,1,1,0,0,5.0
+mix,deepseek-vl-chat,93,life,1.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,94,life,0.0,0.333333,1,1,1,0,5.0
+mix,deepseek-vl-chat,95,life,0.0,1.0,1,0,1,0,2.0
+mix,deepseek-vl-chat,96,life,0.333333,0.666667,1,1,0,0,5.0
+mix,deepseek-vl-chat,97,life,0.0,0.5,1,1,1,0,5.0
+mix,deepseek-vl-chat,98,life,0.5,0.5,1,1,1,1,5.0
+mix,deepseek-vl-chat,99,life,0.0,0.5,1,1,1,0,5.0
+mix,deepseek-vl-chat,100,in-house 2,1.0,1.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,101,in-house 2,0.0,0.5,1,1,1,1,5.0
+mix,deepseek-vl-chat,102,in-house 2,1.0,1.0,1,1,1,1,4.0
+mix,deepseek-vl-chat,103,in-house 2,0.0,0.0,1,1,1,0,4.0
+mix,deepseek-vl-chat,104,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,105,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,106,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,107,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,108,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,109,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,110,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,111,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,112,in-house 2,0.75,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,113,in-house 2,1.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,114,in-house 2,1.0,1.0,1,1,1,0,4.0
+mix,deepseek-vl-chat,115,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,116,in-house 2,0.5,0.25,1,0,1,0,1.0
+mix,deepseek-vl-chat,117,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,118,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,119,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,120,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,121,in-house 2,0.0,0.0,1,1,0,1,5.0
+mix,deepseek-vl-chat,122,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,123,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,124,in-house 2,0.5,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,125,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,126,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,127,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,128,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,129,in-house 2,0.0,0.0,1,0,0,0,2.0
+mix,deepseek-vl-chat,130,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,131,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,132,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,133,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,134,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,135,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,136,in-house 2,0.333333,0.333333,1,1,0,0,5.0
+mix,deepseek-vl-chat,137,in-house 2,1.0,0.0,1,1,1,0,4.0
+mix,deepseek-vl-chat,138,in-house 2,0.0,0.5,1,0,1,0,1.0
+mix,deepseek-vl-chat,139,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,140,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,141,in-house 2,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,142,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,143,in-house 2,0.0,0.666667,1,1,1,0,5.0
+mix,deepseek-vl-chat,144,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,145,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,146,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,147,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,148,in-house 2,0.0,0.0,1,1,0,1,5.0
+mix,deepseek-vl-chat,149,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,150,in-house 2,0.5,0.5,1,1,0,0,5.0
+mix,deepseek-vl-chat,151,in-house 2,1.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,152,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,153,in-house 2,0.0,0.333333,1,1,1,0,5.0
+mix,deepseek-vl-chat,154,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,155,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,156,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,deepseek-vl-chat,157,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,158,in-house 2,0.0,0.333333,1,1,1,0,5.0
+mix,deepseek-vl-chat,159,in-house 2,0.0,1.0,1,0,1,1,1.0
+mix,deepseek-vl-chat,160,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,161,in-house 2,1.0,1.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,162,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,163,in-house 2,0.5,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,164,in-house 2,0.5,0.5,1,1,1,0,5.0
+mix,deepseek-vl-chat,165,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,166,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,deepseek-vl-chat,167,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,168,in-house 2,0.0,0.0,1,0,1,1,1.0
+mix,deepseek-vl-chat,169,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,170,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,171,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,deepseek-vl-chat,172,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,173,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,174,in-house 2,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,175,in-house 2,1.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,176,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,177,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,178,in-house 2,0.0,1.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,179,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,180,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,181,in-house 2,0.5,0.5,1,1,1,0,4.0
+mix,deepseek-vl-chat,182,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,183,in-house 2,0.2,0.2,1,1,1,1,5.0
+mix,deepseek-vl-chat,184,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,185,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,186,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,187,in-house 2,1.0,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,188,in-house 2,0.0,0.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,189,in-house 2,0.0,1.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,190,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,191,in-house 2,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,192,in-house 2,0.5,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,193,in-house 2,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,194,in-house 2,0.5,0.5,1,1,1,1,5.0
+mix,deepseek-vl-chat,195,in-house 2,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,196,in-house 2,0.0,0.0,1,1,0,0,4.0
+mix,deepseek-vl-chat,197,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,198,in-house 2,0.0,0.5,1,1,0,0,5.0
+mix,deepseek-vl-chat,199,in-house 2,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,200,dyn-vqa zh,0.833333,0.333333,1,1,0,0,5.0
+mix,deepseek-vl-chat,201,dyn-vqa zh,0.285714,0.3,1,1,0,0,5.0
+mix,deepseek-vl-chat,202,dyn-vqa zh,0.4,0.1,1,1,0,0,5.0
+mix,deepseek-vl-chat,203,dyn-vqa zh,0.4,0.6,1,1,1,0,5.0
+mix,deepseek-vl-chat,204,dyn-vqa zh,0.333333,0.583333,1,1,0,0,5.0
+mix,deepseek-vl-chat,205,dyn-vqa zh,0.24,0.28,1,1,1,0,5.0
+mix,deepseek-vl-chat,206,dyn-vqa zh,0.0,0.6,1,0,1,0,1.0
+mix,deepseek-vl-chat,207,dyn-vqa zh,0.333333,0.5,1,1,0,0,5.0
+mix,deepseek-vl-chat,208,dyn-vqa zh,0.318182,0.227273,1,1,1,0,5.0
+mix,deepseek-vl-chat,209,dyn-vqa zh,0.0,0.363636,1,1,1,0,5.0
+mix,deepseek-vl-chat,210,dyn-vqa zh,0.363636,0.727273,1,1,0,0,5.0
+mix,deepseek-vl-chat,211,dyn-vqa zh,0.428571,0.428571,1,1,0,0,5.0
+mix,deepseek-vl-chat,212,dyn-vqa zh,0.12,0.52,1,1,0,0,5.0
+mix,deepseek-vl-chat,213,dyn-vqa zh,0.666667,0.555556,1,1,0,0,5.0
+mix,deepseek-vl-chat,214,dyn-vqa zh,0.0,0.333333,1,1,1,1,5.0
+mix,deepseek-vl-chat,215,dyn-vqa zh,0.0,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,216,dyn-vqa zh,0.428571,0.357143,0,1,1,0,5.0
+mix,deepseek-vl-chat,217,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,218,dyn-vqa zh,0.0,0.2,1,1,1,0,5.0
+mix,deepseek-vl-chat,219,dyn-vqa zh,0.4,0.4,1,1,0,0,5.0
+mix,deepseek-vl-chat,220,dyn-vqa zh,0.428571,0.428571,1,1,1,0,5.0
+mix,deepseek-vl-chat,221,dyn-vqa zh,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,222,dyn-vqa zh,0.25,0.875,1,1,1,0,5.0
+mix,deepseek-vl-chat,223,dyn-vqa zh,0.333333,0.833333,1,1,0,0,5.0
+mix,deepseek-vl-chat,224,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,225,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,226,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,227,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,228,dyn-vqa zh,0.333333,0.333333,1,1,0,0,5.0
+mix,deepseek-vl-chat,229,dyn-vqa zh,0.2,0.2,1,1,0,0,5.0
+mix,deepseek-vl-chat,230,dyn-vqa zh,0.0,0.75,1,0,1,0,2.0
+mix,deepseek-vl-chat,231,dyn-vqa zh,0.333333,0.333333,1,1,1,1,5.0
+mix,deepseek-vl-chat,232,dyn-vqa zh,1.0,0.666667,1,1,0,0,5.0
+mix,deepseek-vl-chat,233,dyn-vqa zh,0.25,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,234,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,235,dyn-vqa zh,0.0,0.666667,1,1,1,0,5.0
+mix,deepseek-vl-chat,236,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,237,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,238,dyn-vqa zh,1.0,0.5,1,1,0,0,5.0
+mix,deepseek-vl-chat,239,dyn-vqa zh,0.0,0.2,1,1,1,0,5.0
+mix,deepseek-vl-chat,240,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,241,dyn-vqa zh,0.583333,0.583333,1,1,0,0,5.0
+mix,deepseek-vl-chat,242,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,243,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,244,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,245,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,246,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,247,dyn-vqa zh,0.166667,0.166667,1,0,1,0,3.5
+mix,deepseek-vl-chat,248,dyn-vqa zh,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,249,dyn-vqa zh,0.5,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,250,dyn-vqa zh,0.0,0.666667,1,0,1,0,1.0
+mix,deepseek-vl-chat,251,dyn-vqa zh,0.5,0.5,1,0,0,0,3.5
+mix,deepseek-vl-chat,252,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,253,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,254,dyn-vqa zh,0.5,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,255,dyn-vqa zh,0.666667,1.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,256,dyn-vqa zh,0.333333,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,257,dyn-vqa zh,0.0,1.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,258,dyn-vqa zh,0.0,0.5,0,0,1,0,1.0
+mix,deepseek-vl-chat,259,dyn-vqa zh,1.0,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,260,dyn-vqa zh,0.0,0.0,1,0,0,1,1.0
+mix,deepseek-vl-chat,261,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,262,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,263,dyn-vqa zh,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,264,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,265,dyn-vqa zh,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,266,dyn-vqa zh,0.75,1.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,267,dyn-vqa zh,1.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,268,dyn-vqa zh,0.0,0.333333,1,1,1,0,5.0
+mix,deepseek-vl-chat,269,dyn-vqa zh,0.333333,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,270,dyn-vqa zh,0.333333,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,271,dyn-vqa zh,0.333333,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,272,dyn-vqa zh,0.318182,0.318182,1,1,1,0,5.0
+mix,deepseek-vl-chat,273,dyn-vqa zh,0.25,0.25,1,1,0,0,5.0
+mix,deepseek-vl-chat,274,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,275,dyn-vqa zh,0.4,1.0,0,1,0,0,5.0
+mix,deepseek-vl-chat,276,dyn-vqa zh,0.25,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,277,dyn-vqa zh,0.166667,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,278,dyn-vqa zh,0.285714,0.857143,1,1,1,0,5.0
+mix,deepseek-vl-chat,279,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,280,dyn-vqa zh,0.2,0.2,1,0,1,0,1.0
+mix,deepseek-vl-chat,281,dyn-vqa zh,0.6,0.25,1,0,1,0,1.0
+mix,deepseek-vl-chat,282,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,283,dyn-vqa zh,0.0,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,284,dyn-vqa zh,0.0,1.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,285,dyn-vqa zh,0.0,0.333333,1,1,1,0,5.0
+mix,deepseek-vl-chat,286,dyn-vqa zh,0.0,1.0,0,0,1,0,1.0
+mix,deepseek-vl-chat,287,dyn-vqa zh,0.0,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,288,dyn-vqa zh,0.0,1.0,0,1,0,0,5.0
+mix,deepseek-vl-chat,289,dyn-vqa zh,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,290,dyn-vqa zh,0.0,0.333333,0,0,0,0,1.0
+mix,deepseek-vl-chat,291,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,292,dyn-vqa zh,0.0,0.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,293,dyn-vqa zh,0.052632,0.157895,1,1,0,0,5.0
+mix,deepseek-vl-chat,294,dyn-vqa zh,0.166667,0.166667,1,1,0,0,5.0
+mix,deepseek-vl-chat,295,dyn-vqa zh,0.0,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,296,dyn-vqa zh,0.0,1.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,297,dyn-vqa zh,0.4,0.8,1,1,0,0,5.0
+mix,deepseek-vl-chat,298,dyn-vqa zh,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,299,dyn-vqa zh,0.0,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,300,dyn-vqa en,0.571429,0.285714,0,1,0,0,5.0
+mix,deepseek-vl-chat,301,dyn-vqa en,0.285714,0.142857,1,1,0,0,4.0
+mix,deepseek-vl-chat,302,dyn-vqa en,0.357143,0.357143,1,1,1,0,5.0
+mix,deepseek-vl-chat,303,dyn-vqa en,0.0,0.083333,1,0,0,0,1.0
+mix,deepseek-vl-chat,304,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,305,dyn-vqa en,0.090909,0.090909,1,1,1,0,5.0
+mix,deepseek-vl-chat,306,dyn-vqa en,0.296296,0.555556,1,1,0,1,5.0
+mix,deepseek-vl-chat,307,dyn-vqa en,0.25,0.25,1,1,1,1,5.0
+mix,deepseek-vl-chat,308,dyn-vqa en,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,309,dyn-vqa en,0.3,0.4,1,1,0,0,5.0
+mix,deepseek-vl-chat,310,dyn-vqa en,0.142857,0.178571,1,1,1,0,5.0
+mix,deepseek-vl-chat,311,dyn-vqa en,0.066667,0.133333,1,1,0,0,5.0
+mix,deepseek-vl-chat,312,dyn-vqa en,0.4,0.333333,1,1,0,0,5.0
+mix,deepseek-vl-chat,313,dyn-vqa en,0.444444,0.388889,1,1,0,1,5.0
+mix,deepseek-vl-chat,314,dyn-vqa en,0.357143,0.357143,1,1,0,0,5.0
+mix,deepseek-vl-chat,315,dyn-vqa en,0.333333,0.0,1,0,0,0,2.0
+mix,deepseek-vl-chat,316,dyn-vqa en,0.5,0.357143,1,0,0,0,1.0
+mix,deepseek-vl-chat,317,dyn-vqa en,0.384615,0.192308,1,1,0,0,5.0
+mix,deepseek-vl-chat,318,dyn-vqa en,0.5,0.25,1,1,0,0,5.0
+mix,deepseek-vl-chat,319,dyn-vqa en,0.571429,0.285714,1,0,0,0,1.0
+mix,deepseek-vl-chat,320,dyn-vqa en,0.090909,0.272727,1,1,0,0,5.0
+mix,deepseek-vl-chat,321,dyn-vqa en,0.0,0.166667,1,0,1,0,1.0
+mix,deepseek-vl-chat,322,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,323,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,324,dyn-vqa en,0.5,0.25,1,1,0,0,5.0
+mix,deepseek-vl-chat,325,dyn-vqa en,0.714286,0.714286,1,1,0,0,5.0
+mix,deepseek-vl-chat,326,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,deepseek-vl-chat,327,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,328,dyn-vqa en,1.0,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,329,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,330,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,deepseek-vl-chat,331,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,332,dyn-vqa en,0.0,0.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,333,dyn-vqa en,0.0,0.75,1,1,0,0,4.0
+mix,deepseek-vl-chat,334,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,335,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,336,dyn-vqa en,0.0,0.666667,1,1,0,0,5.0
+mix,deepseek-vl-chat,337,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,338,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,339,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,340,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,341,dyn-vqa en,0.0,0.0,0,1,0,1,5.0
+mix,deepseek-vl-chat,342,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,deepseek-vl-chat,343,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,deepseek-vl-chat,344,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,345,dyn-vqa en,0.0,1.0,1,0,0,0,3.5
+mix,deepseek-vl-chat,346,dyn-vqa en,1.0,1.0,1,0,0,1,1.0
+mix,deepseek-vl-chat,347,dyn-vqa en,0.0,1.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,348,dyn-vqa en,0.333333,0.333333,1,1,0,0,5.0
+mix,deepseek-vl-chat,349,dyn-vqa en,0.0,0.0,1,0,1,0,2.0
+mix,deepseek-vl-chat,350,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,351,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,352,dyn-vqa en,0.666667,0.0,1,0,0,0,3.5
+mix,deepseek-vl-chat,353,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,354,dyn-vqa en,0.333333,0.333333,1,1,1,0,5.0
+mix,deepseek-vl-chat,355,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,356,dyn-vqa en,1.0,0.0,0,1,0,0,5.0
+mix,deepseek-vl-chat,357,dyn-vqa en,0.666667,0.666667,1,0,1,0,1.0
+mix,deepseek-vl-chat,358,dyn-vqa en,1.0,1.0,1,0,0,1,1.0
+mix,deepseek-vl-chat,359,dyn-vqa en,0.0,0.0,0,0,1,0,1.0
+mix,deepseek-vl-chat,360,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,361,dyn-vqa en,0.0,0.0,0,1,0,1,5.0
+mix,deepseek-vl-chat,362,dyn-vqa en,0.5,0.5,1,1,0,0,5.0
+mix,deepseek-vl-chat,363,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,364,dyn-vqa en,0.25,0.25,1,1,1,0,5.0
+mix,deepseek-vl-chat,365,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,366,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,367,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,368,dyn-vqa en,0.2,0.0,1,1,0,1,5.0
+mix,deepseek-vl-chat,369,dyn-vqa en,0.5,0.25,0,0,0,0,1.0
+mix,deepseek-vl-chat,370,dyn-vqa en,0.25,0.25,1,1,1,0,5.0
+mix,deepseek-vl-chat,371,dyn-vqa en,0.166667,0.0,1,1,0,1,5.0
+mix,deepseek-vl-chat,372,dyn-vqa en,0.0,0.666667,1,1,0,0,5.0
+mix,deepseek-vl-chat,373,dyn-vqa en,0.0,1.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,374,dyn-vqa en,0.666667,0.333333,1,1,0,0,5.0
+mix,deepseek-vl-chat,375,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,376,dyn-vqa en,0.0,0.666667,1,1,0,0,5.0
+mix,deepseek-vl-chat,377,dyn-vqa en,0.333333,0.333333,1,1,0,0,5.0
+mix,deepseek-vl-chat,378,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,379,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,380,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,381,dyn-vqa en,0.0,0.666667,1,1,0,0,5.0
+mix,deepseek-vl-chat,382,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,383,dyn-vqa en,0.428571,0.285714,1,1,0,0,5.0
+mix,deepseek-vl-chat,384,dyn-vqa en,0.285714,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,385,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,386,dyn-vqa en,0.0,0.0,1,1,1,0,5.0
+mix,deepseek-vl-chat,387,dyn-vqa en,0.0,0.0,1,0,1,0,1.0
+mix,deepseek-vl-chat,388,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,389,dyn-vqa en,0.0,1.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,390,dyn-vqa en,0.0,0.0,1,1,1,1,5.0
+mix,deepseek-vl-chat,391,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,392,dyn-vqa en,0.125,1.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,393,dyn-vqa en,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,394,dyn-vqa en,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,395,dyn-vqa en,0.5,0.5,1,1,1,0,5.0
+mix,deepseek-vl-chat,396,dyn-vqa en,0.0,0.0,1,1,0,1,5.0
+mix,deepseek-vl-chat,397,dyn-vqa en,0.2,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,398,dyn-vqa en,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,399,dyn-vqa en,0.047619,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,400,nocaps,0.625,0.625,1,0,0,0,1.0
+mix,deepseek-vl-chat,401,nocaps,0.25,0.25,0,0,0,0,1.0
+mix,deepseek-vl-chat,402,nocaps,0.4,0.625,1,0,0,0,1.0
+mix,deepseek-vl-chat,403,nocaps,0.636364,0.636364,1,0,0,0,1.0
+mix,deepseek-vl-chat,404,nocaps,0.333333,0.363636,0,0,0,0,1.0
+mix,deepseek-vl-chat,405,nocaps,0.4375,0.076923,0,0,0,0,1.0
+mix,deepseek-vl-chat,406,nocaps,0.333333,0.4,0,0,0,0,1.0
+mix,deepseek-vl-chat,407,nocaps,0.166667,0.125,0,0,0,0,1.0
+mix,deepseek-vl-chat,408,nocaps,0.428571,0.357143,0,0,0,0,1.0
+mix,deepseek-vl-chat,409,nocaps,0.555556,0.555556,1,0,0,0,1.0
+mix,deepseek-vl-chat,410,nocaps,0.333333,0.375,1,0,0,0,1.0
+mix,deepseek-vl-chat,411,nocaps,0.444444,0.222222,1,0,0,0,1.0
+mix,deepseek-vl-chat,412,nocaps,0.375,0.285714,0,0,0,0,1.0
+mix,deepseek-vl-chat,413,nocaps,0.428571,0.375,0,0,0,0,1.0
+mix,deepseek-vl-chat,414,nocaps,0.181818,0.181818,1,0,0,0,1.0
+mix,deepseek-vl-chat,415,nocaps,0.333333,0.6,0,0,0,0,1.0
+mix,deepseek-vl-chat,416,nocaps,0.333333,0.375,1,0,0,0,1.0
+mix,deepseek-vl-chat,417,nocaps,0.5,0.5,0,0,0,0,1.0
+mix,deepseek-vl-chat,418,nocaps,0.333333,0.25,1,0,0,0,1.0
+mix,deepseek-vl-chat,419,nocaps,0.454545,0.363636,0,0,0,0,1.0
+mix,deepseek-vl-chat,420,nocaps,0.125,0.375,1,0,0,0,1.0
+mix,deepseek-vl-chat,421,nocaps,0.583333,0.6,0,0,0,0,1.0
+mix,deepseek-vl-chat,422,nocaps,0.461538,0.444444,0,0,0,0,1.0
+mix,deepseek-vl-chat,423,nocaps,0.333333,0.444444,1,0,0,0,1.0
+mix,deepseek-vl-chat,424,nocaps,0.3,0.4,0,0,0,0,1.0
+mix,deepseek-vl-chat,425,nocaps,0.5,0.625,0,0,0,0,1.0
+mix,deepseek-vl-chat,426,nocaps,0.333333,0.444444,0,0,0,0,1.0
+mix,deepseek-vl-chat,427,nocaps,0.083333,0.545455,0,0,0,0,1.0
+mix,deepseek-vl-chat,428,nocaps,0.3125,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,429,nocaps,0.25,0.25,1,0,0,0,1.0
+mix,deepseek-vl-chat,430,nocaps,0.461538,0.384615,0,0,0,0,1.0
+mix,deepseek-vl-chat,431,nocaps,0.125,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,432,nocaps,0.692308,0.615385,0,0,0,0,1.0
+mix,deepseek-vl-chat,433,nocaps,0.4,0.25,0,0,0,0,1.0
+mix,deepseek-vl-chat,434,nocaps,0.2,0.5,0,0,0,0,1.0
+mix,deepseek-vl-chat,435,nocaps,0.357143,0.5,0,0,0,0,1.0
+mix,deepseek-vl-chat,436,nocaps,0.294118,0.470588,0,0,0,0,1.0
+mix,deepseek-vl-chat,437,nocaps,0.875,0.875,0,0,0,0,1.0
+mix,deepseek-vl-chat,438,nocaps,0.222222,0.25,1,0,0,0,1.0
+mix,deepseek-vl-chat,439,nocaps,0.5,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,440,nocaps,0.5,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,441,nocaps,0.416667,0.5,0,0,0,0,1.0
+mix,deepseek-vl-chat,442,nocaps,0.375,0.555556,0,0,0,0,1.0
+mix,deepseek-vl-chat,443,nocaps,0.5,0.75,0,0,0,0,1.0
+mix,deepseek-vl-chat,444,nocaps,0.333333,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,445,nocaps,0.333333,0.3,1,0,0,0,1.0
+mix,deepseek-vl-chat,446,nocaps,0.6,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,447,nocaps,0.285714,0.2,0,0,0,0,1.0
+mix,deepseek-vl-chat,448,nocaps,0.666667,0.625,1,0,0,0,1.0
+mix,deepseek-vl-chat,449,nocaps,0.444444,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,450,nocaps,0.384615,0.384615,1,0,0,0,1.0
+mix,deepseek-vl-chat,451,nocaps,0.636364,0.176471,0,0,0,0,1.0
+mix,deepseek-vl-chat,452,nocaps,0.363636,0.444444,0,0,0,0,1.0
+mix,deepseek-vl-chat,453,nocaps,0.777778,0.333333,0,0,0,0,1.0
+mix,deepseek-vl-chat,454,nocaps,0.666667,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,455,nocaps,0.4,0.2,0,0,0,0,1.0
+mix,deepseek-vl-chat,456,nocaps,0.444444,0.444444,0,0,0,0,1.0
+mix,deepseek-vl-chat,457,nocaps,0.5,0.5,0,0,0,0,1.0
+mix,deepseek-vl-chat,458,nocaps,0.444444,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,459,nocaps,0.416667,0.5,0,0,0,0,1.0
+mix,deepseek-vl-chat,460,nocaps,0.363636,0.333333,0,0,0,0,1.0
+mix,deepseek-vl-chat,461,nocaps,0.75,0.25,0,0,0,0,1.0
+mix,deepseek-vl-chat,462,nocaps,0.545455,0.454545,0,0,0,0,1.0
+mix,deepseek-vl-chat,463,nocaps,0.888889,0.555556,0,0,0,0,1.0
+mix,deepseek-vl-chat,464,nocaps,0.8,0.2,1,0,0,0,1.0
+mix,deepseek-vl-chat,465,nocaps,0.5,0.25,1,0,0,0,1.0
+mix,deepseek-vl-chat,466,nocaps,0.444444,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,467,nocaps,0.375,0.375,0,0,0,0,1.0
+mix,deepseek-vl-chat,468,nocaps,0.375,0.571429,0,0,0,0,1.0
+mix,deepseek-vl-chat,469,nocaps,0.6,0.6,1,0,0,0,1.0
+mix,deepseek-vl-chat,470,nocaps,0.555556,0.555556,0,0,0,0,1.0
+mix,deepseek-vl-chat,471,nocaps,0.428571,0.428571,0,0,0,0,1.0
+mix,deepseek-vl-chat,472,nocaps,0.5,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,473,nocaps,0.5,0.5,0,0,0,0,1.0
+mix,deepseek-vl-chat,474,nocaps,0.5,0.583333,1,0,0,0,1.0
+mix,deepseek-vl-chat,475,nocaps,0.375,0.375,0,0,0,0,1.0
+mix,deepseek-vl-chat,476,nocaps,0.3,0.3,0,0,0,0,1.0
+mix,deepseek-vl-chat,477,nocaps,0.4,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,478,nocaps,0.1,0.25,0,0,0,0,1.0
+mix,deepseek-vl-chat,479,nocaps,0.5,0.5,0,0,0,0,1.0
+mix,deepseek-vl-chat,480,nocaps,0.363636,0.444444,1,0,0,0,1.0
+mix,deepseek-vl-chat,481,nocaps,0.8,0.7,1,0,0,0,1.0
+mix,deepseek-vl-chat,482,nocaps,0.5,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,483,nocaps,0.25,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,484,nocaps,0.4,0.375,0,0,0,0,1.0
+mix,deepseek-vl-chat,485,nocaps,0.333333,0.133333,0,0,0,0,1.0
+mix,deepseek-vl-chat,486,nocaps,0.555556,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,487,nocaps,0.375,0.375,1,0,0,0,1.0
+mix,deepseek-vl-chat,488,nocaps,0.3,0.4,0,0,0,0,1.0
+mix,deepseek-vl-chat,489,nocaps,0.5,0.333333,0,0,0,0,1.0
+mix,deepseek-vl-chat,490,nocaps,0.3,0.4,1,0,0,0,1.0
+mix,deepseek-vl-chat,491,nocaps,0.333333,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,492,nocaps,0.444444,0.444444,1,0,0,0,1.0
+mix,deepseek-vl-chat,493,nocaps,0.5,0.5,0,0,0,0,1.0
+mix,deepseek-vl-chat,494,nocaps,0.7,0.4,0,0,0,0,1.0
+mix,deepseek-vl-chat,495,nocaps,0.357143,0.357143,0,0,0,0,1.0
+mix,deepseek-vl-chat,496,nocaps,0.266667,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,497,nocaps,0.166667,0.388889,0,0,0,0,1.0
+mix,deepseek-vl-chat,498,nocaps,0.4,0.625,0,0,0,0,1.0
+mix,deepseek-vl-chat,499,nocaps,0.4,0.428571,1,0,0,0,1.0
+mix,deepseek-vl-chat,500,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,501,visual7w,0.666667,0.333333,1,1,0,0,4.0
+mix,deepseek-vl-chat,502,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,503,visual7w,1.0,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,504,visual7w,0.5,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,505,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,506,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,507,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,deepseek-vl-chat,508,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,509,visual7w,0.0,0.0,1,0,0,1,1.0
+mix,deepseek-vl-chat,510,visual7w,1.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,511,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,512,visual7w,0.5,0.5,0,0,0,1,1.0
+mix,deepseek-vl-chat,513,visual7w,0.333333,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,514,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,deepseek-vl-chat,515,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,516,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,517,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,518,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,519,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,deepseek-vl-chat,520,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,521,visual7w,1.0,1.0,1,0,0,0,2.0
+mix,deepseek-vl-chat,522,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,523,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,524,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,525,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,526,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,527,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,528,visual7w,0.333333,0.666667,0,0,0,0,1.0
+mix,deepseek-vl-chat,529,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,530,visual7w,1.0,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,531,visual7w,1.0,1.0,1,1,0,0,4.0
+mix,deepseek-vl-chat,532,visual7w,0.5,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,533,visual7w,0.5,0.5,0,0,0,0,1.0
+mix,deepseek-vl-chat,534,visual7w,0.5,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,535,visual7w,1.0,1.0,0,1,0,1,4.0
+mix,deepseek-vl-chat,536,visual7w,1.0,1.0,1,0,0,1,1.0
+mix,deepseek-vl-chat,537,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,538,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,539,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,540,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,541,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,542,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,543,visual7w,0.833333,0.833333,1,0,1,1,1.0
+mix,deepseek-vl-chat,544,visual7w,1.0,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,545,visual7w,0.8,0.8,0,0,0,1,1.0
+mix,deepseek-vl-chat,546,visual7w,0.5,0.5,0,0,0,1,1.0
+mix,deepseek-vl-chat,547,visual7w,0.333333,0.333333,1,1,0,0,5.0
+mix,deepseek-vl-chat,548,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,549,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,550,visual7w,0.0,0.666667,0,0,0,0,1.0
+mix,deepseek-vl-chat,551,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,552,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,553,visual7w,1.0,1.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,554,visual7w,0.0,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,555,visual7w,0.5,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,556,visual7w,0.0,0.0,1,0,0,1,1.0
+mix,deepseek-vl-chat,557,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,558,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,559,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,560,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,561,visual7w,0.5,0.5,0,0,0,0,1.0
+mix,deepseek-vl-chat,562,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,563,visual7w,0.0,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,564,visual7w,0.25,0.25,1,0,0,0,1.0
+mix,deepseek-vl-chat,565,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,566,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,567,visual7w,0.333333,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,568,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,569,visual7w,0.333333,0.333333,0,0,0,0,1.0
+mix,deepseek-vl-chat,570,visual7w,0.0,1.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,571,visual7w,0.0,0.25,1,0,0,0,1.0
+mix,deepseek-vl-chat,572,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,573,visual7w,0.2,0.8,1,0,0,0,1.0
+mix,deepseek-vl-chat,574,visual7w,1.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,575,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,576,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,577,visual7w,0.5,0.75,0,0,0,0,1.0
+mix,deepseek-vl-chat,578,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,579,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,580,visual7w,1.0,1.0,1,1,0,0,4.0
+mix,deepseek-vl-chat,581,visual7w,0.333333,0.333333,1,0,0,0,1.0
+mix,deepseek-vl-chat,582,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,583,visual7w,0.5,0.5,1,0,0,0,1.0
+mix,deepseek-vl-chat,584,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,585,visual7w,1.0,1.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,586,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,587,visual7w,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,588,visual7w,0.0,0.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,589,visual7w,0.666667,0.666667,1,0,0,0,1.0
+mix,deepseek-vl-chat,590,visual7w,0.0,0.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,591,visual7w,1.0,1.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,592,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,593,visual7w,0.0,0.0,0,0,0,1,1.0
+mix,deepseek-vl-chat,594,visual7w,1.0,1.0,1,0,0,0,1.0
+mix,deepseek-vl-chat,595,visual7w,0.0,0.0,1,1,0,0,5.0
+mix,deepseek-vl-chat,596,visual7w,0.166667,0.5,1,1,0,0,5.0
+mix,deepseek-vl-chat,597,visual7w,0.5,0.25,0,0,0,0,1.0
+mix,deepseek-vl-chat,598,visual7w,1.0,1.0,0,0,0,0,1.0
+mix,deepseek-vl-chat,599,visual7w,0.0,0.0,0,0,0,0,1.0
+life,gpt4-o,0,life,0.333333,0.0,1,0,1,0,2.0
+life,gpt4-o,1,life,0.333333,1.0,1,1,1,0,5.0
+life,gpt4-o,2,life,0.5,0.5,1,1,1,0,5.0
+life,gpt4-o,3,life,0.666667,1.0,1,0,1,0,1.0
+life,gpt4-o,4,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,5,life,0.2,0.2,1,1,1,0,5.0
+life,gpt4-o,6,life,0.0,0.25,1,0,1,0,1.0
+life,gpt4-o,7,life,0.666667,1.0,1,0,1,0,1.0
+life,gpt4-o,8,life,0.25,0.0,1,0,1,0,1.0
+life,gpt4-o,9,life,0.666667,1.0,1,0,1,0,1.0
+life,gpt4-o,10,life,0.0,0.8,1,0,0,0,1.0
+life,gpt4-o,11,life,0.5,1.0,1,0,1,0,1.0
+life,gpt4-o,12,life,1.0,0.0,1,0,0,0,1.0
+life,gpt4-o,13,life,1.0,0.5,1,0,0,0,1.0
+life,gpt4-o,14,life,0.75,0.75,1,1,0,0,5.0
+life,gpt4-o,15,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,16,life,0.0,0.0,1,0,0,0,1.0
+life,gpt4-o,17,life,0.0,0.5,1,0,1,1,1.0
+life,gpt4-o,18,life,1.0,1.0,1,0,0,0,1.0
+life,gpt4-o,19,life,1.0,1.0,1,1,0,0,5.0
+life,gpt4-o,20,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,21,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,22,life,0.0,0.0,1,1,1,1,5.0
+life,gpt4-o,23,life,0.0,0.0,1,1,1,1,5.0
+life,gpt4-o,24,life,0.0,0.0,1,0,1,1,1.0
+life,gpt4-o,25,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,26,life,1.0,1.0,1,1,1,0,5.0
+life,gpt4-o,27,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,28,life,0.0,0.0,1,1,1,1,5.0
+life,gpt4-o,29,life,0.0,1.0,1,0,1,0,2.0
+life,gpt4-o,30,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,31,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,32,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,33,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,34,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,35,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,36,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,37,life,0.333333,0.333333,1,0,0,0,2.0
+life,gpt4-o,38,life,0.0,0.0,1,0,0,0,1.0
+life,gpt4-o,39,life,0.25,0.0,1,0,1,0,1.0
+life,gpt4-o,40,life,1.0,1.0,1,0,1,0,1.0
+life,gpt4-o,41,life,1.0,1.0,0,0,1,0,1.0
+life,gpt4-o,42,life,1.0,1.0,1,1,1,0,5.0
+life,gpt4-o,43,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,44,life,1.0,1.0,1,0,1,0,1.0
+life,gpt4-o,45,life,1.0,1.0,1,1,0,1,5.0
+life,gpt4-o,46,life,0.0,0.0,1,0,0,1,1.0
+life,gpt4-o,47,life,1.0,0.5,1,1,1,1,5.0
+life,gpt4-o,48,life,0.5,0.5,0,0,1,0,2.0
+life,gpt4-o,49,life,0.0,1.0,1,1,1,0,5.0
+life,gpt4-o,50,life,0.666667,0.333333,1,1,1,0,5.0
+life,gpt4-o,51,life,0.666667,0.666667,1,1,1,0,5.0
+life,gpt4-o,52,life,0.0,1.0,1,1,1,0,5.0
+life,gpt4-o,53,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,54,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,55,life,0.0,1.0,1,1,1,0,5.0
+life,gpt4-o,56,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,57,life,0.5,1.0,1,0,1,0,2.0
+life,gpt4-o,58,life,1.0,1.0,1,1,1,0,5.0
+life,gpt4-o,59,life,0.0,0.0,0,0,1,0,1.0
+life,gpt4-o,60,life,1.0,0.0,1,1,1,0,5.0
+life,gpt4-o,61,life,1.0,1.0,1,1,1,0,5.0
+life,gpt4-o,62,life,0.0,1.0,1,0,1,0,1.0
+life,gpt4-o,63,life,1.0,1.0,0,0,1,0,1.0
+life,gpt4-o,64,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,65,life,1.0,1.0,1,0,1,0,1.0
+life,gpt4-o,66,life,0.0,0.5,1,1,1,0,5.0
+life,gpt4-o,67,life,0.0,0.5,1,1,1,0,5.0
+life,gpt4-o,68,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,69,life,0.0,0.0,1,1,0,0,5.0
+life,gpt4-o,70,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,71,life,0.0,0.0,1,1,0,0,5.0
+life,gpt4-o,72,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,73,life,0.0,0.0,1,1,1,1,5.0
+life,gpt4-o,74,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,75,life,0.0,0.0,1,1,0,0,5.0
+life,gpt4-o,76,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,77,life,0.0,0.0,1,1,0,0,5.0
+life,gpt4-o,78,life,0.0,0.0,1,1,0,0,5.0
+life,gpt4-o,79,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,80,life,0.0,0.0,1,1,1,1,5.0
+life,gpt4-o,81,life,0.0,0.0,1,1,0,1,5.0
+life,gpt4-o,82,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,83,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,84,life,0.0,0.0,1,0,1,0,1.0
+life,gpt4-o,85,life,0.0,0.75,1,1,1,0,5.0
+life,gpt4-o,86,life,0.0,0.666667,1,1,1,0,5.0
+life,gpt4-o,87,life,0.0,0.0,1,0,0,0,1.0
+life,gpt4-o,88,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,89,life,0.0,0.333333,1,1,1,0,5.0
+life,gpt4-o,90,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,91,life,1.0,1.0,1,0,1,0,2.0
+life,gpt4-o,92,life,0.0,0.5,1,1,1,1,5.0
+life,gpt4-o,93,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,94,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,95,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,96,life,0.0,0.428571,1,1,1,0,5.0
+life,gpt4-o,97,life,0.0,0.0,1,1,1,0,5.0
+life,gpt4-o,98,life,1.0,1.0,1,1,1,0,5.0
+life,gpt4-o,99,life,0.5,1.0,1,1,1,0,5.0
+life,gpt4-o,100,life,0.0,0.5,1,1,1,0,5.0
+life,gpt4-o,101,life,0.285714,0.857143,1,1,1,0,5.0
+life,gpt4-o,102,life,0.25,1.0,1,1,1,0,5.0
+life,gpt4-o,103,life,0.0,0.333333,1,1,1,0,5.0
+life,gpt4-o,104,life,0.666667,1.0,1,1,1,0,5.0
+life,gpt4-o,105,life,0.333333,0.666667,1,1,1,0,5.0
+life,gpt4-o,106,life,0.0,1.0,1,1,1,0,5.0
+life,gpt4-o,107,life,0.25,1.0,1,1,1,0,5.0
+life,gpt4-o,108,life,0.4,0.0,1,1,1,0,5.0
+life,gpt4-o,109,life,0.5,0.5,1,1,1,0,5.0
+life,gpt4-o,110,life,1.0,1.0,1,0,0,0,1.0
+life,gpt4-o,111,life,0.5,0.5,1,1,0,0,5.0
+life,gpt4-o,112,life,1.0,1.0,1,1,1,0,5.0
+life,gpt4-o,113,life,0.333333,0.0,1,1,1,0,5.0
+life,gpt4-o,114,life,1.0,1.0,1,0,1,0,2.0
+life,gpt4-o,115,life,1.0,1.0,0,1,0,1,5.0
+life,gpt4-o,116,life,1.0,0.666667,1,1,0,0,5.0
+life,gpt4-o,117,life,1.0,0.5,1,1,1,0,5.0
+life,gpt4-o,118,life,0.545455,1.0,1,1,1,1,5.0
+life,gpt4-o,119,life,0.5,0.5,1,1,1,0,5.0
+life,gpt4-o,120,life,0.0,0.5,1,1,1,0,5.0
+life,gpt4-o,121,life,1.0,1.0,1,1,0,0,5.0
+life,gpt4-o,122,life,0.0,0.666667,1,1,1,1,5.0
+life,gpt4-o,123,life,1.0,0.25,1,1,1,0,5.0
+life,gpt4-o,124,life,0.75,0.75,1,1,1,0,5.0
+life,gpt4-o,125,life,0.333333,0.333333,1,0,1,0,2.0
+life,gpt4-o,126,life,0.5,0.5,1,1,1,1,5.0
+life,gpt4-o,127,life,0.0,1.0,1,1,1,0,4.0
+life,gpt4-o,128,life,0.0,0.0,1,1,0,0,5.0
+life,gpt4-o,129,life,0.333333,0.333333,1,0,0,1,1.0
+life,gpt4-o,130,life,0.666667,0.333333,1,1,0,0,5.0
+life,gpt4-o,131,life,0.5,0.0,1,1,0,0,5.0
+life,gpt4-o,132,life,0.0,0.333333,1,0,0,0,2.0
+life,gpt4-o,133,life,0.0,0.0,1,0,0,0,2.0
+life,gpt4-o,134,life,0.0,0.0,1,0,0,0,1.0
+life,gpt4-o,135,life,0.0,0.0,1,1,0,0,5.0
+life,gpt4-o,136,life,0.0,0.0,1,1,0,0,5.0
+life,gpt4-o,137,life,1.0,1.0,1,0,0,1,3.5
+life,gpt4-o,138,life,1.0,0.0,1,0,0,0,1.0
+life,gpt4-o,139,life,0.5,0.5,1,1,1,0,5.0
+life,gpt4-o,140,life,0.0,0.0,1,1,0,0,5.0
+life,gpt4-o,141,life,0.5,0.5,1,1,0,0,5.0
+life,gpt4-o,142,life,0.333333,0.333333,1,0,0,1,2.0
+life,gpt4-o,143,life,0.0,0.0,1,1,0,0,5.0
+life,gpt4-o,144,life,0.5,0.5,1,1,0,0,5.0
+life,gpt4-o,145,life,1.0,1.0,1,1,0,0,5.0
+life,gpt4-o,146,life,0.0,1.0,1,1,0,0,5.0
+life,gpt4-o,147,life,0.0,0.0,1,0,0,0,1.0
+life,gpt4-o,148,life,0.5,0.5,1,0,0,0,1.0
+life,qwen-vl-max,0,life,0.0,0.0,1,0,1,0,2.0
+life,qwen-vl-max,1,life,0.333333,0.0,1,1,1,0,5.0
+life,qwen-vl-max,2,life,0.5,0.5,1,1,1,0,5.0
+life,qwen-vl-max,3,life,1.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,4,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,5,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,6,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,7,life,0.666667,1.0,1,0,1,0,1.0
+life,qwen-vl-max,8,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,9,life,0.666667,1.0,1,0,1,0,1.0
+life,qwen-vl-max,10,life,0.0,0.8,1,0,0,0,1.0
+life,qwen-vl-max,11,life,0.5,1.0,1,0,1,0,1.0
+life,qwen-vl-max,12,life,1.0,1.0,1,0,0,0,1.0
+life,qwen-vl-max,13,life,1.0,0.5,1,0,0,0,1.0
+life,qwen-vl-max,14,life,1.0,1.0,1,1,0,0,5.0
+life,qwen-vl-max,15,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,16,life,0.0,1.0,1,0,0,0,1.0
+life,qwen-vl-max,17,life,0.166667,0.0,1,0,1,1,1.0
+life,qwen-vl-max,18,life,1.0,1.0,1,0,0,0,1.0
+life,qwen-vl-max,19,life,1.0,1.0,1,1,0,0,5.0
+life,qwen-vl-max,20,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,21,life,0.0,1.0,1,0,1,0,1.0
+life,qwen-vl-max,22,life,0.0,1.0,1,1,1,1,5.0
+life,qwen-vl-max,23,life,0.0,1.0,1,1,1,1,5.0
+life,qwen-vl-max,24,life,0.0,1.0,1,0,1,1,1.0
+life,qwen-vl-max,25,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,26,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,27,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,28,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-max,29,life,0.0,1.0,1,0,1,0,2.0
+life,qwen-vl-max,30,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,31,life,0.333333,0.0,1,0,1,0,1.0
+life,qwen-vl-max,32,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,33,life,0.333333,0.0,1,0,1,0,1.0
+life,qwen-vl-max,34,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,35,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,36,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,37,life,0.0,0.333333,1,0,0,0,2.0
+life,qwen-vl-max,38,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-max,39,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,40,life,0.0,1.0,1,0,1,0,1.0
+life,qwen-vl-max,41,life,0.5,1.0,0,0,1,0,1.0
+life,qwen-vl-max,42,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,43,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,44,life,1.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,45,life,1.0,1.0,1,1,0,1,5.0
+life,qwen-vl-max,46,life,0.0,0.0,1,0,0,1,1.0
+life,qwen-vl-max,47,life,0.0,0.5,1,1,1,1,5.0
+life,qwen-vl-max,48,life,0.5,0.5,0,0,1,0,2.0
+life,qwen-vl-max,49,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,50,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,51,life,0.666667,0.666667,1,1,1,0,5.0
+life,qwen-vl-max,52,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,53,life,0.166667,0.0,1,1,1,0,5.0
+life,qwen-vl-max,54,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,55,life,0.666667,0.666667,1,1,1,0,5.0
+life,qwen-vl-max,56,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,57,life,0.5,0.5,1,0,1,0,2.0
+life,qwen-vl-max,58,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,59,life,0.0,0.0,0,0,1,0,1.0
+life,qwen-vl-max,60,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,61,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,62,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-max,63,life,0.5,0.5,0,0,1,0,1.0
+life,qwen-vl-max,64,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,65,life,1.0,1.0,1,0,1,0,1.0
+life,qwen-vl-max,66,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,67,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,68,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,69,life,0.0,1.0,1,1,0,0,5.0
+life,qwen-vl-max,70,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,71,life,0.0,1.0,1,1,0,0,5.0
+life,qwen-vl-max,72,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,73,life,0.0,1.0,1,1,1,1,5.0
+life,qwen-vl-max,74,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,75,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-max,76,life,0.0,1.0,1,0,1,0,1.0
+life,qwen-vl-max,77,life,0.0,1.0,1,1,0,0,5.0
+life,qwen-vl-max,78,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-max,79,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,80,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-max,81,life,0.0,0.0,1,1,0,1,5.0
+life,qwen-vl-max,82,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,83,life,1.0,1.0,1,0,1,0,1.0
+life,qwen-vl-max,84,life,0.4,0.2,1,0,1,0,1.0
+life,qwen-vl-max,85,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,86,life,0.666667,0.666667,1,1,1,0,5.0
+life,qwen-vl-max,87,life,0.0,1.0,1,0,0,0,1.0
+life,qwen-vl-max,88,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,89,life,0.0,0.666667,1,1,1,0,5.0
+life,qwen-vl-max,90,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,91,life,1.0,1.0,1,0,1,0,2.0
+life,qwen-vl-max,92,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-max,93,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,94,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,95,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,96,life,0.0,0.5,1,1,1,0,5.0
+life,qwen-vl-max,97,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,98,life,0.5,1.0,1,1,1,0,5.0
+life,qwen-vl-max,99,life,0.0,0.5,1,1,1,0,5.0
+life,qwen-vl-max,100,life,0.25,0.25,1,1,1,0,5.0
+life,qwen-vl-max,101,life,0.142857,0.857143,1,1,1,0,5.0
+life,qwen-vl-max,102,life,0.75,1.0,1,1,1,0,5.0
+life,qwen-vl-max,103,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,104,life,0.333333,1.0,1,1,1,0,5.0
+life,qwen-vl-max,105,life,0.333333,0.0,1,1,1,0,5.0
+life,qwen-vl-max,106,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,107,life,0.25,0.5,1,1,1,0,5.0
+life,qwen-vl-max,108,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-max,109,life,0.5,0.5,1,1,1,0,5.0
+life,qwen-vl-max,110,life,1.0,1.0,1,0,0,0,1.0
+life,qwen-vl-max,111,life,0.5,0.5,1,1,0,0,5.0
+life,qwen-vl-max,112,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,113,life,0.333333,0.333333,1,1,1,0,5.0
+life,qwen-vl-max,114,life,0.0,1.0,1,0,1,0,2.0
+life,qwen-vl-max,115,life,0.0,0.0,0,1,0,1,5.0
+life,qwen-vl-max,116,life,1.0,0.666667,1,1,0,0,5.0
+life,qwen-vl-max,117,life,0.0,0.5,1,1,1,0,5.0
+life,qwen-vl-max,118,life,1.0,0.0,1,1,1,1,5.0
+life,qwen-vl-max,119,life,0.5,0.5,1,1,1,0,5.0
+life,qwen-vl-max,120,life,0.0,0.5,1,1,1,0,5.0
+life,qwen-vl-max,121,life,0.5,0.5,1,1,0,0,5.0
+life,qwen-vl-max,122,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-max,123,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-max,124,life,0.25,0.25,1,1,1,0,5.0
+life,qwen-vl-max,125,life,0.333333,0.0,1,0,1,0,2.0
+life,qwen-vl-max,126,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-max,127,life,0.0,0.0,1,1,1,0,4.0
+life,qwen-vl-max,128,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-max,129,life,0.333333,0.0,1,0,0,1,1.0
+life,qwen-vl-max,130,life,0.333333,0.0,1,1,0,0,5.0
+life,qwen-vl-max,131,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-max,132,life,0.0,0.333333,1,0,0,0,2.0
+life,qwen-vl-max,133,life,0.5,0.5,1,0,0,0,2.0
+life,qwen-vl-max,134,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-max,135,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-max,136,life,0.0,0.333333,1,1,0,0,5.0
+life,qwen-vl-max,137,life,0.333333,1.0,1,0,0,1,3.5
+life,qwen-vl-max,138,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-max,139,life,0.5,0.5,1,1,1,0,5.0
+life,qwen-vl-max,140,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-max,141,life,0.5,0.0,1,1,0,0,5.0
+life,qwen-vl-max,142,life,0.333333,0.0,1,0,0,1,2.0
+life,qwen-vl-max,143,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-max,144,life,0.0,0.5,1,1,0,0,5.0
+life,qwen-vl-max,145,life,1.0,1.0,1,1,0,0,5.0
+life,qwen-vl-max,146,life,0.0,1.0,1,1,0,0,5.0
+life,qwen-vl-max,147,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-max,148,life,0.5,0.0,1,0,0,0,1.0
+life,qwen-vl-2,0,life,0.0,0.0,1,0,1,0,2.0
+life,qwen-vl-2,1,life,0.333333,1.0,1,1,1,0,5.0
+life,qwen-vl-2,2,life,0.5,0.5,1,1,1,0,5.0
+life,qwen-vl-2,3,life,0.666667,0.0,1,0,1,0,1.0
+life,qwen-vl-2,4,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,5,life,0.0,0.2,1,1,1,0,5.0
+life,qwen-vl-2,6,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-2,7,life,0.666667,1.0,1,0,1,0,1.0
+life,qwen-vl-2,8,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-2,9,life,0.666667,1.0,1,0,1,0,1.0
+life,qwen-vl-2,10,life,0.0,0.8,1,0,0,0,1.0
+life,qwen-vl-2,11,life,0.5,1.0,1,0,1,0,1.0
+life,qwen-vl-2,12,life,1.0,1.0,1,0,0,0,1.0
+life,qwen-vl-2,13,life,1.0,0.5,1,0,0,0,1.0
+life,qwen-vl-2,14,life,1.0,1.0,1,1,0,0,5.0
+life,qwen-vl-2,15,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-2,16,life,0.0,1.0,1,0,0,0,1.0
+life,qwen-vl-2,17,life,0.0,0.0,1,0,1,1,1.0
+life,qwen-vl-2,18,life,1.0,1.0,1,0,0,0,1.0
+life,qwen-vl-2,19,life,1.0,1.0,1,1,0,0,5.0
+life,qwen-vl-2,20,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-2,21,life,0.0,1.0,1,0,1,0,1.0
+life,qwen-vl-2,22,life,0.0,1.0,1,1,1,1,5.0
+life,qwen-vl-2,23,life,0.0,1.0,1,1,1,1,5.0
+life,qwen-vl-2,24,life,0.0,1.0,1,0,1,1,1.0
+life,qwen-vl-2,25,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,26,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,27,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,28,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-2,29,life,0.0,1.0,1,0,1,0,2.0
+life,qwen-vl-2,30,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-2,31,life,0.333333,0.0,1,0,1,0,1.0
+life,qwen-vl-2,32,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-2,33,life,0.333333,0.0,1,0,1,0,1.0
+life,qwen-vl-2,34,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-2,35,life,0.25,0.0,1,0,1,0,1.0
+life,qwen-vl-2,36,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-2,37,life,0.0,0.0,1,0,0,0,2.0
+life,qwen-vl-2,38,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-2,39,life,0.25,0.0,1,0,1,0,1.0
+life,qwen-vl-2,40,life,0.0,1.0,1,0,1,0,1.0
+life,qwen-vl-2,41,life,0.5,1.0,0,0,1,0,1.0
+life,qwen-vl-2,42,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,43,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-2,44,life,1.0,0.0,1,0,1,0,1.0
+life,qwen-vl-2,45,life,1.0,1.0,1,1,0,1,5.0
+life,qwen-vl-2,46,life,0.0,0.0,1,0,0,1,1.0
+life,qwen-vl-2,47,life,0.0,0.5,1,1,1,1,5.0
+life,qwen-vl-2,48,life,0.5,0.5,0,0,1,0,2.0
+life,qwen-vl-2,49,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,50,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,51,life,0.666667,0.666667,1,1,1,0,5.0
+life,qwen-vl-2,52,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,53,life,0.166667,0.0,1,1,1,0,5.0
+life,qwen-vl-2,54,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,55,life,0.666667,0.666667,1,1,1,0,5.0
+life,qwen-vl-2,56,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,57,life,0.5,0.5,1,0,1,0,2.0
+life,qwen-vl-2,58,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,59,life,0.0,0.0,0,0,1,0,1.0
+life,qwen-vl-2,60,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,61,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,62,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-2,63,life,0.5,0.5,0,0,1,0,1.0
+life,qwen-vl-2,64,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,65,life,1.0,1.0,1,0,1,0,1.0
+life,qwen-vl-2,66,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,67,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,68,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,69,life,0.0,1.0,1,1,0,0,5.0
+life,qwen-vl-2,70,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,71,life,0.0,1.0,1,1,0,0,5.0
+life,qwen-vl-2,72,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,73,life,0.0,1.0,1,1,1,1,5.0
+life,qwen-vl-2,74,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,75,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-2,76,life,0.0,1.0,1,0,1,0,1.0
+life,qwen-vl-2,77,life,0.0,1.0,1,1,0,0,5.0
+life,qwen-vl-2,78,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-2,79,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,80,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-2,81,life,0.0,0.0,1,1,0,1,5.0
+life,qwen-vl-2,82,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,83,life,1.0,1.0,1,0,1,0,1.0
+life,qwen-vl-2,84,life,0.2,0.2,1,0,1,0,1.0
+life,qwen-vl-2,85,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,86,life,0.666667,0.666667,1,1,1,0,5.0
+life,qwen-vl-2,87,life,0.0,1.0,1,0,0,0,1.0
+life,qwen-vl-2,88,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,89,life,0.0,0.666667,1,1,1,0,5.0
+life,qwen-vl-2,90,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,91,life,1.0,1.0,1,0,1,0,2.0
+life,qwen-vl-2,92,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-2,93,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,94,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,95,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,96,life,0.0,0.5,1,1,1,0,5.0
+life,qwen-vl-2,97,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,98,life,0.5,1.0,1,1,1,0,5.0
+life,qwen-vl-2,99,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,100,life,0.25,0.25,1,1,1,0,5.0
+life,qwen-vl-2,101,life,0.142857,0.714286,1,1,1,0,5.0
+life,qwen-vl-2,102,life,0.75,1.0,1,1,1,0,5.0
+life,qwen-vl-2,103,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,104,life,0.333333,1.0,1,1,1,0,5.0
+life,qwen-vl-2,105,life,0.333333,0.0,1,1,1,0,5.0
+life,qwen-vl-2,106,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,107,life,0.25,0.5,1,1,1,0,5.0
+life,qwen-vl-2,108,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,109,life,0.5,0.5,1,1,1,0,5.0
+life,qwen-vl-2,110,life,1.0,1.0,1,0,0,0,1.0
+life,qwen-vl-2,111,life,0.5,0.5,1,1,0,0,5.0
+life,qwen-vl-2,112,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,113,life,0.333333,0.333333,1,1,1,0,5.0
+life,qwen-vl-2,114,life,0.0,1.0,1,0,1,0,2.0
+life,qwen-vl-2,115,life,0.0,0.0,0,1,0,1,5.0
+life,qwen-vl-2,116,life,1.0,0.666667,1,1,0,0,5.0
+life,qwen-vl-2,117,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-2,118,life,1.0,0.0,1,1,1,1,5.0
+life,qwen-vl-2,119,life,0.5,0.5,1,1,1,0,5.0
+life,qwen-vl-2,120,life,0.0,0.5,1,1,1,0,5.0
+life,qwen-vl-2,121,life,0.5,0.5,1,1,0,0,5.0
+life,qwen-vl-2,122,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-2,123,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-2,124,life,0.25,0.0,1,1,1,0,5.0
+life,qwen-vl-2,125,life,0.333333,0.0,1,0,1,0,2.0
+life,qwen-vl-2,126,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-2,127,life,0.0,0.0,1,1,1,0,4.0
+life,qwen-vl-2,128,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-2,129,life,0.333333,0.0,1,0,0,1,1.0
+life,qwen-vl-2,130,life,0.333333,0.0,1,1,0,0,5.0
+life,qwen-vl-2,131,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-2,132,life,0.0,0.0,1,0,0,0,2.0
+life,qwen-vl-2,133,life,0.5,0.5,1,0,0,0,2.0
+life,qwen-vl-2,134,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-2,135,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-2,136,life,0.0,0.333333,1,1,0,0,5.0
+life,qwen-vl-2,137,life,0.333333,1.0,1,0,0,1,3.5
+life,qwen-vl-2,138,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-2,139,life,0.5,0.5,1,1,1,0,5.0
+life,qwen-vl-2,140,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-2,141,life,0.5,0.0,1,1,0,0,5.0
+life,qwen-vl-2,142,life,0.333333,0.0,1,0,0,1,2.0
+life,qwen-vl-2,143,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-2,144,life,0.0,0.5,1,1,0,0,5.0
+life,qwen-vl-2,145,life,1.0,1.0,1,1,0,0,5.0
+life,qwen-vl-2,146,life,0.0,1.0,1,1,0,0,5.0
+life,qwen-vl-2,147,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-2,148,life,0.5,0.0,1,0,0,0,1.0
+life,qwen-vl-chat,0,life,0.0,0.0,1,0,1,0,2.0
+life,qwen-vl-chat,1,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,2,life,0.5,0.5,1,1,1,0,5.0
+life,qwen-vl-chat,3,life,0.333333,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,4,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,5,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,6,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,7,life,0.0,0.666667,1,0,1,0,1.0
+life,qwen-vl-chat,8,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,9,life,0.0,0.666667,1,0,1,0,1.0
+life,qwen-vl-chat,10,life,0.6,0.2,1,0,0,0,1.0
+life,qwen-vl-chat,11,life,0.5,0.5,1,0,1,0,1.0
+life,qwen-vl-chat,12,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-chat,13,life,1.0,1.0,1,0,0,0,1.0
+life,qwen-vl-chat,14,life,0.25,0.75,1,1,0,0,5.0
+life,qwen-vl-chat,15,life,0.0,1.0,1,0,1,0,1.0
+life,qwen-vl-chat,16,life,0.0,1.0,1,0,0,0,1.0
+life,qwen-vl-chat,17,life,0.0,0.333333,1,0,1,1,1.0
+life,qwen-vl-chat,18,life,1.0,1.0,1,0,0,0,1.0
+life,qwen-vl-chat,19,life,1.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,20,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,21,life,0.0,1.0,1,0,1,0,1.0
+life,qwen-vl-chat,22,life,0.0,1.0,1,1,1,1,5.0
+life,qwen-vl-chat,23,life,0.0,1.0,1,1,1,1,5.0
+life,qwen-vl-chat,24,life,0.0,0.0,1,0,1,1,1.0
+life,qwen-vl-chat,25,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,26,life,0.333333,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,27,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,28,life,0.0,0.5,1,1,1,1,5.0
+life,qwen-vl-chat,29,life,0.0,0.0,1,0,1,0,2.0
+life,qwen-vl-chat,30,life,0.25,0.25,1,0,1,0,1.0
+life,qwen-vl-chat,31,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,32,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,33,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,34,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,35,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,36,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,37,life,0.0,0.0,1,0,0,0,2.0
+life,qwen-vl-chat,38,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-chat,39,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,40,life,0.0,1.0,1,0,1,0,1.0
+life,qwen-vl-chat,41,life,1.0,1.0,0,0,1,0,1.0
+life,qwen-vl-chat,42,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,43,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,44,life,1.0,1.0,1,0,1,0,1.0
+life,qwen-vl-chat,45,life,0.0,1.0,1,1,0,1,5.0
+life,qwen-vl-chat,46,life,0.0,0.0,1,0,0,1,1.0
+life,qwen-vl-chat,47,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-chat,48,life,0.5,0.5,0,0,1,0,2.0
+life,qwen-vl-chat,49,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,50,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,51,life,0.666667,0.666667,1,1,1,0,5.0
+life,qwen-vl-chat,52,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,53,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,54,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,55,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,56,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,57,life,0.0,1.0,1,0,1,0,2.0
+life,qwen-vl-chat,58,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,59,life,0.0,0.0,0,0,1,0,1.0
+life,qwen-vl-chat,60,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,61,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,62,life,0.0,0.0,1,0,1,0,1.0
+life,qwen-vl-chat,63,life,0.0,0.0,0,0,1,0,1.0
+life,qwen-vl-chat,64,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,65,life,0.0,1.0,1,0,1,0,1.0
+life,qwen-vl-chat,66,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,67,life,0.5,0.5,1,1,1,0,5.0
+life,qwen-vl-chat,68,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,69,life,0.0,1.0,1,1,0,0,5.0
+life,qwen-vl-chat,70,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,71,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,72,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,73,life,0.0,1.0,1,1,1,1,5.0
+life,qwen-vl-chat,74,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,75,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,76,life,0.0,1.0,1,0,1,0,1.0
+life,qwen-vl-chat,77,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,78,life,0.0,1.0,1,1,0,0,5.0
+life,qwen-vl-chat,79,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,80,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-chat,81,life,0.0,0.0,1,1,0,1,5.0
+life,qwen-vl-chat,82,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,83,life,1.0,1.0,1,0,1,0,1.0
+life,qwen-vl-chat,84,life,0.2,0.2,1,0,1,0,1.0
+life,qwen-vl-chat,85,life,0.0,0.75,1,1,1,0,5.0
+life,qwen-vl-chat,86,life,0.666667,0.666667,1,1,1,0,5.0
+life,qwen-vl-chat,87,life,0.0,1.0,1,0,0,0,1.0
+life,qwen-vl-chat,88,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,89,life,0.0,0.666667,1,1,1,0,5.0
+life,qwen-vl-chat,90,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,91,life,0.75,0.75,1,0,1,0,2.0
+life,qwen-vl-chat,92,life,0.0,0.5,1,1,1,1,5.0
+life,qwen-vl-chat,93,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,94,life,0.333333,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,95,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,96,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,97,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,98,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,99,life,0.0,0.5,1,1,1,0,5.0
+life,qwen-vl-chat,100,life,0.0,0.75,1,1,1,0,5.0
+life,qwen-vl-chat,101,life,0.142857,0.571429,1,1,1,0,5.0
+life,qwen-vl-chat,102,life,0.25,0.25,1,1,1,0,5.0
+life,qwen-vl-chat,103,life,0.0,0.666667,1,1,1,0,5.0
+life,qwen-vl-chat,104,life,0.333333,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,105,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,106,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,107,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,108,life,0.166667,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,109,life,1.0,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,110,life,0.0,1.0,1,0,0,0,1.0
+life,qwen-vl-chat,111,life,0.5,0.5,1,1,0,0,5.0
+life,qwen-vl-chat,112,life,1.0,0.5,1,1,1,0,5.0
+life,qwen-vl-chat,113,life,0.0,0.0,1,1,1,0,5.0
+life,qwen-vl-chat,114,life,1.0,1.0,1,0,1,0,2.0
+life,qwen-vl-chat,115,life,0.0,0.0,0,1,0,1,5.0
+life,qwen-vl-chat,116,life,0.333333,0.333333,1,1,0,0,5.0
+life,qwen-vl-chat,117,life,0.0,1.0,1,1,1,0,5.0
+life,qwen-vl-chat,118,life,1.0,1.0,1,1,1,1,5.0
+life,qwen-vl-chat,119,life,1.0,0.5,1,1,1,0,5.0
+life,qwen-vl-chat,120,life,0.0,0.5,1,1,1,0,5.0
+life,qwen-vl-chat,121,life,1.0,1.0,1,1,0,0,5.0
+life,qwen-vl-chat,122,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-chat,123,life,1.0,0.25,1,1,1,0,5.0
+life,qwen-vl-chat,124,life,0.25,0.25,1,1,1,0,5.0
+life,qwen-vl-chat,125,life,0.333333,0.333333,1,0,1,0,2.0
+life,qwen-vl-chat,126,life,0.0,0.0,1,1,1,1,5.0
+life,qwen-vl-chat,127,life,0.0,0.0,1,1,1,0,4.0
+life,qwen-vl-chat,128,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,129,life,0.0,0.333333,1,0,0,1,1.0
+life,qwen-vl-chat,130,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,131,life,0.5,0.5,1,1,0,0,5.0
+life,qwen-vl-chat,132,life,0.333333,0.333333,1,0,0,0,2.0
+life,qwen-vl-chat,133,life,0.0,0.0,1,0,0,0,2.0
+life,qwen-vl-chat,134,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-chat,135,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,136,life,0.333333,0.333333,1,1,0,0,5.0
+life,qwen-vl-chat,137,life,0.333333,0.333333,1,0,0,1,3.5
+life,qwen-vl-chat,138,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-chat,139,life,0.0,0.5,1,1,1,0,5.0
+life,qwen-vl-chat,140,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,141,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,142,life,0.333333,0.0,1,0,0,1,2.0
+life,qwen-vl-chat,143,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,144,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,145,life,1.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,146,life,0.0,0.0,1,1,0,0,5.0
+life,qwen-vl-chat,147,life,0.0,0.0,1,0,0,0,1.0
+life,qwen-vl-chat,148,life,0.0,0.0,1,0,0,0,1.0
+life,deepseek-vl-chat,0,life,0.0,0.0,1,0,1,0,2.0
+life,deepseek-vl-chat,1,life,0.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,2,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,3,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,4,life,0.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,5,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,6,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,7,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,8,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,9,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,10,life,0.0,0.8,1,0,0,0,1.0
+life,deepseek-vl-chat,11,life,0.0,0.5,1,0,1,0,1.0
+life,deepseek-vl-chat,12,life,1.0,1.0,1,0,0,0,1.0
+life,deepseek-vl-chat,13,life,0.5,0.5,1,0,0,0,1.0
+life,deepseek-vl-chat,14,life,0.5,0.75,1,1,0,0,5.0
+life,deepseek-vl-chat,15,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,16,life,0.0,1.0,1,0,0,0,1.0
+life,deepseek-vl-chat,17,life,0.0,0.0,1,0,1,1,1.0
+life,deepseek-vl-chat,18,life,1.0,1.0,1,0,0,0,1.0
+life,deepseek-vl-chat,19,life,1.0,1.0,1,1,0,0,5.0
+life,deepseek-vl-chat,20,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,21,life,0.0,1.0,1,0,1,0,1.0
+life,deepseek-vl-chat,22,life,0.0,1.0,1,1,1,1,5.0
+life,deepseek-vl-chat,23,life,0.0,1.0,1,1,1,1,5.0
+life,deepseek-vl-chat,24,life,0.0,0.0,1,0,1,1,1.0
+life,deepseek-vl-chat,25,life,0.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,26,life,0.333333,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,27,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,28,life,0.0,0.0,1,1,1,1,5.0
+life,deepseek-vl-chat,29,life,0.0,1.0,1,0,1,0,2.0
+life,deepseek-vl-chat,30,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,31,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,32,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,33,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,34,life,0.0,0.5,1,0,1,0,1.0
+life,deepseek-vl-chat,35,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,36,life,0.333333,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,37,life,0.0,0.0,1,0,0,0,2.0
+life,deepseek-vl-chat,38,life,0.0,0.0,1,0,0,0,1.0
+life,deepseek-vl-chat,39,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,40,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,41,life,0.5,1.0,0,0,1,0,1.0
+life,deepseek-vl-chat,42,life,0.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,43,life,0.0,1.0,1,0,1,0,1.0
+life,deepseek-vl-chat,44,life,1.0,1.0,1,0,1,0,1.0
+life,deepseek-vl-chat,45,life,0.0,1.0,1,1,0,1,5.0
+life,deepseek-vl-chat,46,life,0.0,0.0,1,0,0,1,1.0
+life,deepseek-vl-chat,47,life,0.0,0.0,1,1,1,1,5.0
+life,deepseek-vl-chat,48,life,0.5,0.5,0,0,1,0,2.0
+life,deepseek-vl-chat,49,life,0.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,50,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,51,life,0.333333,0.666667,1,1,1,0,5.0
+life,deepseek-vl-chat,52,life,0.5,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,53,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,54,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,55,life,0.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,56,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,57,life,0.0,0.0,1,0,1,0,2.0
+life,deepseek-vl-chat,58,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,59,life,0.0,0.0,0,0,1,0,1.0
+life,deepseek-vl-chat,60,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,61,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,62,life,0.0,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,63,life,0.0,0.5,0,0,1,0,1.0
+life,deepseek-vl-chat,64,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,65,life,1.0,1.0,1,0,1,0,1.0
+life,deepseek-vl-chat,66,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,67,life,0.0,0.5,1,1,1,0,5.0
+life,deepseek-vl-chat,68,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,69,life,0.0,1.0,1,1,0,0,5.0
+life,deepseek-vl-chat,70,life,0.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,71,life,0.0,1.0,1,1,0,0,5.0
+life,deepseek-vl-chat,72,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,73,life,0.0,1.0,1,1,1,1,5.0
+life,deepseek-vl-chat,74,life,0.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,75,life,0.0,0.0,1,1,0,0,5.0
+life,deepseek-vl-chat,76,life,0.0,1.0,1,0,1,0,1.0
+life,deepseek-vl-chat,77,life,0.0,1.0,1,1,0,0,5.0
+life,deepseek-vl-chat,78,life,0.0,1.0,1,1,0,0,5.0
+life,deepseek-vl-chat,79,life,0.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,80,life,0.0,0.0,1,1,1,1,5.0
+life,deepseek-vl-chat,81,life,0.0,0.0,1,1,0,1,5.0
+life,deepseek-vl-chat,82,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,83,life,1.0,1.0,1,0,1,0,1.0
+life,deepseek-vl-chat,84,life,0.2,0.0,1,0,1,0,1.0
+life,deepseek-vl-chat,85,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,86,life,0.0,0.166667,1,1,1,0,5.0
+life,deepseek-vl-chat,87,life,0.0,0.0,1,0,0,0,1.0
+life,deepseek-vl-chat,88,life,0.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,89,life,0.0,0.666667,1,1,1,0,5.0
+life,deepseek-vl-chat,90,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,91,life,0.25,1.0,1,0,1,0,2.0
+life,deepseek-vl-chat,92,life,0.0,0.25,1,1,1,1,5.0
+life,deepseek-vl-chat,93,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,94,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,95,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,96,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,97,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,98,life,0.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,99,life,0.0,0.5,1,1,1,0,5.0
+life,deepseek-vl-chat,100,life,0.5,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,101,life,0.0,0.857143,1,1,1,0,5.0
+life,deepseek-vl-chat,102,life,0.5,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,103,life,0.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,104,life,0.0,0.666667,1,1,1,0,5.0
+life,deepseek-vl-chat,105,life,0.0,0.333333,1,1,1,0,5.0
+life,deepseek-vl-chat,106,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,107,life,0.5,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,108,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,109,life,0.5,0.5,1,1,1,0,5.0
+life,deepseek-vl-chat,110,life,0.5,0.5,1,0,0,0,1.0
+life,deepseek-vl-chat,111,life,0.0,0.5,1,1,0,0,5.0
+life,deepseek-vl-chat,112,life,1.0,1.0,1,1,1,0,5.0
+life,deepseek-vl-chat,113,life,0.0,0.333333,1,1,1,0,5.0
+life,deepseek-vl-chat,114,life,0.0,1.0,1,0,1,0,2.0
+life,deepseek-vl-chat,115,life,0.0,0.0,0,1,0,1,5.0
+life,deepseek-vl-chat,116,life,0.333333,0.666667,1,1,0,0,5.0
+life,deepseek-vl-chat,117,life,0.0,0.5,1,1,1,0,5.0
+life,deepseek-vl-chat,118,life,0.5,0.5,1,1,1,1,5.0
+life,deepseek-vl-chat,119,life,0.0,0.5,1,1,1,0,5.0
+life,deepseek-vl-chat,120,life,0.0,0.0,1,1,1,0,5.0
+life,deepseek-vl-chat,121,life,0.0,0.0,1,1,0,0,5.0
+life,deepseek-vl-chat,122,life,0.0,0.666667,1,1,1,1,5.0
+life,deepseek-vl-chat,123,life,0.25,0.25,1,1,1,0,5.0
+life,deepseek-vl-chat,124,life,0.25,0.25,1,1,1,0,5.0
+life,deepseek-vl-chat,125,life,0.333333,0.0,1,0,1,0,2.0
+life,deepseek-vl-chat,126,life,0.0,0.0,1,1,1,1,5.0
+life,deepseek-vl-chat,127,life,0.0,0.0,1,1,1,0,4.0
+life,deepseek-vl-chat,128,life,0.0,0.0,1,1,0,0,5.0
+life,deepseek-vl-chat,129,life,0.0,0.0,1,0,0,1,1.0
+life,deepseek-vl-chat,130,life,0.0,0.0,1,1,0,0,5.0
+life,deepseek-vl-chat,131,life,0.0,0.0,1,1,0,0,5.0
+life,deepseek-vl-chat,132,life,0.0,0.0,1,0,0,0,2.0
+life,deepseek-vl-chat,133,life,0.0,0.0,1,0,0,0,2.0
+life,deepseek-vl-chat,134,life,0.0,0.0,1,0,0,0,1.0
+life,deepseek-vl-chat,135,life,0.0,0.0,1,1,0,0,5.0
+life,deepseek-vl-chat,136,life,0.333333,0.333333,1,1,0,0,5.0
+life,deepseek-vl-chat,137,life,0.0,0.333333,1,0,0,1,3.5
+life,deepseek-vl-chat,138,life,0.0,0.0,1,0,0,0,1.0
+life,deepseek-vl-chat,139,life,0.0,0.5,1,1,1,0,5.0
+life,deepseek-vl-chat,140,life,0.0,0.0,1,1,0,0,5.0
+life,deepseek-vl-chat,141,life,0.0,0.0,1,1,0,0,5.0
+life,deepseek-vl-chat,142,life,0.666667,0.333333,1,0,0,1,2.0
+life,deepseek-vl-chat,143,life,0.0,0.0,1,1,0,0,5.0
+life,deepseek-vl-chat,144,life,0.0,0.5,1,1,0,0,5.0
+life,deepseek-vl-chat,145,life,0.0,0.0,1,1,0,0,5.0
+life,deepseek-vl-chat,146,life,0.0,1.0,1,1,0,0,5.0
+life,deepseek-vl-chat,147,life,0.0,0.0,1,0,0,0,1.0
+life,deepseek-vl-chat,148,life,0.0,0.0,1,0,0,0,1.0

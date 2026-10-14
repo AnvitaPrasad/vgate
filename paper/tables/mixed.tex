@@ -1,0 +1,21 @@
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Policy & Q3-4B & Q2.5-3B & IVL-4B & Q3-8B \\
+\midrule
+Never retrieve & 33.5 & 32.9 & 24.4 & 35.9 \\
+Always retrieve & 39.5 & 40.4 & 33.2 & 43.6 \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Benchmark identity: that benchmark's better fixed policy}} \\
+Told the benchmark & 46.0 & 44.9 & 39.1 & 49.5 \\
+Benchmark classifier & 45.6 & 44.5 & 38.3 & 49.1 \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{One gate for the mixed traffic, no benchmark identity}} \\
+Error gate (same features) & 43.5 & 43.2 & 36.1 & 47.3 \\
+\textbf{\sys{}-full} & 45.2 & 44.1 & 38.0 & 48.7 \\
+Oracle gate & 50.8 & 49.8 & 43.6 & 53.8 \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Gates fitted on two benchmarks, tested on the third}} \\
+Error gate (same features) & 39.9 & 41.0 & 33.1 & 43.6 \\
+\sys{}-full & 36.0 & 38.8 & 29.1 & 40.0 \\
+\bottomrule
+\end{tabular}

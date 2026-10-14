@@ -1,0 +1,151 @@
+{
+ "model": "Qwen3-VL-32B-Instruct",
+ "quantisation": "4-bit NF4, half-precision compute",
+ "n": 1498,
+ "benchmarks": {
+  "evqa": {
+   "n": 498,
+   "never": 24.5,
+   "always": 49.8,
+   "help": 31.7,
+   "harm": 6.4,
+   "auroc_floor": 0.578,
+   "auroc_needed": 0.833,
+   "null_lead": 0.05,
+   "gate_auroc": 0.625,
+   "gate_lead": [
+    -3.61,
+    -5.48,
+    -1.88
+   ]
+  },
+  "infoseek": {
+   "n": 500,
+   "never": 12.0,
+   "always": 22.8,
+   "help": 14.4,
+   "harm": 3.6,
+   "auroc_floor": 0.639,
+   "auroc_needed": 0.869,
+   "null_lead": 0.06,
+   "gate_auroc": 0.625,
+   "gate_lead": [
+    -1.0,
+    -2.22,
+    0.0
+   ]
+  },
+  "okvqa": {
+   "n": 500,
+   "never": 62.4,
+   "always": 32.6,
+   "help": 3.0,
+   "harm": 32.8,
+   "auroc_floor": 0.667,
+   "auroc_needed": 0.937,
+   "null_lead": 0.02,
+   "gate_auroc": 0.747,
+   "gate_lead": [
+    -1.6,
+    -3.0,
+    -0.2
+   ]
+  }
+ },
+ "audit": {
+  "never retrieve": {
+   "accuracy": 33.0,
+   "read": 0.0,
+   "vs_told": [
+    -12.0,
+    -14.1,
+    -10.0
+   ]
+  },
+  "always retrieve": {
+   "accuracy": 35.1,
+   "read": 100.0,
+   "vs_told": [
+    -9.9,
+    -11.4,
+    -8.5
+   ]
+  },
+  "fixed per segment (needs the label)": {
+   "accuracy": 45.0,
+   "read": 67.0,
+   "vs_told": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "segment predicted": {
+   "accuracy": 44.3,
+   "read": 67.0,
+   "vs_told": [
+    -0.7,
+    -1.2,
+    -0.3
+   ]
+  },
+  "error gate": {
+   "accuracy": 41.5,
+   "read": 72.0,
+   "vs_told": [
+    -3.5,
+    -4.6,
+    -2.5
+   ]
+  },
+  "benefit gate": {
+   "accuracy": 43.5,
+   "read": 56.0,
+   "vs_told": [
+    -1.5,
+    -2.4,
+    -0.5
+   ]
+  },
+  "benefit gate per segment (needs the label)": {
+   "accuracy": 42.9,
+   "read": 57.0,
+   "vs_told": [
+    -2.1,
+    -3.0,
+    -1.2
+   ]
+  },
+  "unseen segment: error gate": {
+   "accuracy": 37.5,
+   "read": 71.0,
+   "vs_told": [
+    -7.5,
+    -9.0,
+    -5.9
+   ]
+  },
+  "unseen segment: benefit gate": {
+   "accuracy": 33.5,
+   "read": 64.0,
+   "vs_told": [
+    -11.5,
+    -13.4,
+    -9.5
+   ]
+  },
+  "oracle gate": {
+   "accuracy": 49.3,
+   "read": 16.0,
+   "vs_told": [
+    4.3,
+    3.4,
+    5.4
+   ]
+  }
+ },
+ "Q1": true,
+ "Q2": true,
+ "Q3": true,
+ "Q4": true
+}

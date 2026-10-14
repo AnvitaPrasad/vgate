@@ -1,0 +1,371 @@
+{
+ "Qwen3-VL-4B-Instruct": {
+  "A": {
+   "decision": "skip or read the retriever's five",
+   "n": 2750,
+   "help": 32.9,
+   "harm": 4.7,
+   "better_fixed": "take",
+   "oracle_lead": 4.7,
+   "auroc_floor": 0.606,
+   "auroc_needed": 0.881,
+   "fits": {
+    "F0 logistic": {
+     "auroc": 0.73,
+     "take_rate": 90.2,
+     "lead": -0.4,
+     "lo": -0.86,
+     "hi": 0.04,
+     "estimate": 0.04,
+     "ceiling": 2.17
+    },
+    "F0 boosted": {
+     "auroc": 0.718,
+     "take_rate": 94.2,
+     "lead": -0.36,
+     "lo": -0.69,
+     "hi": -0.08,
+     "estimate": 0.03,
+     "ceiling": 2.06
+    },
+    "F1 logistic": {
+     "auroc": 0.76,
+     "take_rate": 89.6,
+     "lead": -0.04,
+     "lo": -0.52,
+     "hi": 0.45,
+     "estimate": 0.11,
+     "ceiling": 2.46
+    },
+    "F1 boosted": {
+     "auroc": 0.742,
+     "take_rate": 94.3,
+     "lead": -0.22,
+     "lo": -0.54,
+     "hi": 0.11,
+     "estimate": 0.07,
+     "ceiling": 2.29
+    }
+   },
+   "dev": {
+    "help": 31.7,
+    "harm": 5.5
+   },
+   "rarer_share_unrounded": {
+    "held_out": 4.727,
+    "dev": 5.5
+   }
+  },
+  "B": {
+   "decision": "skip or read the re-ranked five",
+   "n": 2750,
+   "help": 36.7,
+   "harm": 4.1,
+   "better_fixed": "take",
+   "oracle_lead": 4.1,
+   "auroc_floor": 0.622,
+   "auroc_needed": 0.905,
+   "fits": {
+    "F0 logistic": {
+     "auroc": 0.728,
+     "take_rate": 94.1,
+     "lead": -0.4,
+     "lo": -0.73,
+     "hi": -0.07,
+     "estimate": 0.02,
+     "ceiling": 1.87
+    },
+    "F0 boosted": {
+     "auroc": 0.709,
+     "take_rate": 97.3,
+     "lead": -0.4,
+     "lo": -0.67,
+     "hi": -0.19,
+     "estimate": 0.01,
+     "ceiling": 1.72
+    },
+    "F1 logistic": {
+     "auroc": 0.738,
+     "take_rate": 93.4,
+     "lead": -0.22,
+     "lo": -0.58,
+     "hi": 0.15,
+     "estimate": 0.02,
+     "ceiling": 1.95
+    },
+    "F1 boosted": {
+     "auroc": 0.735,
+     "take_rate": 97.5,
+     "lead": -0.15,
+     "lo": -0.36,
+     "hi": 0.04,
+     "estimate": 0.02,
+     "ceiling": 1.93
+    }
+   },
+   "dev": {
+    "help": 36.9,
+    "harm": 4.3
+   },
+   "rarer_share_unrounded": {
+    "held_out": 4.109,
+    "dev": 4.3
+   }
+  },
+  "C": {
+   "decision": "the retriever's five or the re-ranked five",
+   "n": 2750,
+   "help": 8.3,
+   "harm": 3.8,
+   "better_fixed": "take",
+   "oracle_lead": 3.8,
+   "auroc_floor": 0.631,
+   "auroc_needed": 0.807,
+   "fits": {
+    "F0 logistic": {
+     "auroc": 0.525,
+     "take_rate": 81.2,
+     "lead": -0.55,
+     "lo": -1.09,
+     "hi": 0.03,
+     "estimate": 0.0,
+     "ceiling": 0.19
+    },
+    "F0 boosted": {
+     "auroc": 0.516,
+     "take_rate": 91.4,
+     "lead": -0.29,
+     "lo": -0.66,
+     "hi": 0.04,
+     "estimate": 0.0,
+     "ceiling": 0.12
+    },
+    "F1 logistic": {
+     "auroc": 0.566,
+     "take_rate": 78.8,
+     "lead": -0.87,
+     "lo": -1.51,
+     "hi": -0.27,
+     "estimate": 0.0,
+     "ceiling": 0.51
+    },
+    "F1 boosted": {
+     "auroc": 0.552,
+     "take_rate": 91.0,
+     "lead": -0.36,
+     "lo": -0.71,
+     "hi": -0.03,
+     "estimate": 0.0,
+     "ceiling": 0.4
+    }
+   },
+   "dev": {
+    "help": 9.5,
+    "harm": 3.1
+   },
+   "rarer_share_unrounded": {
+    "held_out": 3.818,
+    "dev": 3.1
+   },
+   "harm_by_gold_passage": {
+    "in both": 49,
+    "lost": 17,
+    "gained": 5,
+    "in neither": 34
+   },
+   "help_by_gold_passage": {
+    "in both": 99,
+    "lost": 3,
+    "gained": 86,
+    "in neither": 39
+   }
+  }
+ },
+ "Qwen2.5-VL-3B-Instruct": {
+  "A": {
+   "decision": "skip or read the retriever's five",
+   "n": 2750,
+   "help": 31.0,
+   "harm": 4.7,
+   "better_fixed": "take",
+   "oracle_lead": 4.7,
+   "auroc_floor": 0.607,
+   "auroc_needed": 0.879,
+   "fits": {
+    "F0 logistic": {
+     "auroc": 0.72,
+     "take_rate": 86.7,
+     "lead": -0.33,
+     "lo": -0.87,
+     "hi": 0.25,
+     "estimate": 0.03,
+     "ceiling": 2.05
+    },
+    "F0 boosted": {
+     "auroc": 0.712,
+     "take_rate": 90.2,
+     "lead": -0.15,
+     "lo": -0.64,
+     "hi": 0.34,
+     "estimate": 0.02,
+     "ceiling": 1.97
+    },
+    "F1 logistic": {
+     "auroc": 0.733,
+     "take_rate": 86.9,
+     "lead": -0.47,
+     "lo": -1.0,
+     "hi": 0.08,
+     "estimate": 0.05,
+     "ceiling": 2.17
+    },
+    "F1 boosted": {
+     "auroc": 0.72,
+     "take_rate": 90.5,
+     "lead": -0.22,
+     "lo": -0.68,
+     "hi": 0.21,
+     "estimate": 0.03,
+     "ceiling": 2.04
+    }
+   },
+   "dev": {
+    "help": 30.6,
+    "harm": 6.7
+   },
+   "rarer_share_unrounded": {
+    "held_out": 4.655,
+    "dev": 6.7
+   }
+  },
+  "B": {
+   "decision": "skip or read the re-ranked five",
+   "n": 2750,
+   "help": 34.8,
+   "harm": 4.3,
+   "better_fixed": "take",
+   "oracle_lead": 4.3,
+   "auroc_floor": 0.617,
+   "auroc_needed": 0.897,
+   "fits": {
+    "F0 logistic": {
+     "auroc": 0.721,
+     "take_rate": 88.8,
+     "lead": -0.44,
+     "lo": -1.06,
+     "hi": 0.21,
+     "estimate": 0.02,
+     "ceiling": 1.9
+    },
+    "F0 boosted": {
+     "auroc": 0.738,
+     "take_rate": 94.1,
+     "lead": 0.07,
+     "lo": -0.3,
+     "hi": 0.48,
+     "estimate": 0.03,
+     "ceiling": 2.04
+    },
+    "F1 logistic": {
+     "auroc": 0.721,
+     "take_rate": 87.8,
+     "lead": -0.44,
+     "lo": -1.01,
+     "hi": 0.17,
+     "estimate": 0.02,
+     "ceiling": 1.89
+    },
+    "F1 boosted": {
+     "auroc": 0.737,
+     "take_rate": 94.0,
+     "lead": 0.15,
+     "lo": -0.24,
+     "hi": 0.57,
+     "estimate": 0.03,
+     "ceiling": 2.03
+    }
+   },
+   "dev": {
+    "help": 36.0,
+    "harm": 6.3
+   },
+   "rarer_share_unrounded": {
+    "held_out": 4.291,
+    "dev": 6.3
+   }
+  },
+  "C": {
+   "decision": "the retriever's five or the re-ranked five",
+   "n": 2750,
+   "help": 8.5,
+   "harm": 4.3,
+   "better_fixed": "take",
+   "oracle_lead": 4.3,
+   "auroc_floor": 0.617,
+   "auroc_needed": 0.782,
+   "fits": {
+    "F0 logistic": {
+     "auroc": 0.491,
+     "take_rate": 84.9,
+     "lead": -0.62,
+     "lo": -1.11,
+     "hi": -0.11,
+     "estimate": 0.0,
+     "ceiling": 0.0
+    },
+    "F0 boosted": {
+     "auroc": 0.527,
+     "take_rate": 90.4,
+     "lead": -0.22,
+     "lo": -0.59,
+     "hi": 0.18,
+     "estimate": 0.0,
+     "ceiling": 0.24
+    },
+    "F1 logistic": {
+     "auroc": 0.575,
+     "take_rate": 82.4,
+     "lead": -0.4,
+     "lo": -0.9,
+     "hi": 0.12,
+     "estimate": 0.0,
+     "ceiling": 0.65
+    },
+    "F1 boosted": {
+     "auroc": 0.59,
+     "take_rate": 88.0,
+     "lead": -0.22,
+     "lo": -0.65,
+     "hi": 0.24,
+     "estimate": 0.01,
+     "ceiling": 0.77
+    }
+   },
+   "dev": {
+    "help": 9.6,
+    "harm": 3.8
+   },
+   "rarer_share_unrounded": {
+    "held_out": 4.291,
+    "dev": 3.8
+   },
+   "harm_by_gold_passage": {
+    "in both": 56,
+    "lost": 16,
+    "gained": 6,
+    "in neither": 40
+   },
+   "help_by_gold_passage": {
+    "in both": 122,
+    "lost": 2,
+    "gained": 68,
+    "in neither": 42
+   }
+  }
+ },
+ "F1": true,
+ "F1_unrounded": false,
+ "F1_largest_difference": 2.009,
+ "F2": true,
+ "F3": true
+}
