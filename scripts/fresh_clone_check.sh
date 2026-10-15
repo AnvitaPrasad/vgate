@@ -44,6 +44,7 @@ for f in paper/tables/main.tex paper/tables/numbers.tex paper/tables/mixed.tex p
          experiments/results/cvqa_audit__confirm__Qwen2.5-VL-3B-Instruct.json experiments/results/cvqa_select__confirm__Qwen2.5-VL-3B-Instruct.json \
          experiments/results/gate_bound__prospective.json experiments/results/published_rates.json experiments/results/chen_logs_audit.json \
          experiments/results/null_lead.json experiments/results/big_reader.json experiments/results/big_reader__log.csv \
+         experiments/results/chen_logs_audit__bing.json experiments/results/strong_gate__forecast.json experiments/results/strong_gate.json \
          demo/sample_log_published.csv demo/sample_log.csv; do
   if cmp -s "$C/$f" "$REPO/$f"; then echo "IDENTICAL  $f"; else echo "DIFFERENT  $f"; fi
 done

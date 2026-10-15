@@ -1,0 +1,249 @@
+{
+ "Qwen3-VL-4B-Instruct|evqa": {
+  "n_dev": 1000,
+  "help_dev": 31.7,
+  "harm_dev": 5.5,
+  "needed_dev": 0.857,
+  "gates": {
+   "lin": {
+    "reg": 0.001,
+    "auroc_cv": 0.662,
+    "forecast": 0.0
+   },
+   "mlp": {
+    "reg": 0.01,
+    "auroc_cv": 0.611,
+    "forecast": 0.0
+   }
+  },
+  "dims": 7691
+ },
+ "Qwen3-VL-4B-Instruct|infoseek": {
+  "n_dev": 1000,
+  "help_dev": 13.6,
+  "harm_dev": 5.2,
+  "needed_dev": 0.793,
+  "gates": {
+   "lin": {
+    "reg": 0.001,
+    "auroc_cv": 0.653,
+    "forecast": 0.08
+   },
+   "mlp": {
+    "reg": 0.1,
+    "auroc_cv": 0.617,
+    "forecast": 0.01
+   }
+  },
+  "dims": 7691
+ },
+ "Qwen3-VL-4B-Instruct|okvqa": {
+  "n_dev": 1000,
+  "help_dev": 4.6,
+  "harm_dev": 25.4,
+  "needed_dev": 0.869,
+  "gates": {
+   "lin": {
+    "reg": 0.001,
+    "auroc_cv": 0.612,
+    "forecast": 0.0
+   },
+   "mlp": {
+    "reg": 0.01,
+    "auroc_cv": 0.589,
+    "forecast": 0.0
+   }
+  },
+  "dims": 7691
+ },
+ "Qwen2.5-VL-3B-Instruct|evqa": {
+  "n_dev": 1000,
+  "help_dev": 30.6,
+  "harm_dev": 6.7,
+  "needed_dev": 0.824,
+  "gates": {
+   "lin": {
+    "reg": 0.001,
+    "auroc_cv": 0.632,
+    "forecast": 0.0
+   },
+   "mlp": {
+    "reg": 0.001,
+    "auroc_cv": 0.604,
+    "forecast": 0.0
+   }
+  },
+  "dims": 6155
+ },
+ "Qwen2.5-VL-3B-Instruct|infoseek": {
+  "n_dev": 1000,
+  "help_dev": 14.3,
+  "harm_dev": 4.4,
+  "needed_dev": 0.832,
+  "gates": {
+   "lin": {
+    "reg": 0.01,
+    "auroc_cv": 0.755,
+    "forecast": 0.39
+   },
+   "mlp": {
+    "reg": 0.001,
+    "auroc_cv": 0.728,
+    "forecast": 0.25
+   }
+  },
+  "dims": 6155
+ },
+ "Qwen2.5-VL-3B-Instruct|okvqa": {
+  "n_dev": 1000,
+  "help_dev": 6.5,
+  "harm_dev": 21.6,
+  "needed_dev": 0.797,
+  "gates": {
+   "lin": {
+    "reg": 0.01,
+    "auroc_cv": 0.611,
+    "forecast": 0.0
+   },
+   "mlp": {
+    "reg": 0.1,
+    "auroc_cv": 0.59,
+    "forecast": 0.0
+   }
+  },
+  "dims": 6155
+ },
+ "InternVL3_5-4B-HF|evqa": {
+  "n_dev": 1000,
+  "help_dev": 35.5,
+  "harm_dev": 5.2,
+  "needed_dev": 0.872,
+  "gates": {
+   "lin": {
+    "reg": 0.001,
+    "auroc_cv": 0.659,
+    "forecast": 0.0
+   },
+   "mlp": {
+    "reg": 0.001,
+    "auroc_cv": 0.625,
+    "forecast": 0.0
+   }
+  },
+  "dims": 2571
+ },
+ "InternVL3_5-4B-HF|infoseek": {
+  "n_dev": 1000,
+  "help_dev": 12.5,
+  "harm_dev": 3.8,
+  "needed_dev": 0.848,
+  "gates": {
+   "lin": {
+    "reg": 0.01,
+    "auroc_cv": 0.681,
+    "forecast": 0.06
+   },
+   "mlp": {
+    "reg": 0.01,
+    "auroc_cv": 0.631,
+    "forecast": 0.01
+   }
+  },
+  "dims": 2571
+ },
+ "InternVL3_5-4B-HF|okvqa": {
+  "n_dev": 1000,
+  "help_dev": 5.9,
+  "harm_dev": 24.9,
+  "needed_dev": 0.827,
+  "gates": {
+   "lin": {
+    "reg": 0.1,
+    "auroc_cv": 0.595,
+    "forecast": 0.0
+   },
+   "mlp": {
+    "reg": 0.1,
+    "auroc_cv": 0.552,
+    "forecast": 0.0
+   }
+  },
+  "dims": 7691
+ },
+ "Qwen3-VL-8B-Instruct|evqa": {
+  "n_dev": 1000,
+  "help_dev": 31.7,
+  "harm_dev": 4.4,
+  "needed_dev": 0.889,
+  "gates": {
+   "lin": {
+    "reg": 0.001,
+    "auroc_cv": 0.68,
+    "forecast": 0.0
+   },
+   "mlp": {
+    "reg": 0.1,
+    "auroc_cv": 0.63,
+    "forecast": 0.0
+   }
+  },
+  "dims": 12299
+ },
+ "Qwen3-VL-8B-Instruct|infoseek": {
+  "n_dev": 1000,
+  "help_dev": 16.7,
+  "harm_dev": 3.9,
+  "needed_dev": 0.866,
+  "gates": {
+   "lin": {
+    "reg": 0.001,
+    "auroc_cv": 0.728,
+    "forecast": 0.12
+   },
+   "mlp": {
+    "reg": 0.1,
+    "auroc_cv": 0.721,
+    "forecast": 0.1
+   }
+  },
+  "dims": 12299
+ },
+ "Qwen3-VL-8B-Instruct|okvqa": {
+  "n_dev": 1000,
+  "help_dev": 5.0,
+  "harm_dev": 23.9,
+  "needed_dev": 0.851,
+  "gates": {
+   "lin": {
+    "reg": 0.001,
+    "auroc_cv": 0.595,
+    "forecast": 0.0
+   },
+   "mlp": {
+    "reg": 0.1,
+    "auroc_cv": 0.593,
+    "forecast": 0.0
+   }
+  },
+  "dims": 12299
+ },
+ "Qwen3-VL-4B-Instruct|cvqa": {
+  "n_dev": 2001,
+  "help_dev": 8.5,
+  "harm_dev": 14.1,
+  "needed_dev": 0.687,
+  "gates": {
+   "lin": {
+    "reg": 0.001,
+    "auroc_cv": 0.588,
+    "forecast": 0.08
+   },
+   "mlp": {
+    "reg": 0.01,
+    "auroc_cv": 0.505,
+    "forecast": 0.0
+   }
+  },
+  "dims": 7691
+ }
+}

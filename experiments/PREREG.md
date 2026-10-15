@@ -1999,3 +1999,56 @@ this sample against 17.8 on the full split), which I did not expect and have not
   "a 4-bit 32B reader (four times our largest, but less accurate here than our 8B one)". Why 4-bit weights cost this much here
   is not established.
 - J23's database rows had the wrong build stamp; the run log shows `1ce75901f019` (corrected).
+
+## v14 — a stronger gate: full hidden states, non-linear (registered 2026-10-15 17:02 IST, commit a3fd342, before any number of this test; exploratory)
+**Why.** Reviewers' reading "your gates are weak": within a benchmark a one-point lead needs a help-vs-harm AUROC of 0.82–0.91
+and our development-fitted gates (logistic or boosted on cheap signals plus 64 PCA components of one layer) reach 0.58–0.77
+(`tail_gate_dev.md`). Untested: the full closed-book hidden state of all three saved layers (3 × hidden size), and a
+non-linear model on it.
+**Gates (per reader and benchmark, fitted on the development questions only, applied once to the held-out questions).**
+G-lin: L2 logistic regression on [free + retriever-score features, standardised concatenation of the three layers' full
+hidden states], 3-class target u, C chosen from {0.001, 0.01, 0.1} by 5-fold image-grouped CV on development data
+(criterion: help-vs-harm AUROC). G-mlp: one hidden layer (256 units, ReLU), L2 alpha from {1e-3, 1e-2, 1e-1} chosen the same
+way, early stopping, seed 0, on the same inputs. Rule: read iff P(help) − P(harm) > 0. Readers: the four of the case study;
+benchmarks: E-VQA, InfoSeek, OK-VQA, and CVQA for the main reader. Script: `scripts/strong_gate.py`.
+**Forecast, written by the script from development data before the held-out questions are touched.** For each cell, the
+development-CV AUROC of each gate, the planner's estimate G* at that AUROC with the
+development split's help and harm shares, and whether the needed AUROC is reached.
+**Expectations.** S1: no new cell (other than the main reader on InfoSeek) has a held-out lead of at least one point with
+an interval above zero (my probability that S1 fails: 15%). S2: the held-out lead is at most the forecast G* + 0.3 points in
+at least 80% of cells (planner forward test). S3: the best held-out help-vs-harm AUROC of G-lin / G-mlp exceeds the best of
+the logistic and boosted gates of `tail_gate_dev.md` by less than 0.05 in at least 12 of the 13 cells. Reported regardless of
+outcome; not in any Holm family.
+
+## v14b — the published system's log, one retriever only (registered 2026-10-15 17:05 IST, commit c9a13af, before this subset's numbers; exploratory: the per-source rates of v11 were already seen)
+**Why.** Reviewers' reading "mixing benchmarks is artificial: each benchmark brings its own retriever". Chen et al.
+(arXiv:2502.18023, Sec. 4) use "text search (Google) for Dyn-VQA and image search (Bing) for the rest". Their Mix set restricted
+to the four image-search sources (life, in-house 2, nocaps, visual7w; 400 questions) has one retriever, one search pipeline
+and one gate; the segment is only the question's source. Script: `scripts/chen_logs_audit.py --sources life,"in-house 2",nocaps,visual7w --tag bing`
+(same definitions as v11; token accuracy; told-the-source chosen on four folds and applied to the fifth).
+**Expectations.** B1: the hard gate is at or below told-the-source for GPT-4o and Qwen-VL-Max. B2: for at least four of the
+five readers the hard gate does not lead told-the-source by a point with an interval above zero. My probability that B1
+fails: 25% (fewer segments leave told-the-source less to gain). Reported regardless of outcome.
+
+## Outcome log — v14b (2026-10-15 17:06 IST; `experiments/results/chen_logs_audit__bing.{json,md}`; exploratory)
+**B1 and B2 held.** On the 400 questions of the four image-search sources (one retriever, one gate per reader), the hard gate
+against told-the-source (token accuracy, 95% bootstrap over questions): GPT-4o −3.04 [−5.26, −0.84], Qwen-VL-Max −2.67 [−4.91,
+−0.43], Qwen-VL-Chat −1.66 [−3.04, −0.37], Qwen-VL-2 −1.39 [−3.05, +0.18], DeepSeek-VL-Chat +0.34 [−0.92, +1.66] (ahead in 18% of
+200 other fold assignments; behind in all 200 for the other four). Soft gate −0.92 to −2.83. On a single retriever the pattern
+of v11 holds: the gates do not beat a policy told the source. Note (correction): the two registration times above were first
+written as estimates ahead of the clock and corrected to the commit times.
+
+## Outcome log — v14, a stronger gate (forecast committed 19:16 IST as `b188461`, test run 19:2x IST, 2026-10-15; `experiments/results/strong_gate{__forecast,}.{json,md}`)
+**S1, S2 and S3 held.** 13 cells × 2 gates. Held-out help-vs-harm AUROC 0.53–0.82. The only lead of at least one point with an
+interval above zero is the excluded cell, the main reader on InfoSeek (G-lin +1.04 [+0.39, +1.72]; G-mlp +0.66 [−0.03, +1.36]),
+where 89% of held-out questions repeat a development question string (v10 diagnosis). S2: lead ≤ forecast + 0.3 in 24 of 26
+(the two misses are that cell). S3: the better of G-lin / G-mlp exceeds the best logistic / boosted gate of `tail_gate_dev`
+by less than 0.05 in 13 of 13 cells, and is below it in 9 of 13 (differences −0.13 to +0.05).
+**Mechanism, from the data.** (i) The rare outcome has 38–67 development cases per benchmark on E-VQA, InfoSeek and OK-VQA (harm on the first two, help on
+OK-VQA; CVQA about 170) against 2,571–12,299 features: G-lin picks the strongest regularisation of its grid in 9 of 13 cells (a grid edge;
+the grid is as registered and was not extended), and its development-CV AUROC (0.59–0.76) is below what 64 PCA components
+reach. (ii) G-mlp's read rate drifts from the better fixed policy (72–88% on E-VQA where always-retrieve is better), which
+costs 3–4 points on E-VQA for three readers. **Limits.** InternVL3.5-4B saved one layer for E-VQA and InfoSeek (2,571
+features), three for OK-VQA; one seed; one hidden-layer width. **Reading.** More of the hidden state does not close the gap
+between the AUROC the gates reach and the AUROC a one-point lead needs; with these label counts, a larger model of the same
+signals separates help from harm no better.

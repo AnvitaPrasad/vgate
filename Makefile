@@ -65,6 +65,9 @@ results:      ## Tables 1-2, the frontier figure and every in-text number (paper
 	$(PY) scripts/tail_gate_dev.py
 	$(PY) scripts/published_rates.py
 	$(PY) scripts/chen_logs_audit.py
+	$(PY) scripts/chen_logs_audit.py --sources "life,in-house 2,nocaps,visual7w" --tag bing
+	$(PY) scripts/strong_gate.py --phase forecast
+	$(PY) scripts/strong_gate.py --phase test
 	$(PY) scripts/null_lead_check.py
 	$(PY) scripts/paper_numbers.py
 gates:        ## frozen gate arrays for the live pipeline (self-checks against the operating-point results)

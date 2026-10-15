@@ -658,6 +658,28 @@ if _ck.exists():
     put("ckGptHelp", cr_["gpt4-o"]["planner"]["help"], "{:.1f}"); put("ckGptHarm", cr_["gpt4-o"]["planner"]["harm"], "{:.1f}")
     put("ckAheadMax", max(c_["told_200_assignments"]["hard_ahead_share"] for c_ in cr_.values()), "{:.1f}")  # % of 200 other fold assignments
     assert all(c_["told_200_assignments"]["soft_ahead_share"] == 0 for c_ in cr_.values())
+# PREREG v14 (registered): a stronger gate on the full hidden states (scripts/strong_gate.py). Prefix sg.
+_sg = ROOT / "experiments/results/strong_gate.json"
+if _sg.exists():
+    SG = json.load(open(_sg)); TD = json.load(open(ROOT / "experiments/results/tail_gate_dev.json"))
+    au_ = [v_["auroc"] for r_ in SG.values() for v_ in r_["gates"].values()]
+    put("sgAucMin", min(au_), "{:.2f}"); put("sgAucMax", max(au_), "{:.2f}"); put("sgCells", len(SG), "{:d}")
+    put("sgAucMaxOther", max(v_["auroc"] for k_, r_ in SG.items() if k_ != "Qwen3-VL-4B-Instruct|infoseek" for v_ in r_["gates"].values()), "{:.2f}")
+    dm_ = [r_["dims"] for r_ in SG.values()]; put("sgDimsMin", f"{min(dm_):,}"); put("sgDimsMax", f"{max(dm_):,}")
+    put("sgWorse", sum(max(v_["auroc"] for v_ in r_["gates"].values()) < max(v_["auroc"] for v_ in TD[k_.split("|")[0]][k_.split("|")[1]]["models"].values())
+                       for k_, r_ in SG.items()), "{:d}")
+    w_ = [(k_, n_) for k_, r_ in SG.items() for n_, v_ in r_["gates"].items() if v_["lead"][0] >= 1 and v_["lead"][1] > 0]
+    assert w_ == [("Qwen3-VL-4B-Instruct|infoseek", "lin")]  # the paper's wording: only the main reader on InfoSeek
+    v_ = SG["Qwen3-VL-4B-Instruct|infoseek"]["gates"]["lin"]["lead"]; put("sgInfo", f"{v_[0]:+.1f}"); put("sgInfoLo", f"{v_[1]:+.1f}"); put("sgInfoHi", f"{v_[2]:+.1f}")
+# PREREG v14b (exploratory): the same audit on the four sources that share one retriever (Bing image search). Prefix cb.
+_cb = ROOT / "experiments/results/chen_logs_audit__bing.json"
+if _cb.exists():
+    CB = json.load(open(_cb)); cb_ = CB["readers"]; hb_ = {r_: c_["policies"]["hard"]["vs_told"] for r_, c_ in cb_.items()}
+    put("cbN", CB["n"], "{:d}"); put("cbSources", len(CB["sources"]), "{:d}")
+    v_ = hb_["gpt4-o"]; put("cbGptHard", f"{-v_[0]:.1f}"); put("cbGptHardLo", f"{-v_[2]:.1f}"); put("cbGptHardHi", f"{-v_[1]:.1f}")
+    put("cbBelow", sum(v_[0] < 0 for v_ in hb_.values()), "{:d}"); put("cbReaders", len(hb_), "{:d}"); put("cbClear", sum(v_[2] < 0 for v_ in hb_.values()), "{:d}")
+    up_ = [v_ for v_ in hb_.values() if v_[0] >= 0]; assert len(up_) == 1 and up_[0][1] < 0  # the paper's wording: one reader ahead, interval includes zero
+    put("cbUp", f"{up_[0][0]:+.1f}"); put("cbUpLo", f"{up_[0][1]:+.1f}"); put("cbUpHi", f"{up_[0][2]:+.1f}")
 # PREREG v6b / v6c (pilot on E-VQA's development split): image re-ranking of the top-20 and the readers on the re-ranked evidence. Prefix rr.
 _rr, _rk = ROOT / "experiments/results/kbimage_reader_pass.json", ROOT / "experiments/results/kbimage_rerank.json"
 if _rr.exists() and _rk.exists():

@@ -163,3 +163,7 @@ outputs.
   extend external cvqa cvqa2 bigreader results paper`. All nine split hashes match; every target succeeds; the PDF has 4 pages;
   **all 46 compared files are byte-identical to the working tree** (the 44 of the 2026-10-10 check plus `big_reader.json` and
   `big_reader__log.csv`).
+- 2026-10-15 (19:27–21:20 IST, commit `9713e49`): the same check after PREREG v14 / v14b (`make results` now also runs
+  `chen_logs_audit.py --sources ... --tag bing` and `strong_gate.py --phase forecast` then `--phase test`). Every target succeeds;
+  the PDF has 4 pages; **all 49 compared files are byte-identical** (the 46 above plus `chen_logs_audit__bing.json`,
+  `strong_gate__forecast.json` and `strong_gate.json`).

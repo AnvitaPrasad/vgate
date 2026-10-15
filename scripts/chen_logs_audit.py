@@ -53,11 +53,15 @@ def main(n_boot=2000):
     ap.add_argument("--metric", default="token", choices=["token", "judge"], help="judge: PREREG v11b, scores of a judge model in --judge_run")
     ap.add_argument("--judge_run", default="experiments/runs/J21", help="folder with judge_part*.jsonl (reader, cond, row, score)")
     ap.add_argument("--tag", default="judge", help="suffix of the judge result files (PREREG v11c uses judge32)")
+    ap.add_argument("--sources", default="", help="PREREG v14b: comma-separated sources to keep (results go to chen_logs_audit__<tag>)")
     a = ap.parse_args()
     judge = a.metric == "judge"
     d = pd.read_csv(ROOT / "experiments/results/chen_logs__questions.csv")
     d = d[d.set == "mix"]
-    printed = PRINTED_JUDGE if judge else PRINTED
+    if a.sources:
+        d = d[d.source.isin(a.sources.split(","))]; assert d.source.nunique() == len(a.sources.split(",")), "unknown source"
+        d = d.sort_values(["reader", "row"]); d["row"] = d.groupby("reader").cumcount()
+    printed = {} if a.sources else PRINTED_JUDGE if judge else PRINTED  # their printed numbers are for all six sources
     if judge:  # replace the two accuracy columns by the judge's scores, clipped to [0, 1]
         J = pd.DataFrame([json.loads(l) for f in sorted(glob.glob(str(ROOT / a.judge_run / "judge_part*.jsonl"))) for l in open(f)])
         J["score"] = J.score.clip(0, 1)
@@ -114,7 +118,7 @@ def main(n_boot=2000):
         p = c["policies"]
         L.append(f"| {NAMES[r]} | {p['never']['accuracy']} | {p['always']['accuracy']} | {p['hard']['accuracy']} | {p['soft']['accuracy']} | {p['prompt']['accuracy']} | {p['human']['accuracy']} | "
                  f"{p['told the source']['accuracy']} ({c['told_in_sample']}) | {p['oracle']['accuracy']} | {f(p['hard']['vs_told'])} | {f(p['soft']['vs_told'])} | {f(p['human']['vs_told'])} | {f(p['always']['vs_told'])} |")
-    L += ["", "Reproduction of their Tables 3 and 11 (Mix, Acc.; never, always, prompt, hard, soft, human): " + "; ".join(f"{NAMES[r]} largest difference {R[r]['reproduction_max_abs_diff']}" for r in PRINTED) + ".",
+    L += ["", "Reproduction of their Tables 3 and 11 (Mix, Acc.; never, always, prompt, hard, soft, human): " + "; ".join(f"{NAMES[r]} largest difference {R[r]['reproduction_max_abs_diff']}" for r in printed) + ".",
           f"The hard gate's decisions equal its own majority decision per source on {R['gpt4-o']['hard_agrees_with_its_majority']}% of the questions; "
           f"search rates (hard / soft), by source: " + "; ".join(f"{s} {v['hard_rate']:.0f}% / {v['soft_rate']:.0f}%" for s, v in R["gpt4-o"]["by_source"].items()) + ".",
           "Majority decision per source of the hard / soft gate, difference to told-the-source: " + "; ".join(
@@ -140,6 +144,15 @@ def main(n_boot=2000):
         L += ["", "Judge against their printed scores (never, always; points): " + "; ".join(f"{NAMES[r]} {c['never_always_abs_diff']}" for r, c in R.items())
               + f". Validity gate (within 5.0 points for at least four readers): {'passed' if rep['judge_valid'] else 'NOT passed'}.",
               "Expectations: " + "; ".join(f"{k} {'held' if rep[k] else 'NOT held'}" for k in ("L1", "L2", "L3")) + "."]
+        out = ROOT / f"experiments/results/chen_logs_audit__{a.tag}"
+        pathlib.Path(str(out) + ".json").write_text(json.dumps(rep, indent=1)); pathlib.Path(str(out) + ".md").write_text("\n".join(L) + "\n")
+        print("\n".join(L))
+        return
+    if a.sources:  # a subset: its own result files, and the demo's sample log is left as it is
+        L[0] = f"# PREREG v14b — the audit on Chen et al.'s released logs, Mix set restricted to {rep['n']} questions from {len(rep['sources'])} sources ({', '.join(rep['sources'])}); token accuracy, %"
+        L = [l for l in L if not l.startswith("Reproduction of their")]
+        L += ["", "Expectations (v14b): B1 " + ("held" if all(lead(r, "hard")[0] <= 0 for r in ("gpt4-o", "qwen-vl-max")) else "NOT held")
+              + "; B2 " + ("held" if sum(not (lead(r, "hard")[0] >= 1.0 and lead(r, "hard")[1] > 0) for r in R) >= 4 else "NOT held") + "."]
         out = ROOT / f"experiments/results/chen_logs_audit__{a.tag}"
         pathlib.Path(str(out) + ".json").write_text(json.dumps(rep, indent=1)); pathlib.Path(str(out) + ".md").write_text("\n".join(L) + "\n")
         print("\n".join(L))
