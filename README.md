@@ -1,7 +1,7 @@
 # VGate — auditing what retrieval gates learn
 
 **Try it:** the log view runs in your browser at https://huggingface.co/spaces/AnvitaPrasad/vgate (nothing you upload leaves your
-machine). **Raw per-query outputs** of the four readers: https://huggingface.co/datasets/AnvitaPrasad/vgate-outputs
+machine). **Raw per-query outputs** of the five readers (four on the full splits; Qwen3-VL-32B in 4-bit on a sample): https://huggingface.co/datasets/AnvitaPrasad/vgate-outputs
 (`python scripts/fetch_outputs.py`).
 **Video** (2 min 31 s, captions, no sound): `demo/vgate_demo.mp4`, recorded from the application by `scripts/record_video.py`.
 
